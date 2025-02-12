@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "InstrumentSans_regular";
+    src: url(../resources/fonts/InstrumentSans-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: "InstrumentSans_bold";
+    src: url(../resources/fonts/InstrumentSans-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: "InstrumentSans_semiBold";
+    src: url(../resources/fonts/InstrumentSans-SemiBold.ttf);
+  }
+  
+  @font-face {
+    font-family: "inter_regular";
+    src: url(../resources/fonts/Inter_18pt-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: "inter_bold";
+    src: url(../resources/fonts/Inter_18pt-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: "inter_semiBold";
+    src: url(../resources/fonts/Inter_18pt-SemiBold.ttf);
+  }
+
+  @font-face {
+    font-family: "inter_extraBold";
+    src: url(../resources/fonts/Inter_18pt-ExtraBold.ttf);
+  }
+  
+  @font-face {
+    font-family: "urbanist_regular";
+    src: url(../resources/fonts/Urbanist-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: "urbanist_bold";
+    src: url(../resources/fonts/Urbanist-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: "urbanist_semiBold";
+    src: url(../resources/fonts/Urbanist-SemiBold.ttf);
+  }
+
+  @font-face {
+    font-family: "urbanist_extraBold";
+    src: url(../resources/fonts/Urbanist-ExtraBold.ttf);
+  }
+  
+  :root {
+    --colorBackground: #80B531;
+    --colorCard: #ECF4E0;
+    --colorsubHeading: #FF790F;
+    --colortagLine: #0F9814;
+    --colorTxt: #2D3F11;
+    --colorSecondaryTxt: #F2F8EA;
+    --colorBorder: #D8E8BF;
+    --colorFooter: #2D3F11;
+  }
+
+  .header--sec1--div1{
+    width: 100%;
+  }
+
+  .header--sec1--div2{
+    width: 100%;
+  }
+
