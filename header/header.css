@@ -1,59 +1,59 @@
 @font-face {
     font-family: "InstrumentSans_regular";
     src: url(../resources/fonts/InstrumentSans-Regular.ttf);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: "InstrumentSans_bold";
     src: url(../resources/fonts/InstrumentSans-Bold.ttf);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: "InstrumentSans_semiBold";
     src: url(../resources/fonts/InstrumentSans-SemiBold.ttf);
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: "inter_regular";
     src: url(../resources/fonts/Inter_18pt-Regular.ttf);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: "inter_bold";
     src: url(../resources/fonts/Inter_18pt-Bold.ttf);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: "inter_semiBold";
     src: url(../resources/fonts/Inter_18pt-SemiBold.ttf);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: "inter_extraBold";
     src: url(../resources/fonts/Inter_18pt-ExtraBold.ttf);
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: "urbanist_regular";
     src: url(../resources/fonts/Urbanist-Regular.ttf);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: "urbanist_bold";
     src: url(../resources/fonts/Urbanist-Bold.ttf);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: "urbanist_semiBold";
     src: url(../resources/fonts/Urbanist-SemiBold.ttf);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: "urbanist_extraBold";
     src: url(../resources/fonts/Urbanist-ExtraBold.ttf);
-  }
-  
-  :root {
+}
+
+:root {
     --colorBackground: #80B531;
     --colorCard: #ECF4E0;
     --colorsubHeading: #FF790F;
@@ -62,13 +62,464 @@
     --colorSecondaryTxt: #F2F8EA;
     --colorBorder: #D8E8BF;
     --colorFooter: #2D3F11;
-  }
+}
 
-  .header--sec1--div1{
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header--sec1 {
+    display: none;
+    position: sticky;
     width: 100%;
-  }
+}
 
-  .header--sec1--div2{
+.header--sec1--div1 {
     width: 100%;
-  }
+    display: flex;
+    /* background-color: yellow; */
+    flex-direction: column;
+    justify-content: center;
+}
 
+.header--sec1--div2 {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgb(117, 0, 128); */
+    padding: 0 1%;
+    justify-content: center;
+}
+
+.header--sec1--div3 {
+    width: 28%;
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: end; */
+}
+
+.header--sec1--div4 {
+    width: 70%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 2%;
+}
+
+.header--sec1--div5 {
+    width: 75%;
+    /* background-color: rgb(117, 0, 128); */
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-self: center;
+    /* border: solid red 0px 10px 0px 0px; */
+    gap: 1%;
+}
+
+.header--sec1--div6 {
+    /* width: 55%; */
+    /* background-color: rgb(117, 0, 128); */
+    display: flex;
+    /* height: auto; */
+    align-self: center;
+}
+
+.header--sec1--div7 {
+    /* width: 20%; */
+    /* background-color: blue; */
+    display: flex;
+    /* justify-content: center; */
+    align-self: center;
+    padding: 0;
+}
+
+.header--logo--lg {
+    width: 10rem;
+    height: auto;
+}
+
+.header--logo--lg:hover {
+    cursor: pointer;
+}
+
+.social--icon--lg {
+    width: 2.3rem;
+    height: 2.3rem;
+    transition: transform 0.3s ease;
+}
+
+.social--icon--lg:hover {
+    cursor: pointer;
+    filter: brightness(1.5);
+    transform: translateX(0.5rem);
+}
+
+.header--lg {
+    height: 3rem;
+    /* width: 1px; */
+    display: flex;
+    align-self: center;
+    /* color: var(--colorBorder); */
+    background-color: var(--colorBorder);
+    /* border-top: soid var(--colorBorder); */
+}
+
+.header--sec1--div8{
+    padding: 0.5rem;
+    background-color: var(--colorCard);
+    border: 2px solid var(--colorBorder);
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    font-family: "inter_bold";
+    color: var(--colorTxt);
+}
+
+/* .heafer--btn{
+    font-family: "inter_bold";
+    color: var(--colorTxt);
+} */
+
+.header--sec1--div8:hover{
+    cursor: pointer;
+    background-color: var(--colorBackground);
+    border: none;
+    color: var(--colorSecondaryTxt);
+}
+
+.header--sec1--div9{
+    width: 100%;
+    background-color: var(--colorBackground);
+    height: 3rem;
+    margin-top: 1rem;
+    position: sticky;
+}
+
+.header--sec1--div10{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: "urbanist_extraBold";
+    color: var(--colorTxt);
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.header--sec1--div11:hover{
+    cursor: pointer;
+    color: var(--colorSecondaryTxt);
+}
+
+/* .header--nav:hover{
+    cursor: pointer;
+    color: var(--colorSecondaryTxt);
+} */
+
+.header--sec1--div11{
+    padding: 1rem;
+}
+
+
+@media screen and (min-width:545px) {
+
+    .header--sec1 {
+        display: flex;
+    }
+
+    .header--sec2 {
+        display: none;
+    }
+
+}
+
+
+
+@media screen and (min-width:1400px) {
+
+    .header--sec1 {
+        justify-content: center;
+    }
+
+    .header--sec1--div1 {
+        width: 128vh;
+    }
+
+}
+
+
+@media screen and (min-width:1500px) {
+
+    .header--sec1--div1 {
+        width: 135vh;
+    }
+
+}
+
+
+
+
+
+
+.header--sec2--div2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    /* background-color: red; */
+    position: relative;
+    margin-top: 0.5rem;
+}
+
+.header--small{
+    background-color: var(--colorBorder);
+}
+
+.nav__menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--colorBackground); /* Dark overlay */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.nav__menu .nav__item {
+    margin: 15px 0;
+    opacity: 0;
+    transform: translateY(-30px);
+    transition: all 0.3s ease-in-out;
+}
+
+.nav__menu {
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav__link {
+  color: var(--colorSecondaryTxt);
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 1.25rem;
+  text-decoration: none;
+  padding: 0.5rem;
+  font-family: "urbanist_extraBold";
+}
+.nav__link:hover, .nav__link:focus {
+  outline: 0;
+  /* background-color: rgba(0, 0, 0, 0.2); */
+  cursor: pointer;
+  color: var(--colorTxt);
+}
+
+.nav--open .nav__menu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.nav--open .nav__menu .nav__item {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Align the menu button, logo, and register button in a row */
+.header--sec2--div3 {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    /* margin-top: -15px; */
+    background-color: var(--colorBackground);
+    padding: 0.5rem 0rem;
+}
+
+.header--logo--sm{
+    width: 10rem;
+    margin-top: -10px;
+}
+
+.header--sec2--div4 {
+    display: flex;
+    align-items: center;
+}
+
+.header--btn--sm {
+    padding: 0.5rem;
+    background-color: var(--colorCard);
+    border: 2px solid var(--colorBorder);
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    font-family: "inter_bold";
+    color: var(--colorTxt);
+}
+
+.header--sec2--div5{
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.header--btn--sm:hover{
+    cursor: pointer;
+    background-color: var(--colorBackground);
+    border: none;
+    color: var(--colorSecondaryTxt);
+}
+
+.social--icon--sm {
+    width: 2.3rem;
+    height: 2.3rem;
+}
+
+.nav__toggle {
+    display: inline-block;
+    position: fixed; /* Fix it to the viewport */
+    z-index: 100; /* Ensure it stays above other elements */
+    padding: 10px;
+    border: none;
+    background: transparent;
+    outline: none;
+    left: 15px; /* Adjust position to the left */
+    top: 3px; /* Adjust position to the top */
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.15s linear;
+  }
+  
+  .nav__toggle:hover, 
+  .nav__toggle:focus {
+    background-color: rgba(255, 255, 255, 0.2); /* Light hover effect */
+  }
+  
+/* .nav__toggle:hover, .nav__toggle:focus {
+  background-color: rgba(0, 0, 0, 0.5);
+} */
+/* .nav__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: var(--screen-height);
+  position: relative;
+  z-index: 5;
+  visibility: hidden;
+} */
+.nav__item {
+  opacity: 0;
+  transition: all 0.3s cubic-bezier(0, 0.995, 0.99, 1) 0.3s;
+}
+.nav__item:nth-child(1) {
+  transform: translateY(-40px);
+}
+.nav__item:nth-child(2) {
+  transform: translateY(-80px);
+}
+.nav__item:nth-child(3) {
+  transform: translateY(-120px);
+}
+.nav__item:nth-child(4) {
+  transform: translateY(-160px);
+}
+.nav__item:nth-child(5) {
+  transform: translateY(-200px);
+}
+
+.menuicon {
+  display: block;
+  cursor: pointer;
+  color: var(--colorTxt);
+  transform: rotate(0deg);
+  transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.menuicon__bar, .menuicon__circle {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 3;
+  stroke-linecap: round;
+}
+.menuicon__bar {
+  transform: rotate(0deg);
+  transform-origin: 50% 50%;
+  transition: transform 0.25s ease-in-out;
+}
+.menuicon__circle {
+  transition: stroke-dashoffset 0.3s linear 0.1s;
+  stroke-dashoffset: 144.513262038;
+  stroke-dasharray: 144.513262038;
+}
+
+.splash {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  width: 1px;
+  height: 1px;
+}
+.splash::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  background-color: var(--splash-bg-color);
+  width: 284vmax;
+  height: 284vmax;
+  top: -142vmax;
+  left: -142vmax;
+  transform: scale(0);
+  transform-origin: 50% 50%;
+  transition: transform 0.5s cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  will-change: transform;
+}
+
+.nav:target > .splash::after,
+.nav--open > .splash::after {
+  transform: scale(1);
+}
+.nav:target .menuicon,
+.nav--open .menuicon {
+  color: white;
+  transform: rotate(180deg);
+}
+.nav:target .menuicon__circle,
+.nav--open .menuicon__circle {
+  stroke-dashoffset: 0;
+}
+.nav:target .menuicon__bar:nth-child(1), .nav:target .menuicon__bar:nth-child(4),
+.nav--open .menuicon__bar:nth-child(1),
+.nav--open .menuicon__bar:nth-child(4) {
+  opacity: 0;
+}
+.nav:target .menuicon__bar:nth-child(2),
+.nav--open .menuicon__bar:nth-child(2) {
+  transform: rotate(45deg);
+}
+.nav:target .menuicon__bar:nth-child(3),
+.nav--open .menuicon__bar:nth-child(3) {
+  transform: rotate(-45deg);
+}
+.nav:target .nav__menu,
+.nav--open .nav__menu {
+  visibility: visible;
+}
+.nav:target .nav__item,
+.nav--open .nav__item {
+  opacity: 1;
+  transform: translateY(0);
+}
