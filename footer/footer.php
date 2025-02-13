@@ -12,6 +12,7 @@
 <body>
 
     <section class="footer--sec1">
+    <div class="footer--sec1--div17">
         <div class="footer--sec1--div1">
             <div class="footer--sec1--div2">
                 <div class="footer--sec1--div3">
@@ -103,6 +104,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </section>
 
     <section class="footer--sec2">

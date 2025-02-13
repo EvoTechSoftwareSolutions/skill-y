@@ -1,0 +1,331 @@
+@font-face {
+    font-family: "InstrumentSans_regular";
+    src: url(../resources/fonts/InstrumentSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "InstrumentSans_bold";
+    src: url(../resources/fonts/InstrumentSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "InstrumentSans_semiBold";
+    src: url(../resources/fonts/InstrumentSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "inter_regular";
+    src: url(../resources/fonts/Inter_18pt-Regular.ttf);
+}
+
+@font-face {
+    font-family: "inter_bold";
+    src: url(../resources/fonts/Inter_18pt-Bold.ttf);
+}
+
+@font-face {
+    font-family: "inter_semiBold";
+    src: url(../resources/fonts/Inter_18pt-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "inter_extraBold";
+    src: url(../resources/fonts/Inter_18pt-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "urbanist_regular";
+    src: url(../resources/fonts/Urbanist-Regular.ttf);
+}
+
+@font-face {
+    font-family: "urbanist_bold";
+    src: url(../resources/fonts/Urbanist-Bold.ttf);
+}
+
+@font-face {
+    font-family: "urbanist_semiBold";
+    src: url(../resources/fonts/Urbanist-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "urbanist_extraBold";
+    src: url(../resources/fonts/Urbanist-ExtraBold.ttf);
+}
+
+:root {
+    --colorBackground: #80B531;
+    --colorCard: #ECF4E0;
+    --colorsubHeading: #FF790F;
+    --colortagLine: #0F9814;
+    --colorTxt: #2D3F11;
+    --colorSecondaryTxt: #F2F8EA;
+    --colorBorder: #D8E8BF;
+    --colorFooter: #2D3F11;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.home--sec1{
+    display: flex;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+.home--sec1--div1{
+    display: flex;
+    background-image: url("../resources/img/home/Group1.png");
+    flex-direction: row;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: calc(60%); */
+}
+
+.home--sec1--div2{
+    width: 50%;
+    /* background-color: red; */
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.home--sec1--div3{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.2rem;
+}
+
+.home--sec1--span1{
+    color: var(--colorsubHeading);
+    text-transform: uppercase;
+    font-family: "inter_bold";
+    font-size: 0.6rem;
+}
+
+.home--sec1--span2{
+    color: var(--colorTxt);
+    font-family: "urbanist_regular";
+    padding: 0.3rem 0rem;
+    font-size: 1.2rem;
+}
+
+.home--sec1--span3{
+    font-family: "urbanist_extraBold";
+}
+
+.home--sec1--span4{
+    color: var(--colortagLine);
+    font-family: "urbanist_bold";
+    font-size: 0.9rem;
+}
+
+.home--sec1--div4{
+    display: flex;
+    flex-direction: column;
+}
+
+.home--sec1--div5{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+}
+
+.home--sec1--span5{
+    color: var(--colorTxt);
+    font-family: "urbanist_bold";
+    text-transform: capitalize;
+}
+
+.home--sec1--span6{
+    color: var(--colorTxt);
+    font-family: "urbanist_regular";
+    text-transform: capitalize;
+    padding-top: 0.3rem;
+}
+
+.home--sec1--div6{
+    width: 50%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 2rem;
+}
+
+.home--sec1--img1{
+    height: 25rem;
+}
+
+
+@media screen and (max-width:799px) {
+
+    .home--sec1--div6 {
+        display: none;
+        background-color: red;
+    }
+
+    .home--sec1--div2{
+        width: 90%;
+    }
+
+}
+
+
+@media screen and (min-width:1400px) {
+
+    .home--sec1 {
+        justify-content: center;
+    }
+
+    .home--sec1--div1 {
+        width: 128vh;
+    }
+
+}
+
+
+@media screen and (min-width:1500px) {
+
+    .home--sec1--div1 {
+        width: 135vh;
+    }
+
+}
+
+
+
+
+
+
+.home--sec3{
+    display: flex;
+    width: 100%;
+    background-color: var(--colorCard);
+    margin-top: 2.5rem;
+}
+
+.home--sec3--div1{
+    display: flex;
+    background-image: url("../resources/img/home/services.png");
+    flex-direction: column;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: calc(60%); */
+    padding: 3rem 0;
+}
+
+.home--sec3--div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.home--sec3--span1{
+    color: var(--colorsubHeading);
+    text-transform: uppercase;
+    font-family: "inter_bold";
+    font-size: 0.6rem;
+}
+
+.home--sec3--span2{
+    color: var(--colorTxt);
+    font-family: "urbanist_regular";
+    padding: 0.3rem 0rem;
+    font-size: 1.2rem;
+}
+
+.home--sec3--span3{
+    font-family: "urbanist_extraBold";
+}
+
+.home--sec3--div3{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.home--sec3--div4{
+    width: 18%;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home--sec3--div5{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    /* padding: 1rem 0; */
+    /* background-color: red; */
+}
+
+.home--sec3--div6{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.home--sec3--span4{
+    color: var(--colorTxt);
+    font-family: "urbanist_extraBold";
+    text-align: center;
+}
+
+.home--sec3--div7{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    /* padding: 1rem 0; */
+}
+
+.home--sec3--span5{
+    color: var(--colorTxt);
+    font-family: "urbanist_regular";
+    text-align: center;
+}
+
+.home--sec3--div8{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 0;
+    flex-direction: row;
+}
+
+.home--sec3--div9{
+    background-color: var(--colorCard);
+    padding: 0.6rem 0.7rem;
+    display: flex;
+    align-self: center;
+}
+
+.home--sec3--span6{
+    color: var(--colorTxt);
+    font-family: "urbanist_bold";
+    text-align: center;
+}
+
+.home--sec3--div10{
+    background-color: var(--colorTxt);
+    padding: 0.3rem 0.7rem;
+}
+
+.home--sec3--img1{
+    width: 1.5rem;
+}
