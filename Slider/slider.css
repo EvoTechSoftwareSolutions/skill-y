@@ -1,3 +1,68 @@
+@font-face {
+  font-family: "InstrumentSans_regular";
+  src: url(../resources/fonts/InstrumentSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "InstrumentSans_bold";
+  src: url(../resources/fonts/InstrumentSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: "InstrumentSans_semiBold";
+  src: url(../resources/fonts/InstrumentSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "inter_regular";
+  src: url(../resources/fonts/Inter_18pt-Regular.ttf);
+}
+
+@font-face {
+  font-family: "inter_bold";
+  src: url(../resources/fonts/Inter_18pt-Bold.ttf);
+}
+
+@font-face {
+  font-family: "inter_semiBold";
+  src: url(../resources/fonts/Inter_18pt-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "inter_extraBold";
+  src: url(../resources/fonts/Inter_18pt-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "urbanist_regular";
+  src: url(../resources/fonts/Urbanist-Regular.ttf);
+}
+
+@font-face {
+  font-family: "urbanist_bold";
+  src: url(../resources/fonts/Urbanist-Bold.ttf);
+}
+
+@font-face {
+  font-family: "urbanist_semiBold";
+  src: url(../resources/fonts/Urbanist-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "urbanist_extraBold";
+  src: url(../resources/fonts/Urbanist-ExtraBold.ttf);
+}
+
+:root {
+  --colorBackground: #80B531;
+  --colorCard: #ECF4E0;
+  --colorsubHeading: #FF790F;
+  --colortagLine: #0F9814;
+  --colorTxt: #2D3F11;
+  --colorSecondaryTxt: #F2F8EA;
+  --colorBorder: #D8E8BF;
+  --colorFooter: #2D3F11;
+}
 
 .slider--sec1--div1{
     /* background-color: red; */
@@ -37,7 +102,7 @@
     /* background-image: linear-gradient(to top, #252323 10%, transparent); */
   }
   
-  .slider .list .item .content {
+  .slider .list .item .content--slider {
     position: absolute;
     left: 1rem;
     top: 20%;
@@ -49,12 +114,12 @@
     /* background-color: red; */
   }
   
-  .slider .list .item .content p:nth-child(1) {
+  .slider .list .item .content--slider p:nth-child(1) {
     text-transform: uppercase;
     letter-spacing: 1rem;
   }
   
-  .slider .list .item .content h2 {
+  .slider .list .item .content--slider h2 {
     font-size: 1rem;
     margin: 0;
   }
@@ -109,16 +174,16 @@
   }
   
   .arrows button:hover {
-    background-color: #fe6902;
-    color: rgb(255, 255, 255);
+    background-color: var(--colorBackground);
+    color: var(--colorSecondaryTxt);
     cursor: pointer;
   }
   
   .slider--title {
-    color: #fe6902;
+    color: var(--colorSecondaryTxt);
     -webkit-text-stroke-width: 1px;
-    -webkit-text-fill-color: #fe6902;
-    -webkit-text-stroke-color: #ffffff;
+    -webkit-text-fill-color: var(--colorBackground);
+    -webkit-text-stroke-color: var(--colorSecondaryTxt);
   }
   
   .thumbnail {
@@ -166,7 +231,7 @@
     filter: brightness(0.7);
   } */
   
-  .thumbnail .item .content {
+  .thumbnail .item .content--slider {
     position: absolute;
     inset: auto 10px 30px 10px;
   }
@@ -192,7 +257,7 @@
   object-fit: contain; /* Ensure full image visibility */
 }
 
-.content{
+.content--slider{
   position: absolute;
   top: 25%;
   width: 1140px;
@@ -208,7 +273,7 @@
 .author{
   font-weight: bold;
   letter-spacing: 10px;
-  color: #ffff;
+  color: var(--colorSecondaryTxt);
   /* font-size: 0.9rem; */
   font-size: 0.7rem;
 }
@@ -216,18 +281,18 @@
   /* font-size: 1.5rem; */
   font-weight: bold;
   line-height: 1.3em;
-  color: #ffff;
+  color: var(--colorSecondaryTxt);
   font-size: 1rem;
 }
 .topic{
   /* font-size: 2.5em; */
   font-weight: bold;
   line-height: 1.3em;
-  color: #fe6902;
+  color: var(--colorSecondaryTxt);
   font-size: 1.5em;
 }
 .des{
-  color: #000000;
+  color: var(--colorSecondaryTxt);
   /* font-size: 0.8rem; */
   font-size: 0.7rem;
 }
@@ -242,7 +307,7 @@
   letter-spacing: 1px;
   font-family: "poppins";
   font-weight: 700;
-  border-radius: 1.5rem;
+  border-radius: 0.5rem;
 }
 .buttons .buttons--in:nth-child(2){
   background-color: transparent;
@@ -252,18 +317,18 @@
 
 .buttons--in{
   z-index: 2;
-  background-color: #fe6902;
-  color: #fff;
+  background-color: var(--colorBackground);
+  color: var(--colorSecondaryTxt);
   border: none;
-  padding: 3%;
-  width: 100%;
+  padding: 0.5rem 1rem;
+  width: max-content;
 }
 
 .buttons--in:hover{
   cursor: pointer;
   background-color: transparent;
-  border: 1px solid #fe6902;
-  color: #fe6902;
+  border: 1px solid var(--colorBackground);
+  color: var(--colorBackground);
 }
   
   @media screen and (max-width: 350px) {
@@ -327,7 +392,7 @@
   }
   
   @media screen and (min-width: 550px) {
-    .slider .list .item .content h2 {
+    .slider .list .item .content--slider h2 {
       /* top: 10%; */
       /* font-size: 70px; */
       letter-spacing: none;
@@ -336,14 +401,14 @@
   }
   
   @media screen and (min-width: 320px) {
-    .slider .list .item .content h2 {
+    .slider .list .item .content--slider h2 {
       /* top: 10%; */
       /* font-size: 40px; */
       letter-spacing: none;
       gap: 2px;
     }
   
-    .slider .list .item .content {
+    .slider .list .item .content--slider {
       top: 10%;
       max-width: 90%;
     }
@@ -356,7 +421,7 @@
 
   @media screen and (min-width: 650px) and (max-width: 760px) {
 
-    .slider .list .item .content {
+    .slider .list .item .content--slider {
       top: 0%;
     }
 
@@ -387,14 +452,14 @@
 
 
 @media screen and (max-width: 849px) {
-  .slider .list .item .content {
+  .slider .list .item .content--slider {
     max-width: 90%;
   }
 }
 
 
 @media screen and (min-width: 769px) {
-   .content {
+   .content--slider {
       position: absolute;
       top: 15%;
       max-width: 90%;
@@ -442,7 +507,7 @@
     /* .slider {
       height: 40rem;
     } */
-    .content{
+    .content--slider{
         position: absolute;
         /* top: 25%; */
         width: 1140px;
@@ -488,7 +553,6 @@
         letter-spacing: 1px;
         font-family: "poppins";
         font-weight: 700;
-        border-radius: 1.5rem;
     }
     .buttons .buttons--in:nth-child(2){
         background-color: transparent;
@@ -498,18 +562,14 @@
 
     .buttons--in{
         z-index: 2;
-        background-color: #fe6902;
-        color: #fff;
         border: none;
-        padding: 3%;
-        width: 100%;
+        /* padding: 3%;
+        width: 100%; */
     }
 
     .buttons--in:hover{
         cursor: pointer;
         background-color: transparent;
-        border: 1px solid #fe6902;
-        color: #fe6902;
     }
 
     .thumbnail {
@@ -592,7 +652,7 @@
 
   @media screen and (min-width: 1550px) {
 
-    .slider .list .item .content {
+    .slider .list .item .content--slider {
       left: 3rem;
       top: 15%;
     }
@@ -602,7 +662,7 @@
 
   @media screen and (min-width: 1750px) {
 
-    .slider .list .item .content {
+    .slider .list .item .content--slider {
       left: 5rem;
       top: 20%;
     }

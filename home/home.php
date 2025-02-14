@@ -8,6 +8,7 @@
     <link rel="icon" href="../resources/img/" />
     <link rel="stylesheet" href="../home/home.css">
     <link rel="stylesheet" href="../header/header.css">
+    <link rel="stylesheet" href="../slider/slider.css">
     <link rel="stylesheet" href="../footer/footer.css">
     <link rel="stylesheet" href="../services_slider/services_slider.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
@@ -26,9 +27,14 @@
     <?php include "../header/header.php"; ?>
     <!-- Header -->
 
+    <section class="home--sec">
+        <?php include "../slider/slider.php"; ?>
+    </section>
+
     <section class="home--sec1">
         <div class="home--sec1--div1">
             <div class="home--sec1--divExtra">
+            <div class="home--sec1--divExtra1">
                 <div class="home--sec1--div2">
                     <div class="home--sec1--div3">
                         <span class="home--sec1--span1">New Zealand Awaits</span>
@@ -67,6 +73,10 @@
                 <div class="home--sec1--div6">
                     <img src="../resources/img/home/img1.png" class="home--sec1--img1">
                 </div>
+            </div>
+            </div>
+            <div class="home--sec1--div7">
+                <img src="../resources/img/home/Group1.png" class="home--sec1--bg">
             </div>
         </div>
     </section>
@@ -472,11 +482,11 @@
                     </div>
 
                 </div>
-                
+
             </div>
             <div class="home--sec5--div8">
-                    <img src="../resources/img/home/Rectangle.png" alt="#" class="sec5--bg">
-                </div>
+                <img src="../resources/img/home/Rectangle.png" alt="#" class="sec5--bg">
+            </div>
         </div>
     </section>
 
@@ -693,6 +703,7 @@
     <!-- Footer -->
 
     <script src="../header/header.js"></script>
+    <script src="../slider/slider.js"></script>
     <script src="home.js"></script>
     <script src="../services_slider/services_slider.js"></script>
     <script src="../resources/swiper/swiper-bundle.min.js"></script>

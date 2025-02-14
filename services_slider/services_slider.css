@@ -178,7 +178,7 @@
 
 .home--sec3--div1{
   display: flex;
-  background-image: url("../resources/img/home/services.png");
+  /* background-image: url("../resources/img/home/services.png"); */
   flex-direction: column;
   width: 100%;
   background-repeat: no-repeat;
@@ -310,9 +310,9 @@
       width: 128vh;
   }
 
-  .home--sec3--divExtra{
+  /* .home--sec3--divExtra{
     width: 128vh;
-}
+} */
 
 }
 
@@ -323,8 +323,8 @@
       width: 135vh;
   }
 
-  .home--sec3--divExtra{
+  /* .home--sec3--divExtra{
     width: 135vh;
-}
+} */
 
 }

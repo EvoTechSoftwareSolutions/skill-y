@@ -76,15 +76,22 @@ body {
     /* background-color: yellow; */
     align-self: center;
     justify-content: center;
+    /* background-image: url("../resources/img/home/Group1.png"); */
 }
 
 .home--sec1--div1{
+    width: 100%;
     display: flex;
-    background-image: url("../resources/img/home/Group1.png");
+    flex-direction: column;
+    align-self: center;
+}
+
+.home--sec1--divExtra{
+    display: flex;
     flex-direction: row;
     width: 90%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
     /* opacity: calc(60%); */
     align-self: center;
     justify-content: center;
@@ -166,11 +173,16 @@ body {
     height: 25rem;
 }
 
-.home--sec1--divExtra{
+.home--sec1--divExtra1{
     display: flex;
     flex-direction: row;
     width: 100%;
     /* background-color: red; */
+}
+
+.home--sec1--bg{
+    width: 100%;
+    margin-top: -40rem;
 }
 
 
@@ -194,11 +206,11 @@ body {
         justify-content: center;
     }
 
-    .home--sec1--div1 {
-        width: 128vh;
+    .home--sec1--divExtra {
+        width: 125vh;
     }
 
-    .home--sec1--divExtra{
+    .home--sec1--divExtra1{
         width: 100vh;
     }
 
@@ -207,7 +219,7 @@ body {
 
 @media screen and (min-width:1500px) {
 
-    .home--sec1--div1 {
+    .home--sec1--divExtra {
         width: 135vh;
     }
 
@@ -231,11 +243,12 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    background-image: url("../resources/img/home/services.png");
 }
 
 .home--sec3--div1{
     display: flex;
-    background-image: url("../resources/img/home/services.png");
+    /* background-image: url("../resources/img/home/services.png"); */
     flex-direction: column;
     width: 100%;
     background-repeat: no-repeat;
@@ -371,7 +384,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* background-color: red; */
+    /* background-color: rgb(0, 26, 255); */
     justify-content: center;
     align-items: center;
 }
@@ -380,7 +393,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* background-color: red; */
+    /* background-color: rgb(229, 255, 0); */
     justify-content: center;
     align-items: center;
 }
@@ -390,8 +403,6 @@ body {
     /* background-image: url("../resources/img/home/Rectangle.png"); */
     flex-direction: column;
     width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
     /* opacity: calc(60%); */
     padding: 3rem 0;
     justify-content: center;
@@ -406,8 +417,8 @@ body {
 .home--sec5--div8{
     width: 100%;
     /* background-color: red; */
-    display: flex;
-    justify-content: right;
+    /* display: flex;
+    justify-content: right; */
     margin-top: -20rem;
 }
 
@@ -644,12 +655,12 @@ ul {
         width: 128vh;
     } */
 
-    .home--sec5--divExtra{
+    .home--sec5--div1{
         width: 100vh;
         /* background-color: red; */
     }
 
-    .home--sec5--divExtra1{
+    .home--sec5--divExtra{
         width: 128vh;
         justify-content: center;
         align-items: center;
@@ -666,26 +677,26 @@ ul {
         width: 100%;
     }
 
-    .sec5--bg{
+    /* .sec5--bg{
         width: 128vh;
-    }
+    } */
 
 }
 
 
 @media screen and (min-width:1500px) {
 
-    /* .home--sec5--div1 {
+    .home--sec5--div1 {
+        width: 100vh;
+    }
+
+    .home--sec5--divExtra{
+        width: 135vh;
+    }
+
+    /* .sec5--bg{
         width: 135vh;
     } */
-
-    .home--sec5--divExtra1{
-        width: 135vh;
-    }
-
-    .sec5--bg{
-        width: 135vh;
-    }
 
 }
 
@@ -758,6 +769,15 @@ ul {
   }
 
 
+  @media screen and (max-width:1100px) {
+
+    .home--sec6--div1 {
+        padding-top: 12rem;
+    }
+
+  }
+
+
   @media screen and (min-width:950px) {
 
     .logos:before {
@@ -774,7 +794,19 @@ ul {
         margin: 0 40px;
       }
 
+      /* .home--sec6--div1 {
+        padding-top: 7rem;
+    } */
+
 }
+
+@media screen and (min-width:1250px) {
+
+    .home--sec6--div1 {
+        padding-top: 5rem;
+    }
+
+  }
 
   @media screen and (min-width:1400px) {
 
@@ -784,6 +816,7 @@ ul {
 
     .home--sec6--div1 {
         width: 128vh;
+        padding-top: 2rem;
     }
 
 }
@@ -793,6 +826,7 @@ ul {
 
     .home--sec6--div1 {
         width: 135vh;
+        padding-top: 2rem;
     }
 
 }
@@ -1011,7 +1045,7 @@ ul {
     }
 
     .home--sec7--bg{
-        width: 128vh;
+        /* width: 128vh; */
         margin-top: -26rem;
       }
 
@@ -1025,7 +1059,7 @@ ul {
     } */
 
     .home--sec7--bg{
-        width: 135vh;
+        /* width: 135vh; */
         margin-top: -28rem;
       }
 
