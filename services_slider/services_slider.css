@@ -298,3 +298,33 @@
 .home--sec3--img1{
   width: 1.5rem;
 }
+
+
+@media screen and (min-width:1400px) {
+
+  .home--sec3 {
+      justify-content: center;
+  }
+
+  .home--sec3--div1 {
+      width: 128vh;
+  }
+
+  .home--sec3--divExtra{
+    width: 128vh;
+}
+
+}
+
+
+@media screen and (min-width:1500px) {
+
+  .home--sec3--div1 {
+      width: 135vh;
+  }
+
+  .home--sec3--divExtra{
+    width: 135vh;
+}
+
+}
