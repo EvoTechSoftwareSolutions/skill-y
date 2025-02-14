@@ -77,6 +77,7 @@ body {
     align-self: center;
     justify-content: center;
     /* background-image: url("../resources/img/home/Group1.png"); */
+    margin-top: 3rem;
 }
 
 .home--sec1--div1{
@@ -695,7 +696,7 @@ ul {
     }
 
     /* .sec5--bg{
-        width: 135vh;
+      background-color: red;
     } */
 
 }
@@ -815,7 +816,7 @@ ul {
     }
 
     .home--sec6--div1 {
-        width: 128vh;
+        /* width: 128vh; */
         padding-top: 2rem;
     }
 
@@ -825,8 +826,29 @@ ul {
 @media screen and (min-width:1500px) {
 
     .home--sec6--div1 {
-        width: 135vh;
+        /* width: 135vh; */
+        padding-top: 0rem;
+        /* background-color: red; */
+        margin-top: 2rem;
+    }
+
+    .home--sec6{
         padding-top: 2rem;
+    }
+
+}
+
+@media screen and (min-width:1700px) {
+
+    .home--sec6--div1 {
+        /* width: 135vh; */
+        padding-top: 0rem;
+        /* background-color: red; */
+        margin-top: 0rem;
+    }
+
+    .home--sec6{
+        padding-top: 0rem;
     }
 
 }

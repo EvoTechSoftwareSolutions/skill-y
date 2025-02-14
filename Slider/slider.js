@@ -1,7 +1,7 @@
 let items = document.querySelectorAll('.slider .list .item');
 let next = document.getElementById('next');
 let prev = document.getElementById('prev');
-let thumbnails = document.querySelectorAll('.thumbnail .item');
+let thumbnails = document.querySelectorAll('.item');
 
 // config param
 let countItem = items.length;
@@ -29,7 +29,7 @@ let refreshInterval = setInterval(() => {
 function showSlider(){
     // remove item active old
     let itemActiveOld = document.querySelector('.slider .list .item.active');
-    let thumbnailActiveOld = document.querySelector('.thumbnail .item.active');
+    let thumbnailActiveOld = document.querySelector('.item.active');
     itemActiveOld.classList.remove('active');
     thumbnailActiveOld.classList.remove('active');
 
@@ -45,7 +45,7 @@ function showSlider(){
     }, 5000)
 }
 function setPositionThumbnail () {
-    let thumbnailActive = document.querySelector('.thumbnail .item.active');
+    let thumbnailActive = document.querySelector('.item.active');
     let rect = thumbnailActive.getBoundingClientRect();
     if (rect.left < 0 || rect.right > window.innerWidth) {
         thumbnailActive.scrollIntoView({ behavior: 'smooth', inline: 'nearest' });

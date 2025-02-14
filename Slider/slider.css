@@ -75,7 +75,7 @@
     width: 100%;
     /* height: 40rem; */
     position: relative;
-    aspect-ratio: 31 / 9;
+    aspect-ratio: 23 / 9;
   }
   
   .slider .list .item {
@@ -664,7 +664,7 @@
 
     .slider .list .item .content--slider {
       left: 5rem;
-      top: 20%;
+      top: 50%;
     }
 
   }
