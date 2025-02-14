@@ -173,7 +173,7 @@
         </div>
     </section>
 
-    <section class="home--sec4">
+    <!-- <section class="home--sec4">
         <div class="home--sec4--div1">
             <div class="home--sec4--div2">
                 <span class="home--sec4--span1">Testimonials</span>
@@ -183,7 +183,7 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="home--sec5">
         <div class="home--sec5--divExtra1">
