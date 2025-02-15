@@ -219,7 +219,7 @@
                     </div>
                     <div class="services--sec4--div6" id="service5">
                         <div class="services--sec4--div7">
-                            <img src="../resources/img/services/admission (1).png" class="services--sec4--img1" />
+                            <img src="../resources/img/services/admission.png" class="services--sec4--img1" />
                         </div>
                         <div class="services--sec4--div8">
                             <div class="services--sec4--div9">
@@ -327,7 +327,7 @@
                 </div>
                 <div class="services--sec4--div6" id="service12">
                     <div class="services--sec4--div7">
-                        <img src="../resources/img/services/parents (1).png" class="services--sec4--img1" />
+                        <img src="../resources/img/services/parents.png" class="services--sec4--img1" />
                     </div>
                     <div class="services--sec4--div8">
                         <div class="services--sec4--div9">
