@@ -11,7 +11,10 @@ $(".testmonial_slider_area").owlCarousel({
         320:{
             items:1
         },
-        700:{
+        600:{
+            items:2
+        },
+        1000:{
             items:2
         }
     }
