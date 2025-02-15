@@ -17,7 +17,7 @@
     <!-- <i id="left" class="fa-solid fa-angle-left"></i> -->
     <ul class="carousel">
       <li class="card">
-        <div class="services--slider--img"><img src="../resources/img/home/1.png" alt="img" draggable="false"></div>
+        <div class="services--slider--img"><img src="../resources/img/home/parents visa.png" class="services--slider--icon" alt="img" draggable="false"></div>
         <div class="home--sec3--div6">
           <span class="home--sec3--span4">Visiting Visas for Parents</span>
         </div>
@@ -36,7 +36,7 @@
         </div>
       </li>
       <li class="card">
-        <div class="services--slider--img"><img src="../resources/img/home/1.png" alt="img" draggable="false"></div>
+        <div class="services--slider--img"><img src="../resources/img/home/visa assistance.png" class="services--slider--icon" alt="img" draggable="false"></div>
         <div class="home--sec3--div6">
           <span class="home--sec3--span4">Visa Assistance</span>
         </div>
@@ -55,7 +55,7 @@
         </div>
       </li>
       <li class="card">
-        <div class="services--slider--img"><img src="../resources/img/home/1.png" alt="img" draggable="false"></div>
+        <div class="services--slider--img"><img src="../resources/img/home/university.png" class="services--slider--icon" alt="img" draggable="false"></div>
         <div class="home--sec3--div6">
           <span class="home--sec3--span4">University Selection</span>
         </div>
@@ -74,7 +74,7 @@
         </div>
       </li>
       <li class="card">
-        <div class="services--slider--img"><img src="../resources/img/home/1.png" alt="img" draggable="false"></div>
+        <div class="services--slider--img"><img src="../resources/img/home/airport assistance.png" class="services--slider--icon" alt="img" draggable="false"></div>
         <div class="home--sec3--div6">
           <span class="home--sec3--span4">Student Airport Pickup & Assistance</span>
         </div>
@@ -93,7 +93,7 @@
         </div>
       </li>
       <li class="card">
-        <div class="services--slider--img"><img src="../resources/img/home/1.png" alt="img" draggable="false"></div>
+        <div class="services--slider--img"><img src="../resources/img/home/accomodation.png" class="services--slider--icon" alt="img" draggable="false"></div>
         <div class="home--sec3--div6">
           <span class="home--sec3--span4">Student Accommodation</span>
         </div>
@@ -112,7 +112,7 @@
         </div>
       </li>
       <li class="card">
-        <div class="services--slider--img"><img src="../resources/img/home/1.png" alt="img" draggable="false"></div>
+        <div class="services--slider--img"><img src="../resources/img/home/scholar.png" class="services--slider--icon" alt="img" draggable="false"></div>
         <div class="home--sec3--div6">
           <span class="home--sec3--span4">Scholarship Assistance</span>
         </div>
@@ -131,7 +131,7 @@
         </div>
       </li>
       <li class="card">
-        <div class="services--slider--img"><img src="../resources/img/home/1.png" alt="img" draggable="false"></div>
+        <div class="services--slider--img"><img src="../resources/img/home/pre.png" class="services--slider--icon" alt="img" draggable="false"></div>
         <div class="home--sec3--div6">
           <span class="home--sec3--span4">Pre Departure and Post Arrival Services</span>
         </div>
@@ -151,7 +151,7 @@
       </li>
 
       <li class="card">
-        <div class="services--slider--img"><img src="../resources/img/home/1.png" alt="img" draggable="false"></div>
+        <div class="services--slider--img"><img src="../resources/img/home/admission (1).png" class="services--slider--icon" alt="img" draggable="false"></div>
         <div class="home--sec3--div6">
           <span class="home--sec3--span4">Offer & Admissions in Universities/Colleges</span>
         </div>
@@ -171,7 +171,7 @@
       </li>
 
       <li class="card">
-        <div class="services--slider--img"><img src="../resources/img/home/1.png" alt="img" draggable="false"></div>
+        <div class="services--slider--img"><img src="../resources/img/home/counselling.png" class="services--slider--icon" alt="img" draggable="false"></div>
         <div class="home--sec3--div6">
           <span class="home--sec3--span4">Educational Counselling & Career Guidance</span>
         </div>
@@ -191,7 +191,7 @@
       </li>
 
       <li class="card">
-        <div class="services--slider--img"><img src="../resources/img/home/1.png" alt="img" draggable="false"></div>
+        <div class="services--slider--img"><img src="../resources/img/home/dependent.png" class="services--slider--icon" alt="img" draggable="false"></div>
         <div class="home--sec3--div6">
           <span class="home--sec3--span4">Dependent Visas</span>
         </div>
@@ -212,7 +212,7 @@
 
 
       <li class="card">
-        <div class="services--slider--img"><img src="../resources/img/home/1.png" alt="img" draggable="false"></div>
+        <div class="services--slider--img"><img src="../resources/img/home/course selection.png" class="services--slider--icon" alt="img" draggable="false"></div>
         <div class="home--sec3--div6">
           <span class="home--sec3--span4">Course Selection</span>
         </div>
@@ -232,7 +232,7 @@
       </li>
 
       <li class="card">
-        <div class="services--slider--img"><img src="../resources/img/home/1.png" alt="img" draggable="false"></div>
+        <div class="services--slider--img"><img src="../resources/img/home/collaboration.png" class="services--slider--icon"  alt="img" draggable="false"></div>
         <div class="home--sec3--div6">
           <span class="home--sec3--span4">Collaboration Serice to institutions</span>
         </div>
