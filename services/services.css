@@ -1,0 +1,700 @@
+@font-face {
+  font-family: "InstrumentSans_regular";
+  src: url(../resources/fonts/InstrumentSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "InstrumentSans_bold";
+  src: url(../resources/fonts/InstrumentSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: "InstrumentSans_semiBold";
+  src: url(../resources/fonts/InstrumentSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "inter_regular";
+  src: url(../resources/fonts/Inter_18pt-Regular.ttf);
+}
+
+@font-face {
+  font-family: "inter_bold";
+  src: url(../resources/fonts/Inter_18pt-Bold.ttf);
+}
+
+@font-face {
+  font-family: "inter_semiBold";
+  src: url(../resources/fonts/Inter_18pt-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "inter_extraBold";
+  src: url(../resources/fonts/Inter_18pt-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "urbanist_regular";
+  src: url(../resources/fonts/Urbanist-Regular.ttf);
+}
+
+@font-face {
+  font-family: "urbanist_bold";
+  src: url(../resources/fonts/Urbanist-Bold.ttf);
+}
+
+@font-face {
+  font-family: "urbanist_semiBold";
+  src: url(../resources/fonts/Urbanist-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "urbanist_extraBold";
+  src: url(../resources/fonts/Urbanist-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "fira";
+  src: url(../resources/fonts/FiraSans-Regular.ttf);
+}
+
+:root {
+  --colorBackground: #80b531;
+  --colorCard: #ecf4e0;
+  --colorsubHeading: #ff790f;
+  --colortagLine: #0f9814;
+  --colorTxt: #2d3f11;
+  --colorSecondaryTxt: #f2f8ea;
+  --colorBorder: #d8e8bf;
+  --colorFooter: #2d3f11;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.services--sec1 {
+  width: 100%;
+  display: flex;
+}
+
+.services--sec1--div1 {
+  width: 100%;
+  display: flex;
+  /* background-color: red; */
+}
+
+.services--sec1--img1 {
+  width: 100%;
+  /* height: 5rem; */
+  position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.services--sec2 {
+  width: 100%;
+  display: flex;
+  /* margin-top: -40rem; */
+  background-image: url("./resources/img/services/Rectangle2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.services--sec2--div1 {
+  width: 100%;
+  display: flex;
+  /* background-color: red; */
+  padding: 2rem 2rem;
+}
+
+.services--sec2--span1 {
+  font-family: "fira";
+  color: var(--colorTxt);
+}
+
+.services--sec2--span2 {
+  font-family: "fira";
+  color: var(--colorBackground);
+}
+
+.services--sec2--span2:hover {
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+.services--sec3{
+    width: 100%;
+    display: flex;
+}
+
+.services--sec3--div1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services--sec3--span1 {
+  color: var(--colorsubHeading);
+  text-transform: uppercase;
+  font-family: "inter_bold";
+  font-size: 0.6rem;
+}
+
+.services--sec3--span2 {
+  color: var(--colorTxt);
+  font-family: "urbanist_regular";
+  padding: 0.3rem 0rem;
+  font-size: 1.2rem;
+}
+
+.services--sec3--span3 {
+  color: var(--colorTxt);
+  font-family: "urbanist_extraBold";
+  font-size: 1.2rem;
+}
+
+
+
+
+
+.services--sec4{
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+}
+
+.services--sec4--div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .services--sec4--div2{
+    margin-top: -8rem;
+} */
+
+.services--sec4--div3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 2%;
+}
+
+.services--sec4--div11{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 2rem;
+    /* background-color: red; */
+}
+
+.services--sec4--div4{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 2rem;
+    background-color: var(--colorBackground);
+    border-radius: 0 0 10rem 0; 
+    height: max-content;
+}
+
+.services--sec4--subheader{
+    font-family: "urbanist_bold";
+    color: var(--colorSecondaryTxt);
+    text-decoration: none;
+    /* margin: 0 2rem; */
+}
+
+.services--sec4--div5{
+    display: flex;
+    flex-direction: column;
+    width: 68%;
+    padding: 0rem 1rem;
+    height: max-content;
+    /* background-color: red; */
+}
+
+.services--sec4--div6{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* background-color: yellow; */
+    gap: 1rem;
+    height: max-content;
+    margin-bottom: 1rem;
+}
+
+.services--sec4--div7{
+    /* background-color: rgb(13, 131, 2);  */
+    width: max-content;
+    height: max-content;
+}
+
+.services--sec4--div8{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  align-self: center;
+
+}
+
+.services--sec4--div10{
+  padding-top: 0.9rem;
+  display: flex;
+}
+
+.services--sec4--span1{
+    font-family: "urbanist_bold";
+    color: var(--colorTxt);
+}
+
+.services--sec4--span2{
+    font-family: "urbanist_regular";
+    color: var(--colorTxt);
+}
+
+@media screen and (max-width:599px) {
+
+    .services--sec4--div6 {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+    }
+
+    .services--sec4--div8{
+        width: 100%;
+        margin: 0;
+    }
+
+    .services--sec4--div11{
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width:749px) {
+
+    .services--sec4--div3 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services--sec4--div4{
+        width: 80%;
+    }
+    
+    .services--sec4--div5{
+        width: 80%;
+        margin-top: 2rem;
+    }
+
+    .services--sec4--div11{
+        width: 80%;
+        margin-top: 0rem;
+    }
+
+}
+
+@media screen and (min-width:750px) and (max-width:890px) {
+
+    .services--sec4--div3 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services--sec4--div4{
+        width: 90%;
+    }
+    
+    .services--sec4--div5{
+        width: 90%;
+        margin-top: 2rem;
+    }
+
+    .services--sec4--div11{
+        width: 90%;
+        margin: 0;
+    }
+
+}
+
+
+@media screen and (min-width:1400px) {
+
+    .services--sec4 {
+        justify-content: center;
+    }
+
+    .services--sec4--div3 {
+        width: 125vh;
+    }
+
+    .services--sec4--div11 {
+        width: 125vh;
+    }
+
+    .services--sec2{
+        justify-content: center;
+    }
+
+    .services--sec2--div1 {
+        width: 125vh;
+    }
+
+}
+
+
+@media screen and (min-width:1500px) {
+
+    .services--sec4--div3 {
+        width: 135vh;
+    }
+
+    .services--sec4--div11 {
+        width: 135vh;
+    }
+
+    .services--sec2--div1 {
+        width: 135vh;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+.services--sec4--bg2{
+    width: 100%;
+    /* height: screen-hight; */
+    position: absolute;
+    top: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* .services--bgimg{
+    margin-top: -60rem;
+} */
+
+
+
+
+
+
+
+.services--sec5{
+    display: flex;
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.services--sec5--div1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(4, 0, 255); */
+}
+
+.services--sec5--div2{
+    display: flex;
+    width: 90%;
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+}
+
+.card--txt{
+    display: flex;
+    flex-direction: column;
+}
+
+.services--sec5--span1 {
+    color: var(--colorsubHeading);
+    text-transform: uppercase;
+    font-family: "inter_bold";
+    font-size: 0.6rem;
+  }
+  
+  .services--sec5--span2 {
+    color: var(--colorTxt);
+    font-family: "urbanist_regular";
+    padding: 0.3rem 0rem;
+    font-size: 1.2rem;
+  }
+  
+  .services--sec5--span3 {
+    color: var(--colorTxt);
+    font-family: "urbanist_extraBold";
+    font-size: 1.2rem;
+  }
+
+  .services--sec5--span4 {
+    color: var(--colorTxt);
+    font-family: "urbanist_regular";
+    font-size: 0.7rem;
+  }
+
+/* .home--sec3--div1 {
+    padding: 3% 5%;
+}
+
+.home--sec3--header1 {
+    font-size: 1.5rem;
+    color: var(--colorHeading);
+}
+
+.home--sec3--div3 {
+    margin-top: 3%;
+} */
+
+
+.flip-card {
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
+    /* perspective: 1000px; */
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* text-align: center; */
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    display: flex;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  /* .box:hover {
+    transform: rotateY(180deg);
+  } */
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: transparent;
+    /* color: black; */
+    display: flex;
+    flex-direction: column;
+    /* padding: 1rem; */
+  }
+  
+  .flip-card-back {
+    background-color: var(--colorCard);
+    /* color: white; */
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    /* padding: 2rem; */
+    margin: 0;
+  }
+
+  .services--sec5--div3{
+    /* background-color: red; */
+    padding-bottom: 1.5rem;
+  }
+
+  .services--sec5--div5{
+    /* background-color: red; */
+    padding-bottom: 1.5rem;
+  }
+
+  .services--sec5--div4{
+    /* background-color: rgb(229, 255, 0); */
+    display: flex;
+    align-self: center;
+    /* height: 12rem; */
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+  }
+
+  .services--sec5--div6{
+    /* background-color: rgb(229, 255, 0); */
+    display: flex;
+    align-self: center;
+    /* height: 12rem; */
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+  }
+
+  .services--sec5--span6{
+    color: var(--colorTxt);
+    font-family: "inter_extraBold";
+    font-size: 1.5rem;
+    align-self: center;
+    text-align: center;
+  }
+
+  .services--sec5--span5{
+    color: var(--colortagLine);
+    font-family: "inter_extraBold";
+    font-size: 2.5rem;
+    text-transform: capitalize;
+  }
+
+  .services--sec5--span7{
+    color: var(--colortagLine);
+    font-family: "inter_extraBold";
+    font-size: 2.3rem;
+    text-transform: capitalize;
+  }
+
+  .services--sec5--span8{
+    color: var(--colorTxt);
+    font-family: "inter_extraBold";
+    font-size: 1.2rem;
+  }
+
+  .services--sec5--span9{
+    color: var(--colorTxt);
+    font-family: "inter_regular";
+    /* font-size: 1.5rem; */
+    align-self: center;
+    text-align: center;
+  }
+ 
+  @media screen and (min-width:1400px) {
+
+    .services--sec5--div2 {
+        width: 125vh;
+    }
+
+}
+
+
+@media screen and (min-width:1500px) {
+
+    .services--sec5--div2 {
+        width: 135vh;
+    }
+
+}
+
+
+
+
+
+.container{
+    width: 100%;
+}
+
+.container .heading{
+    /* text-align: center; */
+    padding-bottom: 15px;
+    /* color:#fff; */
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    /* font-size: 50px; */
+}
+
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: var(--colorCard);
+    /* text-align: center; */
+    padding:30px 20px;
+    height: 15rem;
+}
+
+/* .container .box-container .box img{
+    height: 80px;
+} */
+
+/* .container .box-container .box h3{
+    color:#444;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+.container .box-container .box p{
+    color:#777;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.container .box-container .box .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.container .box-container .box .btn:hover{
+    letter-spacing: 1px;
+} */
+
+.container .box-container .box:hover{
+    /* box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03); */
+    /* transform: rotateY(180deg); */
+}
+
+.box1{
+    display: flex;
+    align-self: center;
+}
+
+@media (max-width:768px){
+    .container{
+        padding:20px;
+    }
+}
