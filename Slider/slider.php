@@ -17,7 +17,7 @@
             <!-- list Items -->
             <div class="list">
                 <div class="item active">
-                    <img src="../resources/img/home/slider1.1.jpg">
+                    <img src="../resources/img/home/slider1.1.jpg" class="">
                     <div class="content--slider">
                         <div class="author">Skilly New Zealand</div>
                         <div class="title">Your Dream University Awaits!</div>

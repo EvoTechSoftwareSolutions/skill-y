@@ -284,7 +284,7 @@
   /* font-weight: bold; */
   line-height: 1.3em;
   color: var(--colorSecondaryTxt);
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 .topic{
   font-family: "InstrumentSans_bold";
