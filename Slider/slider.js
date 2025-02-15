@@ -42,7 +42,7 @@ function showSlider(){
     clearInterval(refreshInterval);
     refreshInterval = setInterval(() => {
         next.click();
-    }, 5000)
+    }, 10000)
 }
 function setPositionThumbnail () {
     let thumbnailActive = document.querySelector('.item.active');

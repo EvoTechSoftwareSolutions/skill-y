@@ -17,13 +17,13 @@
             <!-- list Items -->
             <div class="list">
                 <div class="item active">
-                    <img src="../resources/img/home/slider1.png">
+                    <img src="../resources/img/home/slider1.1.jpg">
                     <div class="content--slider">
-                        <div class="author">PHYSiO UNLEASHED</div>
-                        <!-- <div class="title">A PRACTICE BUILT ON</div> -->
-                        <div class="topic">HONESTY AND INTEGRITY</div>
+                        <div class="author">Skilly New Zealand</div>
+                        <div class="title">Your Dream University Awaits!</div>
+                        <div class="topic">Study Abroad with Confidence</div>
                         <div class="des">
-                            A practice built on honesty and integrity prioritizes transparency, trust, and ethical conduct in all interactions. It fosters an environment where truthful communication and responsible actions are the norms, ensuring that all decisions are made with fairness and respect for all parties involved. This foundation enhances credibility and long-term success.
+                        Take the first step toward an international education with expert guidance from Skilly. We help you choose the right course, university, and country to match your aspirations.
                         </div>
                         <div class="buttons">
                             <button class="buttons--in" onclick="window.location='../About/about.php#contact';">CONTACT&nbsp;NOW</button>
@@ -33,32 +33,32 @@
                 <div class="item">
                     <img src="../resources/img/home/slider2.png">
                     <div class="content--slider">
-                        <div class="author">PHYSiO UNLEASHED</div>
-                        <div class="title">A PRACTICE BUILT ON</div>
-                        <div class="topic">HONESTY AND INTEGRITY</div>
+                        <div class="author">Skilly New Zealand</div>
+                        <div class="title">Fast & Reliable Visa Processing</div>
+                        <div class="topic">Hassle-Free Student Visa Assistance</div>
                         <div class="des">
-                            A practice built on honesty and integrity prioritizes transparency, trust, and ethical conduct in all interactions. It fosters an environment where truthful communication and responsible actions are the norms, ensuring that all decisions are made with fairness and respect for all parties involved. This foundation enhances credibility and long-term success.
+                        Our team ensures a smooth visa application process with accurate documentation and expert guidance, increasing your chances of approval.
                         </div>
                         <div class="buttons">
-                            <button class="buttons--in" onclick="window.location='../About/about.php#contact';">Get&nbsp;In&nbsp;Touch</button>
+                            <button class="buttons--in" onclick="window.location='../About/about.php#contact';">CONTACT&nbsp;NOW</button>
                         </div>
                     </div>
                 </div>
                 <div class="item">
-                    <img src="../resources/img/home/slider1.png">
+                    <img src="../resources/img/home/slider3.jpg">
                     <div class="content--slider">
-                        <div class="author">PHYSiO UNLEASHED</div>
-                        <div class="title">OUR EARNING IS</div>
-                        <div class="topic">HUMANITY AND CLIENTS’ SATISFACTION</div>
+                        <div class="author">Skilly New Zealand</div>
+                        <div class="title">Making Global Education Affordable</div>
+                        <div class="topic">Scholarships & Financial Aid Guidance</div>
                         <div class="des">
-                            "Our earning is humanity and clients' satisfaction" emphasizes prioritizing compassionate service and customer happiness over monetary gains. It focuses on building meaningful relationships through empathy and exceptional service. This approach ensures that business success is measured by positive client experiences and the lasting impact on the community rather than financial profits alone.
+                        We help you explore scholarship opportunities and financial aid options, making your study abroad dreams a reality without financial stress.
                         </div>
                         <div class="buttons">
-                            <button class="buttons--in" onclick="window.location='../About/about.php#contact';">Get&nbsp;In&nbsp;Touch</button>
+                            <button class="buttons--in" onclick="window.location='../About/about.php#contact';">CONTACT&nbsp;NOW</button>
                         </div>
                     </div>
                 </div>
-                <div class="item">
+                <!-- <div class="item">
                     <img src="../resources/img/home/slider2.png">
                     <div class="content--slider">
                         <div class="author">PHYSiO UNLEASHED</div>
@@ -71,7 +71,7 @@
                             <button class="buttons--in" onclick="window.location='../About/about.php#contact';">Get&nbsp;In&nbsp;Touch</button>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <!-- button arrows -->
             <div class="arrows">
