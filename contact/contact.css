@@ -1,478 +1,812 @@
 @font-face {
-    font-family: "InstrumentSans_regular";
-    src: url(../resources/fonts/InstrumentSans-Regular.ttf);
-  }
-  
-  @font-face {
-    font-family: "InstrumentSans_bold";
-    src: url(../resources/fonts/InstrumentSans-Bold.ttf);
-  }
-  
-  @font-face {
-    font-family: "InstrumentSans_semiBold";
-    src: url(../resources/fonts/InstrumentSans-SemiBold.ttf);
-  }
-  
-  @font-face {
-    font-family: "inter_regular";
-    src: url(../resources/fonts/Inter_18pt-Regular.ttf);
-  }
-  
-  @font-face {
-    font-family: "inter_bold";
-    src: url(../resources/fonts/Inter_18pt-Bold.ttf);
-  }
-  
-  @font-face {
-    font-family: "inter_semiBold";
-    src: url(../resources/fonts/Inter_18pt-SemiBold.ttf);
-  }
-  
-  @font-face {
-    font-family: "inter_extraBold";
-    src: url(../resources/fonts/Inter_18pt-ExtraBold.ttf);
-  }
-  
-  @font-face {
-    font-family: "urbanist_regular";
-    src: url(../resources/fonts/Urbanist-Regular.ttf);
-  }
-  
-  @font-face {
-    font-family: "urbanist_bold";
-    src: url(../resources/fonts/Urbanist-Bold.ttf);
-  }
-  
-  @font-face {
-    font-family: "urbanist_semiBold";
-    src: url(../resources/fonts/Urbanist-SemiBold.ttf);
-  }
-  
-  @font-face {
-    font-family: "urbanist_extraBold";
-    src: url(../resources/fonts/Urbanist-ExtraBold.ttf);
-  }
-  
-  @font-face {
-    font-family: "fira";
-    src: url(../resources/fonts/FiraSans-Regular.ttf);
-  }
-  
-  :root {
-    --colorBackground: #80b531;
-    --colorCard: #ecf4e0;
-    --colorsubHeading: #ff790f;
-    --colortagLine: #0f9814;
-    --colorTxt: #2d3f11;
-    --colorSecondaryTxt: #f2f8ea;
-    --colorBorder: #d8e8bf;
-    --colorFooter: #2d3f11;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-  }
+  font-family: "InstrumentSans_regular";
+  src: url(../resources/fonts/InstrumentSans-Regular.ttf);
+}
 
-  
+@font-face {
+  font-family: "InstrumentSans_bold";
+  src: url(../resources/fonts/InstrumentSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: "InstrumentSans_semiBold";
+  src: url(../resources/fonts/InstrumentSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "inter_regular";
+  src: url(../resources/fonts/Inter_18pt-Regular.ttf);
+}
+
+@font-face {
+  font-family: "inter_bold";
+  src: url(../resources/fonts/Inter_18pt-Bold.ttf);
+}
+
+@font-face {
+  font-family: "inter_semiBold";
+  src: url(../resources/fonts/Inter_18pt-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "inter_extraBold";
+  src: url(../resources/fonts/Inter_18pt-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "urbanist_regular";
+  src: url(../resources/fonts/Urbanist-Regular.ttf);
+}
+
+@font-face {
+  font-family: "urbanist_bold";
+  src: url(../resources/fonts/Urbanist-Bold.ttf);
+}
+
+@font-face {
+  font-family: "urbanist_semiBold";
+  src: url(../resources/fonts/Urbanist-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "urbanist_extraBold";
+  src: url(../resources/fonts/Urbanist-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "fira";
+  src: url(../resources/fonts/FiraSans-Regular.ttf);
+}
+
+:root {
+  --colorBackground: #80b531;
+  --colorCard: #ecf4e0;
+  --colorsubHeading: #ff790f;
+  --colortagLine: #0f9814;
+  --colorTxt: #2d3f11;
+  --colorSecondaryTxt: #f2f8ea;
+  --colorBorder: #d8e8bf;
+  --colorFooter: #2d3f11;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
 
 .contact--sec1 {
-    width: 100%;
-    display: flex;
-    /* margin-top: -40rem; */
-    background-image: url("./resources/img/contact/Rectangle2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+  width: 100%;
+  display: flex;
+  /* margin-top: -40rem; */
+  background-image: url("./resources/img/contact/Rectangle2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact--sec1--div1 {
+  width: 100%;
+  display: flex;
+  /* background-color: red; */
+  padding: 2rem 2rem;
+}
+
+.contact--sec1--span1 {
+  font-family: "fira";
+  color: var(--colorTxt);
+}
+
+.contact--sec1--span2 {
+  font-family: "fira";
+  color: var(--colorBackground);
+}
+
+.contact--sec1--span2:hover {
+  cursor: pointer;
+}
+
+.contact--sec2 {
+  width: 100%;
+  display: flex;
+}
+
+.contact--sec2--div1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact--sec2--span1 {
+  color: var(--colorsubHeading);
+  text-transform: uppercase;
+  font-family: "inter_bold";
+  font-size: 0.6rem;
+}
+
+.contact--sec2--span2 {
+  color: var(--colorTxt);
+  font-family: "urbanist_regular";
+  padding: 0.3rem 0rem;
+  font-size: 1.2rem;
+}
+
+.contact--sec2--span3 {
+  color: var(--colorTxt);
+  font-family: "urbanist_extraBold";
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 1400px) {
+  .contact--sec1 {
+    justify-content: center;
   }
-  
+
   .contact--sec1--div1 {
-    width: 100%;
-    display: flex;
-    /* background-color: red; */
-    padding: 2rem 2rem;
+    width: 125vh;
   }
-  
-  .contact--sec1--span1 {
-    font-family: "fira";
-    color: var(--colorTxt);
-  }
-  
-  .contact--sec1--span2 {
-    font-family: "fira";
-    color: var(--colorBackground);
-  }
-  
-  .contact--sec1--span2:hover {
-      cursor: pointer;
-    }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  .contact--sec2{
-      width: 100%;
-      display: flex;
-  }
-  
-  .contact--sec2--div1{
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-  }
-  
-  .contact--sec2--span1 {
-    color: var(--colorsubHeading);
-    text-transform: uppercase;
-    font-family: "inter_bold";
-    font-size: 0.6rem;
-  }
-  
-  .contact--sec2--span2 {
-    color: var(--colorTxt);
-    font-family: "urbanist_regular";
-    padding: 0.3rem 0rem;
-    font-size: 1.2rem;
-  }
-  
-  .contact--sec2--span3 {
-    color: var(--colorTxt);
-    font-family: "urbanist_extraBold";
-    font-size: 1.2rem;
-  }
-  
-
-  @media screen and (min-width:1400px) {
-
-    .contact--sec1{
-        justify-content: center;
-    }
-
-    .contact--sec1--div1 {
-        width: 125vh;
-    }
-
 }
 
-
-@media screen and (min-width:1500px) {
-
-    .contact--sec1--div1 {
-        width: 135vh;
-    }
-
-}
-  
-  
-
-
-.contact--sec3{
-    width: 100%;
-    display: flex;
-    margin-top: 3rem;
-    justify-content: center;
-    align-items: center;
+@media screen and (min-width: 1500px) {
+  .contact--sec1--div1 {
+    width: 135vh;
+  }
 }
 
-.contact--sec3--div1{
-    width: 98%;
-    display: flex;
-    flex-direction: row;
-    /* justify-content: center;
+.contact--sec3 {
+  width: 100%;
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact--sec3--div1 {
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center;
     align-items: center; */
-    text-align: justify;
+  text-align: justify;
 }
 
-.contact--sec3--div2{
-    width: 50%;
-    display: flex;
+.contact--sec3--div2 {
+  width: 50%;
+  display: flex;
 }
 
-.contact--sec3--div3{
-    width: 50%;
-    display: flex;
-    padding-left: 2rem;
+.contact--sec3--div3 {
+  width: 50%;
+  display: flex;
+  padding-left: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact--sec3--div5 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  gap: 5%;
+}
+
+.contact--sec3--div6 {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 2rem;
+}
+
+.contact--sec3--div7 {
+  width: 35%;
+  display: flex;
+}
+
+.contact--sec3--div8 {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.contact--sec3--div9 {
+  width: max-content;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+  padding: 1rem 1.5rem;
+  background-color: var(--colortagLine);
+  gap: 1rem;
+  border-radius: 0.5rem;
+  justify-content: center;
+}
+
+.contact--sec3--div9:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.contact--sec3--img {
+  width: 100%;
+}
+
+.contact--sec3--img3 {
+  width: 1.2rem;
+}
+
+.contact--sec3--span1 {
+  font-family: "urbanist_regular";
+  color: var(--colorTxt);
+  text-align: justify;
+}
+
+.contact--sec3--span2 {
+  font-family: "urbanist_bold";
+  color: var(--colorTxt);
+}
+
+.contact--sec3--span3 {
+  font-family: "urbanist_regular";
+  color: var(--colorTxt);
+}
+
+.contact--sec3--span4 {
+  font-family: "urbanist_extraBold";
+  color: var(--colorSecondaryTxt);
+}
+
+.contact--download--btn {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 849px) {
+  .contact--sec3--div1 {
     flex-direction: column;
-    align-items: center;
-}
+  }
 
-.contact--sec3--div5{
+  .contact--sec3--div2 {
     width: 100%;
     display: flex;
-    flex-direction: row;
-    margin-top: 2rem;
-    gap: 5%;
+  }
+
+  .contact--sec3--div3 {
+    width: 100%;
+    padding-left: 0rem;
+    margin-top: 3rem;
+  }
 }
 
-.contact--sec3--div6{
-    width: 45%;
-    display: flex;
-    flex-direction: row;
-    padding: 1.5rem;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    border-radius: 2rem;
+@media screen and (max-width: 519px) {
+  .contact--sec3--div5 {
+    display: none;
+  }
+
+  .contact--sec3--div9 {
+    margin-top: 3rem;
+  }
 }
 
-.contact--sec3--div7{
-    width: 35%;
-    display: flex;
+@media screen and (min-width: 520px) and (max-width: 600px) {
+  .contact--sec3--div5 {
+    width: 100%;
+  }
 }
 
-.contact--sec3--div8{
-    width: 65%;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
+@media screen and (min-width: 600px) and (max-width: 849px) {
+  .contact--sec3--div5 {
+    width: 90%;
+  }
 }
 
-.contact--sec3--div9{
-    width: max-content;
-    display: flex;
-    flex-direction: row;
-    margin-top: 5rem;
-    padding: 1rem 1.5rem;
-    background-color: var(--colortagLine);
-    gap: 1rem;
-    border-radius: 0.5rem;
+@media screen and (min-width: 850px) and (max-width: 1099px) {
+  .contact--sec3--div5 {
+    width: 100%;
+    display: none;
+  }
+
+  .contact--sec3--div9 {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .contact--sec3 {
     justify-content: center;
+  }
+
+  .contact--sec3--div1 {
+    width: 125vh;
+  }
 }
 
-.contact--sec3--div9:hover{
-    cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+@media screen and (min-width: 1500px) {
+  .contact--sec3--div1 {
+    width: 135vh;
+  }
 }
-
-.contact--sec3--img{
-    width: 100%;
-}
-
-.contact--sec3--img3{
-    width: 1.2rem;
-}
-
-.contact--sec3--span1{
-    font-family: "urbanist_regular";
-    color: var(--colorTxt);
-    text-align: justify;
-}
-
-.contact--sec3--span2{
-    font-family: "urbanist_bold";
-    color: var(--colorTxt);
-}
-
-.contact--sec3--span3{
-    font-family: "urbanist_regular";
-    color: var(--colorTxt);
-}
-
-.contact--sec3--span4{
-    font-family: "urbanist_extraBold";
-    color: var(--colorSecondaryTxt);
-}
-
-.contact--download--btn{
-    text-decoration: none;
-}
-
-@media screen and (max-width:849px) {
-
-    .contact--sec3--div1{
-        flex-direction: column;
-    }
-
-    .contact--sec3--div2{
-        width: 100%;
-        display: flex;
-    }
-    
-    .contact--sec3--div3{
-        width: 100%;
-        padding-left: 0rem;
-        margin-top: 3rem;
-    }
-
-}
-
-@media screen and (max-width:519px) {
-
-    .contact--sec3--div5{
-        display: none;
-    }
-
-    .contact--sec3--div9{
-        margin-top: 3rem;
-    }
-
-}
-
-@media screen and (min-width:520px) and (max-width:600px) {
-
-    .contact--sec3--div5{
-        width: 100%;
-    }
-
-}
-
-@media screen and (min-width:600px) and (max-width:849px) {
-
-    .contact--sec3--div5{
-        width: 90%;
-    }
-
-}
-
-@media screen and (min-width:850px) and (max-width:1099px) {
-
-    .contact--sec3--div5{
-        width: 100%;
-        display: none;
-    }
-
-    .contact--sec3--div9{
-        margin-top: 3rem;
-    }
-
-}
-
-@media screen and (min-width:1400px) {
-
-    .contact--sec3{
-        justify-content: center;
-    }
-
-    .contact--sec3--div1 {
-        width: 125vh;
-    }
-
-}
-
-
-@media screen and (min-width:1500px) {
-
-    .contact--sec3--div1 {
-        width: 135vh;
-    }
-
-}
-
-
-
 
 .contact--sec4 {
-    width: 100%;
-    padding: 3% 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  padding: 3% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact--sec4--div1 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact--sec4--div2 {
-    /* width: 100%; */
-    display: flex;
-    align-items: center;
-    align-self: center;
-    /* background-color: red; */
-    padding: 2rem 0 2.5rem 0;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  align-self: center;
+  /* background-color: red; */
+  padding: 2rem 0 2.5rem 0;
 }
 
-.contact--sec4--span1{
-    font-size: 1.2rem;
-    color: var(--colortagLine);
-    font-family: "urbanist_extraBold";
-    text-align: center;
+.contact--sec4--span1 {
+  font-size: 1.2rem;
+  color: var(--colortagLine);
+  font-family: "urbanist_extraBold";
+  text-align: center;
 }
 
 .contact--sec4--div3 {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 2%;
-    flex-wrap: nowrap; /* Prevent wrapping into multiple rows */
-    overflow-x: auto; /* Allow horizontal scrolling on very small screens */
-    /* padding: 0 9%; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  flex-wrap: nowrap; /* Prevent wrapping into multiple rows */
+  overflow-x: auto; /* Allow horizontal scrolling on very small screens */
+  /* padding: 0 9%; */
 }
 
 .contact--sec4--div4,
 .contact--sec4--div5 {
-    width: auto; /* Automatically adjust width based on content */
-    display: flex;
-    justify-content: center; /* Center logos horizontally */
-    align-items: center; /* Center logos vertically */
+  width: auto; /* Automatically adjust width based on content */
+  display: flex;
+  justify-content: center; /* Center logos horizontally */
+  align-items: center; /* Center logos vertically */
 }
 
-.contact--sec4--div4{
-    /* background-color: red; */
-    width: 20rem;
+.contact--sec4--div4 {
+  /* background-color: red; */
+  width: 20rem;
 }
 
-.contact--sec4--div5{
-    /* background-color: rgb(0, 38, 255); */
-    width: 20rem;
+.contact--sec4--div5 {
+  /* background-color: rgb(0, 38, 255); */
+  width: 20rem;
 }
 
 .partner1--logo,
 .partner2--logo {
-    width: 100%; /* Scale to fit the container */
-    max-width: 25rem; /* Set maximum size */
-    height: auto; /* Maintain aspect ratio */
+  width: 100%; /* Scale to fit the container */
+  max-width: 25rem; /* Set maximum size */
+  height: auto; /* Maintain aspect ratio */
 }
 
 /* Media Queries for Responsiveness */
 @media screen and (max-width: 1024px) {
-    .partner1--logo,
-    .partner2--logo {
-        max-width: 20rem; /* Reduce logo size on smaller screens */
-    }
+  .partner1--logo,
+  .partner2--logo {
+    max-width: 20rem; /* Reduce logo size on smaller screens */
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .partner1--logo,
-    .partner2--logo {
-        max-width: 18rem; /* Further reduce logo size */
-    }
+  .partner1--logo,
+  .partner2--logo {
+    max-width: 18rem; /* Further reduce logo size */
+  }
 }
 
 @media screen and (max-width: 480px) {
-    .partner1--logo,
-    .partner2--logo {
-        max-width: 15rem; /* Smaller size for mobile screens */
-    }
+  .partner1--logo,
+  .partner2--logo {
+    max-width: 15rem; /* Smaller size for mobile screens */
+  }
 }
 
-@media screen and (min-width:1400px) {
+@media screen and (min-width: 1400px) {
+  .contact--sec4 {
+    justify-content: center;
+  }
 
-    .contact--sec4{
-        justify-content: center;
+  .contact--sec4--div1 {
+    width: 125vh;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .contact--sec4--div1 {
+    width: 135vh;
+  }
+}
+
+.contact--sec5 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.contact--sec5--div1 {
+  width: 100%;
+  /* background-color: #d9d9d977; */
+  /* margin-top: 5%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact--sec5--div2 {
+  width: 100%;
+  /* background-color: #d9d9d977; */
+  /* margin-top: 5%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.contact--sec5--div3 {
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+
+.contact--sec5--div4 {
+  width: 49%;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+}
+
+.contact--sec5--div5 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact--sec5--div6 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+
+.contact--sec5--div7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 49%;
+}
+
+.contact--txtfield {
+  display: flex;
+  background-color: var(--colorCard);
+  color: gray;
+  width: 100%;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  font-family: "urbanist_regular";
+  border-radius: 1rem;
+  margin-top: 0.5rem;
+}
+
+.contact--sec5--div8 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact--txtarea{
+    display: flex;
+    background-color: var(--colorCard);
+    color: gray;
+    width: 100%;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    font-family: "urbanist_regular";
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+    height: 10rem;
+}
+
+.contact--sec5--div9 {
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../resources/img/contact/bg.png");
+  border-radius: 1.5rem;
+}
+
+.contact--sec5--div10 {
+    /* width: 49%; */
+    display: flex;
+    background-color: var(--colorTxt);
+    opacity: calc(90%);
+    padding: 2rem;
+    border-radius: 1.5rem;
+    height: 19rem;
+    align-self: center;
+    justify-content: center;
+    text-align: justify;
+  }
+
+.contact--sec5--divBtn {
+  width: 100%;
+}
+
+.contatct--button {
+  text-transform: uppercase;
+  color: var(--colorSecondaryTxt);
+  font-family: "urbanist_extraBold";
+  padding: 0.7rem 1.2rem;
+  border-radius: 1rem;
+  background-color: var(--colortagLine);
+  border: none;
+  width: max-content;
+  margin-top: 0.5rem;
+}
+
+.contatct--sec5--txt2{
+    color: var(--colorSecondaryTxt);
+    text-align: justify;
+    font-family: "urbanist_regular";
+    align-self: center;
+}
+
+.contatct--button:hover {
+  color: var(--colortagLine);
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid var(--colortagLine);
+}
+
+@media screen and (max-width: 799px) {
+    .contact--sec5--div3 {
+        flex-direction: column-reverse;
+      }
+
+      .contact--sec5--div4 {
+        width: 90%;
+      }
+
+      .contact--sec5--div9 {
+        display: none;
+      }
+  }
+
+@media screen and (min-width: 800px) and (max-width: 1041px) {
+    .contact--txtfield {
+        margin-top: 1.5rem;
+      }
+      .contact--txtarea{
+          margin-top: 1.5rem;
+      }
+    .contatct--button {
+        margin-top: 1.8rem;
+      }
+      .contact--sec5--div10 {
+        height: 25rem;
+        padding: 1rem 1rem;
+      }
+  }
+
+@media screen and (min-width: 1400px) {
+    .contact--sec5 {
+      justify-content: center;
+    }
+  
+    .contact--sec5--div1 {
+      width: 125vh;
+    }
+  }
+  
+  @media screen and (min-width: 1500px) {
+    .contact--sec5--div1 {
+      width: 135vh;
+    }
+  }
+
+
+.contact--sec5--div12{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.contact--sec5--div13{
+    width: 70%;
+    display: flex;
+    /* grid-template-columns: repeat(4,1fr); */
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    /* flex-direction: row; */
+}
+
+.contact--sec5--div14{
+    display: flex;
+    padding: 0.5rem 0.1rem;
+    flex-direction: column;
+    width: 12.5rem;
+    height: 9rem;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.table--span1{
+    color: var(--colorSecondaryTxt);
+    font-family: "urbanist_semiBold";
+}
+
+.table--img1{
+    width: 4rem;
+}
+
+.sec5--iconspan{
+    color: var(--colorSecondaryTxt);
+    font-family: "urbanist_extraBold";
+    padding: 1rem 0rem;
+}
+
+.table--span2{
+    color: var(--colorTxt);
+    font-family: "urbanist_semiBold";
+}
+
+.sec5--iconspan1{
+    color: var(--colorTxt);
+    font-family: "urbanist_extraBold";
+    padding: 1rem 0rem;
+}
+
+.sec5--iconspan11{
+    color: var(--colorTxt);
+    font-family: "urbanist_extraBold";
+    padding: 0 1rem;
+    text-align: center;
+    
+}
+
+.contact--sec5--div16{
+    display: flex; 
+}
+
+.contact--sec5--div17{
+    display: flex; 
+    flex-direction: row;
+    gap:15px;
+}
+
+.contact--sec5--div21{
+    display: none;
+}
+
+@media screen and (max-width:494px) {
+
+    .contact--sec5--div13{
+        display: none; 
     }
 
-    .contact--sec4--div1 {
-        width: 125vh;
+    .contact--sec5--div21{
+        display: flex; 
+        flex-direction: column;
     }
 
+    .contact--sec5--div14{
+        margin-top: 20px;
+    }
+
+    .contact--sec5--div19{
+        display: flex; 
+        flex-direction: column;
+        /* margin-top: 20px; */
+    }
+
+    .contact--sec5--div20{
+        display: flex; 
+        flex-direction: column;
+        /* margin-top: 20px; */
+    }
+    
+}
+
+@media screen and (min-width:495px) and (max-width:739px) {
+
+    .contact--sec5--div13{
+        display: none; 
+    }
+
+    .contact--sec5--div21{
+        display: flex; 
+        flex-direction: column;
+    }
+
+    .contact--sec5--div19{
+        display: flex; 
+        flex-direction: row;
+        gap: 25px;
+    }
+
+    .contact--sec5--div20{
+        display: flex; 
+        flex-direction: row;
+        gap: 25px;
+        margin-top: 20px;
+    }
+    
+}
+
+@media screen and (min-width:740px) and (max-width:869px) {
+
+    .contact--sec5--div13{
+        display: flex; 
+        flex-direction: column;
+    }
+
+    .contact--sec5--div21{
+        display: none;
+    }
+    
 }
 
 
-@media screen and (min-width:1500px) {
+.contact--sec5--div24 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    padding-bottom: 1rem;
+  }
+  
+  .contact--sec5--div25 {
+    width: 100%;
+  }
+  
+  .contact--map--img {
+    height: 30rem;
+  }
 
-    .contact--sec4--div1 {
-        width: 135vh;
-    }
+  .contact--bg1{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    z-index: -10;
+  }
 
-}
+  .contact--bg2{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    z-index: -10;
+  }
