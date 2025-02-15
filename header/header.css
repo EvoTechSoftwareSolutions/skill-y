@@ -71,8 +71,18 @@ body {
 
 .header--sec1 {
     display: none;
-    position: sticky;
+    position: fixed;
     width: 100%;
+    z-index: 100;
+    background-color: white;
+}
+
+.header--sec2 {
+    /* display: flex; */
+    /* position: fixed; */
+    width: 100%;
+    z-index: 100;
+    background-color: white;
 }
 
 .header--sec1--div1 {
@@ -263,7 +273,14 @@ body {
 
 
 
-
+.header--sec2--div1 {
+    position: fixed;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    padding-bottom: 1rem;
+    flex-direction: row;
+}
 
 .header--sec2--div2 {
     display: flex;
@@ -274,6 +291,7 @@ body {
     /* background-color: red; */
     position: relative;
     margin-top: 0.5rem;
+    width: 100%;
 }
 
 .header--small{
@@ -297,7 +315,7 @@ body {
     padding: 0;
     margin: 0;
     list-style-type: none;
-    z-index: 100;
+    /* z-index: 100; */
 }
 
 .nav__menu .nav__item {
@@ -344,7 +362,7 @@ body {
 
 /* Align the menu button, logo, and register button in a row */
 .header--sec2--div3 {
-    flex-grow: 1;
+    /* flex-grow: 1; */
     display: flex;
     justify-content: center;
     /* margin-top: -15px; */
@@ -359,7 +377,9 @@ body {
 
 .header--sec2--div4 {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
+    justify-content: right;
+    margin-left: auto;
 }
 
 .header--btn--sm {
@@ -404,6 +424,7 @@ body {
     cursor: pointer;
     border-radius: 50%;
     transition: background-color 0.15s linear;
+    margin-right: auto;
   }
   
   .nav__toggle:hover, 
@@ -525,3 +546,15 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+
+
+
+
+
+
+
+
+
+
+
+

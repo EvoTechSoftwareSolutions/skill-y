@@ -11,6 +11,12 @@
 
 <body>
 
+<div id="progress">
+        <span id="progress-value">
+            <img src="../resources/img/footer/arrow.png" class="progress--arrow" />
+        </span>
+    </div>
+
     <section class="footer--sec1">
     <div class="footer--sec1--divExtra">
         <div class="footer--sec1--div17">
@@ -204,6 +210,8 @@
             </div>
         </div>
     </section>
+
+    <script src="../footer/footer.js"></script>
 
 </body>
 

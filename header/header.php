@@ -68,49 +68,49 @@
                     <!-- ACTUAL NAVIGATION MENU -->
                     <ul class="nav__menu" id="menu" tabindex="-1" aria-label="main navigation" hidden>
                         <img src="../resources/img/header/logo_sm.png" alt="logo" class="header--logo--sm">
-                        <br/>
+                        <br />
                         <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
                         <li class="nav__item"><a href="#" class="nav__link">Shop</a></li>
                         <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
                         <li class="nav__item"><a href="#" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
                         <div class="header--sec2--div5">
-                        <div class="header--sec2--div6">
-                            <img src="../resources/img/header/facebook.png" alt="social--icon" class="social--icon--sm">
+                            <div class="header--sec2--div6">
+                                <img src="../resources/img/header/facebook.png" alt="social--icon" class="social--icon--sm">
+                            </div>
+                            <div class="header--sec2--div6">
+                                <img src="../resources/img/header/Whatsapp.png" alt="social--icon" class="social--icon--sm">
+                            </div>
+                            <div class="header--sec2--div6">
+                                <img src="../resources/img/header/Instagram.png" alt="social--icon" class="social--icon--sm">
+                            </div>
                         </div>
-                        <div class="header--sec2--div6">
-                            <img src="../resources/img/header/Whatsapp.png" alt="social--icon" class="social--icon--sm">
-                        </div>
-                        <div class="header--sec2--div6">
-                            <img src="../resources/img/header/Instagram.png" alt="social--icon" class="social--icon--sm">
-                        </div>
+                    </ul>
+
+                    <!-- MENU TOGGLE BUTTON -->
+                    <a href="#nav" class="nav__toggle" role="button">
+                        <svg class="menuicon" xmlns="http://www.w3.org/2000/svg" width="50" height="50">
+                            <!-- <title>Toggle Menu</title> -->
+                            <g>
+                                <line class="menuicon__bar" x1="13" y1="16.5" x2="37" y2="16.5" />
+                                <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5" />
+                                <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5" />
+                                <line class="menuicon__bar" x1="13" y1="32.5" x2="37" y2="32.5" />
+                                <circle class="menuicon__circle" r="23" cx="25" cy="25" />
+                            </g>
+                        </svg>
+                        <!-- <img src="../resources/img/header/menu.png" class="menuicon" /> -->
+                    </a>
+
+                    <!-- ANIMATED BACKGROUND ELEMENT -->
+                    <div class="splash"></div>
+
+                </nav>
+
+                <div class="header--sec2--div4">
+                    <span class="header--btn--sm">REGISTER&nbsp;NOW</span>
+                </div>
             </div>
-            </ul>
-
-            <!-- MENU TOGGLE BUTTON -->
-            <a href="#nav" class="nav__toggle" role="button" aria-expanded="false" aria-controls="menu">
-                <svg class="menuicon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
-                    <!-- <title>Toggle Menu</title> -->
-                    <g>
-                        <line class="menuicon__bar" x1="13" y1="16.5" x2="37" y2="16.5" />
-                        <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5" />
-                        <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5" />
-                        <line class="menuicon__bar" x1="13" y1="32.5" x2="37" y2="32.5" />
-                        <circle class="menuicon__circle" r="23" cx="25" cy="25" />
-                    </g>
-                </svg>
-                <!-- <img src="../resources/img/header/menu.png" class="menuicon" /> -->
-            </a>
-
-            <!-- ANIMATED BACKGROUND ELEMENT -->
-            <div class="splash"></div>
-
-            </nav>
-
-            <div class="header--sec2--div4">
-                <span class="header--btn--sm">REGISTER&nbsp;NOW</span>
-            </div>
-        </div>
         </div>
         <hr class="header--small" />
         <div class="header--sec2--div3">
@@ -118,6 +118,9 @@
         </div>
         <hr class="header--small" />
     </section>
+
+
+
 
 
     <script src="header.js"></script>

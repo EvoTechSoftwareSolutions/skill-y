@@ -34,46 +34,46 @@
     <section class="home--sec1">
         <div class="home--sec1--div1">
             <div class="home--sec1--divExtra">
-            <div class="home--sec1--divExtra1">
-                <div class="home--sec1--div2">
-                    <div class="home--sec1--div3">
-                        <span class="home--sec1--span1">New Zealand Awaits</span>
-                        <span class="home--sec1--span2">Why Study In <span class="home--sec1--span3">New Zealand?</span></span>
-                        <span class="home--sec1--span4">Ready For Work</span>
+                <div class="home--sec1--divExtra1">
+                    <div class="home--sec1--div2">
+                        <div class="home--sec1--div3">
+                            <span class="home--sec1--span1">New Zealand Awaits</span>
+                            <span class="home--sec1--span2">Why Study In <span class="home--sec1--span3">New Zealand?</span></span>
+                            <span class="home--sec1--span4">Ready For Work</span>
+                        </div>
+                        <div class="home--sec1--div4">
+                            <div class="home--sec1--div5">
+                                <span class="home--sec1--span5">Working while you study</span>
+                                <span class="home--sec1--span6">
+                                    If you have a student visa, you may be able
+                                    to work for up to 20 hours a week during the
+                                    term and full-time during holidays.
+                                </span>
+                            </div>
+                            <div class="home--sec1--div5">
+                                <span class="home--sec1--span5">Working after studying</span>
+                                <span class="home--sec1--span6">
+                                    You may be able to apply for a visa to work
+                                    for up to three years in New Zealand after
+                                    you graduate, depending on what you study
+                                    and where you study.
+                                </span>
+                            </div>
+                            <div class="home--sec1--div5">
+                                <span class="home--sec1--span5">Jobs in high demand</span>
+                                <span class="home--sec1--span6">
+                                    Discover what work skills are in high demand
+                                    in the New Zealand job market. If you gain
+                                    the skills we need, you may be able to work
+                                    here after graduating.
+                                </span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="home--sec1--div4">
-                        <div class="home--sec1--div5">
-                            <span class="home--sec1--span5">Working while you study</span>
-                            <span class="home--sec1--span6">
-                                If you have a student visa, you may be able
-                                to work for up to 20 hours a week during the
-                                term and full-time during holidays.
-                            </span>
-                        </div>
-                        <div class="home--sec1--div5">
-                            <span class="home--sec1--span5">Working after studying</span>
-                            <span class="home--sec1--span6">
-                                You may be able to apply for a visa to work
-                                for up to three years in New Zealand after
-                                you graduate, depending on what you study
-                                and where you study.
-                            </span>
-                        </div>
-                        <div class="home--sec1--div5">
-                            <span class="home--sec1--span5">Jobs in high demand</span>
-                            <span class="home--sec1--span6">
-                                Discover what work skills are in high demand
-                                in the New Zealand job market. If you gain
-                                the skills we need, you may be able to work
-                                here after graduating.
-                            </span>
-                        </div>
+                    <div class="home--sec1--div6">
+                        <img src="../resources/img/home/img1.png" class="home--sec1--img1">
                     </div>
                 </div>
-                <div class="home--sec1--div6">
-                    <img src="../resources/img/home/img1.png" class="home--sec1--img1">
-                </div>
-            </div>
             </div>
             <div class="home--sec1--div7">
                 <img src="../resources/img/home/Group1.png" class="home--sec1--bg">

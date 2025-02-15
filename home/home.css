@@ -189,9 +189,14 @@ body {
 
 @media screen and (max-width:799px) {
 
-    .home--sec1--div6 {
-        display: none;
-      
+    .home--sec1--divExtra{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home--sec1--divExtra1{
+        display: flex;
+        flex-direction: column;
     }
 
     .home--sec1--div2{
