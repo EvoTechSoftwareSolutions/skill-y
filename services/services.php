@@ -7,6 +7,7 @@
     <title>Skill-y</title>
     <link rel="icon" href="../resources/img/footer_logo.png" />
     <link rel="stylesheet" href="../services/services.css">
+    <link rel="stylesheet" href="../home/home.css">
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="../footer/footer.css">
 </head>
@@ -518,7 +519,9 @@
         </div>
     </section>
 
+    <?php include "../testominials/testo.php"; ?>
 
+    <br/><br/>
 
     <!-- Footer -->
     <?php include "../footer/footer.php"; ?>

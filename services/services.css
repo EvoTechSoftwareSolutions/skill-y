@@ -701,3 +701,293 @@ body {
         padding:20px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.home--sec4{
+  display: flex;
+  width: 100%;
+  /* background-color: var(--colorCard); */
+  margin-top: 2.5rem;
+  height: max-content;
+  justify-content: center;
+  align-items: center;
+}
+
+.home--sec4--div1{
+  display: flex;
+  /* background-image: url("../resources/img/home/services.png"); */
+  flex-direction: column;
+  width: 90%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: calc(60%); */
+  padding: 3rem 0;
+}
+
+.home--sec4--div2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.home--sec4--div3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* height: 20rem; */
+  position: relative;
+  /* background-color: green; */
+  margin-top: 3rem;
+}
+
+.home--sec4--div4{
+  display: flex;
+  width: 50%;
+  /* transform: translateY(-50%); */
+  box-sizing: border-box;
+scrollbar-color: var(--colorBackground);
+}
+
+.home--sec4--div5{
+  display: flex;
+  width: 50%;
+  /* background-color: blue; */
+  position: relative;
+}
+
+.feed--img{
+  width: 100%;
+}
+
+.home--sec4--span1{
+  color: var(--colorsubHeading);
+  text-transform: uppercase;
+  font-family: "inter_bold";
+  font-size: 0.6rem;
+}
+
+.home--sec4--span2{
+  color: var(--colorTxt);
+  font-family: "urbanist_regular";
+  padding: 0.3rem 0rem;
+  font-size: 1.2rem;
+}
+
+.home--sec4--span3{
+  font-family: "urbanist_extraBold";
+}
+
+.home--sec4--div4 {
+  height: 300px; /* Adjust as needed */
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-right: 10px; /* Avoid scrollbar overlap */
+  scrollbar-width: thin;
+  scrollbar-color: #ccc #f1f1f1; /* Custom scrollbar */
+}
+
+/* Custom Scrollbar for WebKit Browsers */
+.home--sec4--div4::-webkit-scrollbar {
+  width: 8px;
+}
+
+.home--sec4--div4::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.home--sec4--div4::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.home--sec4--card1 {
+  height: 150px; /* Adjust height */
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.home--sec4--text{
+  font-family: "InstrumentSans_bold";
+}
+
+.home--sec4--text2{
+  font-family: "InstrumentSans_regular";
+}
+
+
+@media screen and (max-width:887px) {
+
+  .home--sec4--div3{
+      flex-direction: column-reverse;
+  }
+
+  .home--sec4--div4{
+      display: flex;
+      width: 80%;
+      margin-top: -2rem;
+  }
+  
+  .home--sec4--div5{
+      display: flex;
+      width: 90%;
+  }
+
+}
+
+@media screen and (min-width:1400px) {
+
+  .home--sec4 {
+      justify-content: center;
+  }
+
+  /* .home--sec1--divExtra {
+      width: 125vh;
+  } */
+
+  .home--sec4--div1{
+      width: 100vh;
+  }
+
+}
+
+
+@media screen and (min-width:1500px) {
+
+  .home--sec4--div1{
+      width: 100vh;
+  }
+
+}
+
+
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  /* text-align: center;
+  font-size: 48px;
+  font-weight: 500; */
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.home--sec4--div4::-webkit-scrollbar {
+  display: none;
+}
+
+
+.box-area {
+  width: 80%;
+padding: 30px;
+position: relative;
+  z-index: 10000;
+display: block;
+background: #fff;
+color: #000;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+margin: auto;
+  margin-bottom: 40px;
+  margin-top: -10px;
+  border-radius: 1rem;
+}
+.box-area h5 {
+font-size: 16px;
+font-weight: 700;
+color: #000000;
+/* margin-top: 30px; */
+/* margin-bottom: 15px; */
+/* letter-spacing: 1px; */
+  text-align: end;
+}
+.box-area span {
+color: #262626;
+display: block;
+font-size: 11px;
+/* margin: 0 0 10px; */
+font-weight: 400;
+  text-align: end;
+  margin-top: -1rem;
+  
+}
+.box-area .feed--content {
+color: var(--colorTxt);
+  font-family: "urbanist_regular";
+}
+.box-area .img-area {
+width: 90px;
+height: 90px;
+position: absolute;
+bottom: -55px;
+left: -190px;
+
+margin: 0 auto;
+right: 0;
+z-index: 1;
+border: 5px solid #fff;
+border-radius: 50%;
+box-shadow: 0 4px 3px rgba(0, 0, 0, 0.5);
+}
+.box-area .img-area img {
+width: 100%;
+height: auto;
+border-radius: 50%;
+}
+
+.qotation--img{
+  width: 2rem;
+}
+@media only screen and (min-width: 1px) {
+.owl-nav {
+  display: none;
+}
+}
+@media only screen and (max-width: 767px) {
+.box-area {
+  text-align: center;
+}
+.owl-nav {
+  display: none;
+}
+}
