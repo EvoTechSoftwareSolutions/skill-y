@@ -133,10 +133,9 @@
                                     </div>
 
                                     <p class="feed--content">
-                                        Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                                        ever since
+                                        I wanted to express ny hartfelt thanks to skilly fir your invaluable assistance in securing my visa for New Zealand.Your expertise and guidence made the process so much smoother,and I truly appriciate the dedication and support your team provided
                                     </p>
+                                    <h5>Supun Nawarathna</h5>
 
                                 </div>
                             </div>
@@ -147,14 +146,13 @@
                                     </div>
 
                                     <p class="feed--content">
-                                        Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                                        ever since
+                                        Skilly student consultancy made the entire process of studying abroad stress-free.Their team was highly knowledgeable and guided me step by step,from selecting the right university to obtain my visa.The personalized attention and fast response time were truly impressive
                                     </p>
-
+                                    <h5>Busines Master of Applied Management</h5><br>
+                                    <span>NMIT-NELSON</span>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
+                            <!-- <div class="swiper-slide">
                             <div class="box-area">
                                     <div class="img-area">
                                         <img src="../resources/img/home/img1.png" alt="">
@@ -181,7 +179,7 @@
                                     </p>
 
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                         <!-- Add Pagination -->
                         <div class="swiper-pagination"></div>
