@@ -637,37 +637,10 @@ scrollbar-color: var(--colorBackground);
 	height: auto;
 	border-radius: 50%;
 }
-/* .socials {
-	margin-top: 30px;
+
+.qotation--img{
+    width: 2rem;
 }
-.socials i {
-	margin: 0 10px;
-	color: #0a69ed;
-	font-size: 18px;
-}
-#testimonial_area .owl-nav {
-	position: absolute;
-	top: 50%;
-	width: 100%;
-} */
-/* #testimonial_area .owl-prev, #testimonial_area .owl-next {
-	width: 40px;
-	height: 40px;
-	line-height: 40px;
-	color: #0a69ed;
-	border-radius: 50%;
-	text-align: center;
-	background: #fff;
-	position: absolute;
-}
-#testimonial_area .owl-prev {
-	left: -60px;
-	top: -30px;
-} */
-/* #testimonial_area .owl-next {
-	right: -60px;
-	top: -30px;
-} */
 @media only screen and (min-width: 1px) {
 	.owl-nav {
 		display: none;

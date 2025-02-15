@@ -119,6 +119,7 @@
                                     </div>
 
                                     <p class="feed--content">
+                                    <img src="../resources/img/home/quotation-mark.png" class="qotation--img" />
                                     Massive thanks to Skilly Student Consultancy team!They made my dream of studying abroad so much easier,handling everything smoothly from choosing the perfect university to getting my visa sorted
                                     </p>
                                     <h5>Deekshitha</h5><br>
@@ -133,6 +134,7 @@
                                     </div>
 
                                     <p class="feed--content">
+                                    <img src="../resources/img/home/quotation-mark.png" class="qotation--img" />
                                         I wanted to express ny hartfelt thanks to skilly fir your invaluable assistance in securing my visa for New Zealand.Your expertise and guidence made the process so much smoother,and I truly appriciate the dedication and support your team provided
                                     </p>
                                     <h5>Supun Nawarathna</h5>
@@ -146,6 +148,7 @@
                                     </div>
 
                                     <p class="feed--content">
+                                        <img src="../resources/img/home/quotation-mark.png" class="qotation--img" />
                                         Skilly student consultancy made the entire process of studying abroad stress-free.Their team was highly knowledgeable and guided me step by step,from selecting the right university to obtain my visa.The personalized attention and fast response time were truly impressive
                                     </p>
                                     <h5>Busines Master of Applied Management</h5><br>
