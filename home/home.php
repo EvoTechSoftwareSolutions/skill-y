@@ -13,9 +13,7 @@
     <link rel="stylesheet" href="../services_slider/services_slider.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
 
@@ -120,7 +118,7 @@
                                         <img src="../resources/img/home/img1.png" alt="">
                                     </div>
 
-                                    <p class="content">
+                                    <p class="feed--content">
                                         Lorem Ipsum is simply dummy text of the printing and
                                         typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                                         ever since
@@ -134,7 +132,7 @@
                                         <img src="../resources/img/home/img1.png" alt="">
                                     </div>
 
-                                    <p class="content">
+                                    <p class="feed--content">
                                         Lorem Ipsum is simply dummy text of the printing and
                                         typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                                         ever since
@@ -148,7 +146,7 @@
                                         <img src="../resources/img/home/img1.png" alt="">
                                     </div>
 
-                                    <p class="content">
+                                    <p class="feed--content">
                                         Lorem Ipsum is simply dummy text of the printing and
                                         typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                                         ever since
@@ -162,7 +160,7 @@
                                         <img src="../resources/img/home/img1.png" alt="">
                                     </div>
 
-                                    <p class="content">
+                                    <p class="feed--content">
                                         Lorem Ipsum is simply dummy text of the printing and
                                         typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                                         ever since
@@ -176,7 +174,7 @@
                                         <img src="../resources/img/home/img1.png" alt="">
                                     </div>
 
-                                    <p class="content">
+                                    <p class="feed--content">
                                         Lorem Ipsum is simply dummy text of the printing and
                                         typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                                         ever since

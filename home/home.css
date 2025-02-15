@@ -612,8 +612,9 @@ scrollbar-color: var(--colorBackground);
     margin-top: -1rem;
     
 }
-.box-area .content {
-	color: #262626;
+.box-area .feed--content {
+	color: var(--colorTxt);
+    font-family: "urbanist_regular";
 }
 .box-area .img-area {
 	width: 90px;
