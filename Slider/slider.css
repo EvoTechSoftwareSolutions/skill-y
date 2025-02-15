@@ -268,23 +268,26 @@
   box-sizing: border-box;
   color: #000000;
   text-shadow: 0 5px 10px #0004;
-  font-family: "poppins";
+  /* font-family: "poppins"; */
 }
 .author{
-  font-weight: bold;
-  letter-spacing: 10px;
+  font-family:"InstrumentSans_regular" ;
+  /* font-weight: bold; */
+  letter-spacing: 4px;
   color: var(--colorSecondaryTxt);
   /* font-size: 0.9rem; */
-  font-size: 0.7rem;
+  font-size: 0.1rem;
 }
 .title{
+  font-family: "InstrumentSans_bold";
   /* font-size: 1.5rem; */
-  font-weight: bold;
+  /* font-weight: bold; */
   line-height: 1.3em;
   color: var(--colorSecondaryTxt);
   font-size: 1rem;
 }
 .topic{
+  font-family: "InstrumentSans_bold";
   /* font-size: 2.5em; */
   font-weight: bold;
   line-height: 1.3em;
@@ -292,11 +295,14 @@
   font-size: 1.5em;
 }
 .des{
+  margin-top: 1rem;
+  font-family: "InstrumentSans_semiBold";
   color: var(--colorSecondaryTxt);
   /* font-size: 0.8rem; */
   font-size: 0.7rem;
 }
 .buttons{
+
   display: grid;
   grid-template-columns: repeat(2, 130px);
   grid-template-rows: 40px;
@@ -305,7 +311,7 @@
 }
 .buttons .buttons--in{
   letter-spacing: 1px;
-  font-family: "poppins";
+  /* font-family:"inter_bold"; */
   font-weight: 700;
   border-radius: 0.5rem;
 }
@@ -316,6 +322,7 @@
 }
 
 .buttons--in{
+  font-family:"inter_bold";
   z-index: 2;
   background-color: var(--colorBackground);
   color: var(--colorSecondaryTxt);
@@ -518,7 +525,7 @@
         box-sizing: border-box;
         color: #000000;
         text-shadow: 0 5px 10px #0004;
-        font-family: "poppins";
+        /* font-family: "poppins"; */
     }
     /* .author{
         font-weight: bold;
@@ -551,7 +558,7 @@
     }
     .buttons .buttons--in{
         letter-spacing: 1px;
-        font-family: "poppins";
+        /* font-family: "poppins"; */
         font-weight: 700;
     }
     .buttons .buttons--in:nth-child(2){
@@ -664,7 +671,7 @@
 
     .slider .list .item .content--slider {
       left: 5rem;
-      top: 50%;
+      top: 40%;
     }
 
   }

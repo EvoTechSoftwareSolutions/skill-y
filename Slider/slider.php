@@ -31,7 +31,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <img src="../resources/img/home/slider2.png">
+                    <img src="../resources/img/home/slider2.jpg">
                     <div class="content--slider">
                         <div class="author">Skilly New Zealand</div>
                         <div class="title">Fast & Reliable Visa Processing</div>
