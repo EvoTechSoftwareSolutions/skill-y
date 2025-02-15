@@ -26,7 +26,7 @@
             We are happy to provide you guidance in appliying for and granting visitor visas for parents.
           </span>
         </div>
-        <div class="home--sec3--div8">
+        <div class="home--sec3--div8" onclick="window.location='../services/services.php';">
           <div class="home--sec3--div9">
             <span class="home--sec3--span6">View More Details</span>
           </div>
@@ -45,7 +45,7 @@
             Visa is a legal document that allows visa holder to enter the desired country with permission
           </span>
         </div>
-        <div class="home--sec3--div8">
+        <div class="home--sec3--div8" onclick="window.location='../services/services.php';">
           <div class="home--sec3--div9">
             <span class="home--sec3--span6">View More Details</span>
           </div>
@@ -64,7 +64,7 @@
             It is important ro select a university that fulfils your educational goals and matches your qualifications
           </span>
         </div>
-        <div class="home--sec3--div8">
+        <div class="home--sec3--div8" onclick="window.location='../services/services.php';">
           <div class="home--sec3--div9">
             <span class="home--sec3--span6">View More Details</span>
           </div>
@@ -83,7 +83,7 @@
             You are not alone in Finland on your first arrival.We are committed to welcoming you at the airport
           </span>
         </div>
-        <div class="home--sec3--div8">
+        <div class="home--sec3--div8" onclick="window.location='../services/services.php';">
           <div class="home--sec3--div9">
             <span class="home--sec3--span6">View More Details</span>
           </div>
@@ -102,7 +102,7 @@
             One of the most important considerations is the accommodation that suits your budget and lifestyle.
           </span>
         </div>
-        <div class="home--sec3--div8">
+        <div class="home--sec3--div8" onclick="window.location='../services/services.php';">
           <div class="home--sec3--div9">
             <span class="home--sec3--span6">View More Details</span>
           </div>
@@ -121,7 +121,7 @@
             Winning a fully or a partially funded Scholarship in your draem university will be an immense financial benefit.
           </span>
         </div>
-        <div class="home--sec3--div8">
+        <div class="home--sec3--div8" onclick="window.location='../services/services.php';">
           <div class="home--sec3--div9">
             <span class="home--sec3--span6">View More Details</span>
           </div>
@@ -140,7 +140,7 @@
             We make sure the pre-departure process is eased and facilitated with our services.
           </span>
         </div>
-        <div class="home--sec3--div8">
+        <div class="home--sec3--div8" onclick="window.location='../services/services.php';">
           <div class="home--sec3--div9">
             <span class="home--sec3--span6">View More Details</span>
           </div>
@@ -160,7 +160,7 @@
            We assist you to correctly apply to universities and colleges according to the admission requirements.
           </span>
         </div>
-        <div class="home--sec3--div8">
+        <div class="home--sec3--div8" onclick="window.location='../services/services.php';">
           <div class="home--sec3--div9">
             <span class="home--sec3--span6">View More Details</span>
           </div>
@@ -180,7 +180,7 @@
            Students who wish to pursue higher education are often confused when making the decision.
           </span>
         </div>
-        <div class="home--sec3--div8">
+        <div class="home--sec3--div8" onclick="window.location='../services/services.php';">
           <div class="home--sec3--div9">
             <span class="home--sec3--span6">View More Details</span>
           </div>
@@ -200,7 +200,7 @@
           A dependents visa allows the dependents of primary applicants to accompany them.
           </span>
         </div>
-        <div class="home--sec3--div8">
+        <div class="home--sec3--div8" onclick="window.location='../services/services.php';">
           <div class="home--sec3--div9">
             <span class="home--sec3--span6">View More Details</span>
           </div>
@@ -221,7 +221,7 @@
            We provide assistance in course selection.Wherever you are headed.You will find a course that can get you to your desire.
           </span>
         </div>
-        <div class="home--sec3--div8">
+        <div class="home--sec3--div8" onclick="window.location='../services/services.php';">
           <div class="home--sec3--div9">
             <span class="home--sec3--span6">View More Details</span>
           </div>
@@ -241,7 +241,7 @@
             Collaboration services provide a pathway to work together with a wide range of other institutions.
           </span>
         </div>
-        <div class="home--sec3--div8">
+        <div class="home--sec3--div8" onclick="window.location='../services/services.php';">
           <div class="home--sec3--div9">
             <span class="home--sec3--span6">View More Details</span>
           </div>
@@ -252,7 +252,6 @@
       </li>
 
     </ul>
-    <!-- <i id="right" class="fa-solid fa-angle-right"></i> -->
   </div>
 
 </body>

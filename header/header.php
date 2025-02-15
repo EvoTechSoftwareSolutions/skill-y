@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skill-y</title>
-    <link rel="icon" href="../resources/img/" />
+    <link rel="icon" href="../resources/img/footer_logo.png" />
     <link rel="stylesheet" href="../header/header.css">
 </head>
 
@@ -14,12 +14,12 @@
     <section class="header--sec1">
         <div class="header--sec1--div1">
             <div class="header--sec1--div2">
-                <div class="header--sec1--div3">
+                <div class="header--sec1--div3" onclick="window.location='../home/home.php';">
                     <img src="../resources/img/header/logo.png" alt="logo" class="header--logo--lg">
                 </div>
                 <div class="header--sec1--div4">
                     <div class="header--sec1--div5">
-                        <div class="header--sec1--div6">
+                        <div class="header--sec1--div6" onclick="window.location='https://www.facebook.com/share/17WKqDuzDR/?mibextid=wwXIfr';">
                             <img src="../resources/img/header/facebook.png" alt="social--icon" class="social--icon--lg">
                         </div>
                         <div class="header--sec1--div6">
@@ -40,16 +40,16 @@
             <div class="header--sec1--div9">
                 <div class="header--sec1--div10">
                     <div class="header--sec1--div11">
-                        <span class="header--nav">HOME</span>
+                        <span class="header--nav" onclick="window.location='../home/home.php';">HOME</span>
                     </div>
                     <div class="header--sec1--div11">
-                        <span class="header--nav">OUR SERVICES</span>
+                        <span class="header--nav" onclick="window.location='../services/services.php';">OUR SERVICES</span>
                     </div>
                     <div class="header--sec1--div11">
-                        <span class="header--nav">CONTACT US</span>
+                        <span class="header--nav" onclick="window.location='../contact/contact.php#contact';">CONTACT US</span>
                     </div>
                     <div class="header--sec1--div11">
-                        <span class="header--nav">ABOUT US</span>
+                        <span class="header--nav" onclick="window.location='../contact/contact.php#about';">ABOUT US</span>
                     </div>
                 </div>
             </div>
@@ -69,13 +69,12 @@
                     <ul class="nav__menu" id="menu" tabindex="-1" aria-label="main navigation" hidden>
                         <img src="../resources/img/header/logo_sm.png" alt="logo" class="header--logo--sm">
                         <br />
-                        <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">Shop</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><a href="../home/home.php" class="nav__link">HOME</a></li>
+                        <li class="nav__item"><a href="../services/services.php" class="nav__link">OUR SERVICES</a></li>
+                        <li class="nav__item"><a href="../contact/contact.php#contact" class="nav__link">CONTACT US</a></li>
+                        <li class="nav__item"><a href="../contact/contact.php#about" class="nav__link">ABOUT US</a></li>
                         <div class="header--sec2--div5">
-                            <div class="header--sec2--div6">
+                            <div class="header--sec2--div6" onclick="window.location='https://www.facebook.com/share/17WKqDuzDR/?mibextid=wwXIfr';">
                                 <img src="../resources/img/header/facebook.png" alt="social--icon" class="social--icon--sm">
                             </div>
                             <div class="header--sec2--div6">
@@ -112,18 +111,23 @@
                 </div>
             </div>
         </div>
-        <hr class="header--small" />
-        <div class="header--sec2--div3">
+        
+    </section>
+    <div class="space"></div>
+
+
+    <section class="header--sec3">
+    <hr class="header--small" />
+        <div class="header--sec2--div3" onclick="window.location='../home/home.php';" style="cursor:pointer;">
             <img src="../resources/img/header/logo_sm.png" alt="logo" class="header--logo--sm">
         </div>
         <hr class="header--small" />
     </section>
 
 
+    
 
-
-
-    <script src="header.js"></script>
+    <script src="../header/header.js"></script>
 
 </body>
 

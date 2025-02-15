@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skill-y</title>
-    <link rel="icon" href="../resources/img/" />
+    <link rel="icon" href="../resources/img/footer_logo.png" />
     <link rel="stylesheet" href="../services/services.css">
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="../footer/footer.css">
@@ -18,9 +18,9 @@
     <!-- Header -->
 
     <!-- <section class="services--sec1"> -->
-        <div class="services--sec1--div1">
-            <img src="../resources/img/services/Rectangle2.png" class="services--sec1--img1" />
-        </div>
+    <div class="services--sec1--div1">
+        <img src="../resources/img/services/Rectangle2.png" class="services--sec1--img1" />
+    </div>
     <!-- </section> -->
 
     <div class="services--bgimg">
@@ -48,7 +48,7 @@
         <div class="services--sec4--div1">
             <div class="services--sec4--div3">
                 <div class="services--sec4--div4">
-                    <a href="#service11" class="services--sec4--subheader">
+                    <a href="#service1" class="services--sec4--subheader">
                         <table>
                             <tr>
                                 <td>>&nbsp;&nbsp;&nbsp;</td>
@@ -57,7 +57,7 @@
                         </table>
                     </a>
                     <br>
-                    <a href="#service11" class="services--sec4--subheader">
+                    <a href="#service2" class="services--sec4--subheader">
                         <table>
                             <tr>
                                 <td>>&nbsp;&nbsp;&nbsp;</td>
@@ -66,7 +66,7 @@
                         </table>
                     </a>
                     <br>
-                    <a href="#service11" class="services--sec4--subheader">
+                    <a href="#service3" class="services--sec4--subheader">
                         <table>
                             <tr>
                                 <td>>&nbsp;&nbsp;&nbsp;</td>
@@ -75,7 +75,7 @@
                         </table>
                     </a>
                     <br>
-                    <a href="#service11" class="services--sec4--subheader">
+                    <a href="#service4" class="services--sec4--subheader">
                         <table>
                             <tr>
                                 <td>>&nbsp;&nbsp;&nbsp;</td>
@@ -84,7 +84,7 @@
                         </table>
                     </a>
                     <br>
-                    <a href="#service11" class="services--sec4--subheader">
+                    <a href="#service5" class="services--sec4--subheader">
                         <table>
                             <tr>
                                 <td>>&nbsp;&nbsp;&nbsp;</td>
@@ -93,7 +93,7 @@
                         </table>
                     </a>
                     <br>
-                    <a href="#service11" class="services--sec4--subheader">
+                    <a href="#service16" class="services--sec4--subheader">
                         <table>
                             <tr>
                                 <td>>&nbsp;&nbsp;&nbsp;</td>
@@ -102,7 +102,7 @@
                         </table>
                     </a>
                     <br>
-                    <a href="#service11" class="services--sec4--subheader">
+                    <a href="#service7" class="services--sec4--subheader">
                         <table>
                             <tr>
                                 <td>>&nbsp;&nbsp;&nbsp;</td>
@@ -111,7 +111,7 @@
                         </table>
                     </a>
                     <br>
-                    <a href="#service11" class="services--sec4--subheader">
+                    <a href="#service8" class="services--sec4--subheader">
                         <table>
                             <tr>
                                 <td>>&nbsp;&nbsp;&nbsp;</td>
@@ -120,7 +120,7 @@
                         </table>
                     </a>
                     <br>
-                    <a href="#service11" class="services--sec4--subheader">
+                    <a href="#service9" class="services--sec4--subheader">
                         <table>
                             <tr>
                                 <td>>&nbsp;&nbsp;&nbsp;</td>
@@ -129,7 +129,7 @@
                         </table>
                     </a>
                     <br>
-                    <a href="#service11" class="services--sec4--subheader">
+                    <a href="#service10" class="services--sec4--subheader">
                         <table>
                             <tr>
                                 <td>>&nbsp;&nbsp;&nbsp;</td>
@@ -147,7 +147,7 @@
                         </table>
                     </a>
                     <br>
-                    <a href="#service11" class="services--sec4--subheader">
+                    <a href="#service12" class="services--sec4--subheader">
                         <table>
                             <tr>
                                 <td>>&nbsp;&nbsp;&nbsp;</td>
@@ -157,7 +157,7 @@
                     </a>
                 </div>
                 <div class="services--sec4--div5">
-                    <div class="services--sec4--div6">
+                    <div class="services--sec4--div6" id="service1">
                         <div class="services--sec4--div7">
                             <img src="../resources/img/services/s1.png" class="services--sec4--img1" />
                         </div>
@@ -172,7 +172,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="services--sec4--div6">
+                    <div class="services--sec4--div6" id="service2">
                         <div class="services--sec4--div7">
                             <img src="../resources/img/services/s1.png" class="services--sec4--img1" />
                         </div>
@@ -187,7 +187,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="services--sec4--div6">
+                    <div class="services--sec4--div6" id="service3">
                         <div class="services--sec4--div7">
                             <img src="../resources/img/services/s1.png" class="services--sec4--img1" />
                         </div>
@@ -202,7 +202,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="services--sec4--div6">
+                    <div class="services--sec4--div6" id="service4">
                         <div class="services--sec4--div7">
                             <img src="../resources/img/services/s1.png" class="services--sec4--img1" />
                         </div>
@@ -217,7 +217,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="services--sec4--div6">
+                    <div class="services--sec4--div6" id="service5">
                         <div class="services--sec4--div7">
                             <img src="../resources/img/services/s1.png" class="services--sec4--img1" />
                         </div>
@@ -235,7 +235,7 @@
                 </div>
             </div>
             <div class="services--sec4--div11">
-                <div class="services--sec4--div6">
+                <div class="services--sec4--div6" id="service6">
                     <div class="services--sec4--div7">
                         <img src="../resources/img/services/s1.png" class="services--sec4--img1" />
                     </div>
@@ -250,7 +250,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="services--sec4--div6">
+                <div class="services--sec4--div6" id="service7">
                     <div class="services--sec4--div7">
                         <img src="../resources/img/services/s1.png" class="services--sec4--img1" />
                     </div>
@@ -265,7 +265,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="services--sec4--div6">
+                <div class="services--sec4--div6" id="service8">
                     <div class="services--sec4--div7">
                         <img src="../resources/img/services/s1.png" class="services--sec4--img1" />
                     </div>
@@ -280,7 +280,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="services--sec4--div6">
+                <div class="services--sec4--div6" id="service9">
                     <div class="services--sec4--div7">
                         <img src="../resources/img/services/s1.png" class="services--sec4--img1" />
                     </div>
@@ -295,7 +295,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="services--sec4--div6">
+                <div class="services--sec4--div6" id="service10">
                     <div class="services--sec4--div7">
                         <img src="../resources/img/services/s1.png" class="services--sec4--img1" />
                     </div>
@@ -310,7 +310,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="services--sec4--div6">
+                <div class="services--sec4--div6" id="service11">
                     <div class="services--sec4--div7">
                         <img src="../resources/img/services/s1.png" class="services--sec4--img1" />
                     </div>
@@ -325,7 +325,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="services--sec4--div6">
+                <div class="services--sec4--div6" id="service12">
                     <div class="services--sec4--div7">
                         <img src="../resources/img/services/s1.png" class="services--sec4--img1" />
                     </div>
@@ -344,16 +344,11 @@
         </div>
     </section>
 
-   
+
 
     <section class="services--sec5">
         <div class="services--sec5--div1">
             <div class="services--sec5--div2">
-
-
-
-
-
                 <div class="container">
                     <div class="box-container">
 
@@ -396,7 +391,7 @@
                         </div>
 
                         <div class="box">
-                        <div class="flip-card">
+                            <div class="flip-card">
                                 <div class="flip-card-inner">
                                     <div class="flip-card-front">
                                         <div class="services--sec5--div3">
@@ -417,8 +412,8 @@
                                         </div>
                                         <div class="services--sec5--div6">
                                             <span class="services--sec5--span9">
-                                            Understand your fees and expected living costs to know how much money you will
-                                            need. We will help you to structure the finance requirements to apply the visa.
+                                                Understand your fees and expected living costs to know how much money you will
+                                                need. We will help you to structure the finance requirements to apply the visa.
                                             </span>
                                         </div>
                                     </div>
@@ -427,7 +422,7 @@
                         </div>
 
                         <div class="box">
-                        <div class="flip-card">
+                            <div class="flip-card">
                                 <div class="flip-card-inner">
                                     <div class="flip-card-front">
                                         <div class="services--sec5--div3">
@@ -448,7 +443,7 @@
                                         </div>
                                         <div class="services--sec5--div6">
                                             <span class="services--sec5--span9">
-                                            Find out what you need to prepare your application.
+                                                Find out what you need to prepare your application.
                                             </span>
                                         </div>
                                     </div>
@@ -457,7 +452,7 @@
                         </div>
 
                         <div class="box">
-                        <div class="flip-card">
+                            <div class="flip-card">
                                 <div class="flip-card-inner">
                                     <div class="flip-card-front">
                                         <div class="services--sec5--div3">
@@ -478,8 +473,8 @@
                                         </div>
                                         <div class="services--sec5--div6">
                                             <span class="services--sec5--span9">
-                                            Find out whether you’re eligible for a student visa
-                                            in New Zealand and apply through Immigration New Zealand.
+                                                Find out whether you’re eligible for a student visa
+                                                in New Zealand and apply through Immigration New Zealand.
                                             </span>
                                         </div>
                                     </div>
@@ -488,7 +483,7 @@
                         </div>
 
                         <div class="box">
-                        <div class="flip-card">
+                            <div class="flip-card">
                                 <div class="flip-card-inner">
                                     <div class="flip-card-front">
                                         <div class="services--sec5--div3">
@@ -509,129 +504,21 @@
                                         </div>
                                         <div class="services--sec5--div6">
                                             <span class="services--sec5--span9">
-                                            Decide on travel, insurance and accommodation,
-                                            then head off on your adventure.
+                                                Decide on travel, insurance and accommodation,
+                                                then head off on your adventure.
                                             </span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
-
-
-
-
-
-                <!-- <div class="parent">
-                    <div class="step">
-                        <div class="card--txt">
-                            <span class="services--sec5--span1">NEXT STEPS</span>
-                            <span class="services--sec5--span2">Start Your<span class="services--sec5--span3"> New Zealand Study Adventure</span></span>
-                            <span class="services--sec5--span4">Follow our five step guide for studying with SKILLY NEW ZEALAND:</span>
-                        </div>
-                    </div>
-                    <div class="step">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <div class="services--sec5--div3">
-                                        <span class="services--sec5--span5">1</span>
-                                    </div>
-                                    <div class="services--sec5--div4">
-                                        <span class="services--sec5--span6">Choose what to study</span>
-                                    </div>
-                                </div>
-                                <div class="flip-card-back">
-                                    <div class="services--sec5--div5">
-                                        <table>
-                                            <tr>
-                                                <td class="services--sec5--span7">1.&nbsp;&nbsp;</td>
-                                                <td class="services--sec5--span8">Choose what to study</td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                    <div class="services--sec5--div6">
-                                    <span class="services--sec5--span9">
-                                    We will help to select a programme and course in a location that suits you.
-                                    </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="step">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-                                </div>
-                                <div class="flip-card-back">
-                                    <h1>John Doe</h1>
-                                    <p>Architect & Engineer</p>
-                                    <p>We love that guy</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="step">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-                                </div>
-                                <div class="flip-card-back">
-                                    <h1>John Doe</h1>
-                                    <p>Architect & Engineer</p>
-                                    <p>We love that guy</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="step">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-                                </div>
-                                <div class="flip-card-back">
-                                    <h1>John Doe</h1>
-                                    <p>Architect & Engineer</p>
-                                    <p>We love that guy</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="step">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-                                </div>
-                                <div class="flip-card-back">
-                                    <h1>John Doe</h1>
-                                    <p>Architect & Engineer</p>
-                                    <p>We love that guy</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
             </div>
-
-
-
-        </div>
-
-
-        </div>
         </div>
     </section>
 
-    
+
 
     <!-- Footer -->
     <?php include "../footer/footer.php"; ?>

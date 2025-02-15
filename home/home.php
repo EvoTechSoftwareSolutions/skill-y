@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skill-y</title>
-    <link rel="icon" href="../resources/img/" />
+    <link rel="icon" href="../resources/img/footer_logo.png" />
     <link rel="stylesheet" href="../home/home.css">
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="../slider/slider.css">
@@ -94,90 +94,6 @@
                 </div>
                 <div class="home--sec3--div3">
                     <?php include "../services_slider/services_slider.php"; ?>
-                    <!-- <div class="home--sec3--div4">
-                    <div class="home--sec3--div5">
-                        <img src="../resources/img/home/1.png" class="home--sec3--img" />
-                    </div>
-                    <div class="home--sec3--div6">
-                        <span class="home--sec3--span4">Collaboration Services to Institutions</span>
-                    </div>
-                    <div class="home--sec3--div7">
-                        <span class="home--sec3--span5">
-                            Collaboration services provide a pathway to work together with a wide range of other institutions to achieve a shared goal.
-                        </span>
-                    </div>
-                    <div class="home--sec3--div8">
-                        <div class="home--sec3--div9">
-                        <span class="home--sec3--span6">View More Details</span>
-                        </div>
-                        <div class="home--sec3--div10">
-                        <img src="../resources/img/home/arrow.png" class="home--sec3--img1" />
-                        </div>
-                    </div>
-                </div>
-                <div class="home--sec3--div4">
-                    <div class="home--sec3--div5">
-                        <img src="../resources/img/home/1.png" class="home--sec3--img" />
-                    </div>
-                    <div class="home--sec3--div6">
-                        <span class="home--sec3--span4">Collaboration Services to Institutions</span>
-                    </div>
-                    <div class="home--sec3--div7">
-                        <span class="home--sec3--span5">
-                            Collaboration services provide a pathway to work together with a wide range of other institutions to achieve a shared goal.
-                        </span>
-                    </div>
-                    <div class="home--sec3--div8">
-                        <div class="home--sec3--div9">
-                        <span class="home--sec3--span6">View More Details</span>
-                        </div>
-                        <div class="home--sec3--div10">
-                        <img src="../resources/img/home/arrow.png" class="home--sec3--img1" />
-                        </div>
-                    </div>
-                </div>
-                <div class="home--sec3--div4">
-                    <div class="home--sec3--div5">
-                        <img src="../resources/img/home/1.png" class="home--sec3--img" />
-                    </div>
-                    <div class="home--sec3--div6">
-                        <span class="home--sec3--span4">Collaboration Services to Institutions</span>
-                    </div>
-                    <div class="home--sec3--div7">
-                        <span class="home--sec3--span5">
-                            Collaboration services provide a pathway to work together with a wide range of other institutions to achieve a shared goal.
-                        </span>
-                    </div>
-                    <div class="home--sec3--div8">
-                        <div class="home--sec3--div9">
-                        <span class="home--sec3--span6">View More Details</span>
-                        </div>
-                        <div class="home--sec3--div10">
-                        <img src="../resources/img/home/arrow.png" class="home--sec3--img1" />
-                        </div>
-                    </div>
-                </div>
-                <div class="home--sec3--div4">
-                    <div class="home--sec3--div5">
-                        <img src="../resources/img/home/1.png" class="home--sec3--img" />
-                    </div>
-                    <div class="home--sec3--div6">
-                        <span class="home--sec3--span4">Collaboration Services to Institutions</span>
-                    </div>
-                    <div class="home--sec3--div7">
-                        <span class="home--sec3--span5">
-                            Collaboration services provide a pathway to work together with a wide range of other institutions to achieve a shared goal.
-                        </span>
-                    </div>
-                    <div class="home--sec3--div8">
-                        <div class="home--sec3--div9">
-                        <span class="home--sec3--span6">View More Details</span>
-                        </div>
-                        <div class="home--sec3--div10">
-                        <img src="../resources/img/home/arrow.png" class="home--sec3--img1" />
-                        </div>
-                    </div>
-                </div> -->
                 </div>
             </div>
         </div>
@@ -205,7 +121,6 @@
                     </div>
                     <div class="home--sec5--div3">
                         <div class="map--container">
-                            <!-- <img src="../resources/img/home/Rectangle.png" alt="Background Ellipse" class="ellipse"> -->
 
                             <div class="content">
 
@@ -214,7 +129,6 @@
                                         <h4 class="home--title">North Island</h4>
                                         <ul>
                                             <li class="map--li"><span class="highlight">
-                                                    <!-- 1. Northland</span> <br> NorthTec -->
                                                     <table>
                                                         <tr>
                                                             <td>1.</td>
@@ -230,7 +144,6 @@
                                                 </span>
                                             </li>
                                             <li class="map--li"><span class="highlight">
-                                                    <!-- 2. Auckland</span> <br> Unitec, Manukau Institute of Technology (MIT) -->
                                                     <table>
                                                         <tr>
                                                             <td>2.</td>
@@ -256,7 +169,6 @@
                                                 </span>
                                             </li>
                                             <li class="map--li"><span class="highlight">
-                                                    <!-- 3. Waikato</span> <br> Wintec -->
                                                     <table>
                                                         <tr>
                                                             <td>3.</td>
@@ -272,7 +184,6 @@
                                                 </span>
                                             </li>
                                             <li class="map--li"><span class="highlight">
-                                                    <!-- 4. Bay of Plenty</span> <br> Toi Ohomai Institute of Technology -->
                                                     <table>
                                                         <tr>
                                                             <td>4.</td>
@@ -288,7 +199,6 @@
                                                 </span>
                                             </li>
                                             <li class="map--li"><span class="highlight">
-                                                    <!-- 5. Hawke’s Bay and East Coast</span> <br> Eastern Institute of Technology (EIT) -->
                                                     <table>
                                                         <tr>
                                                             <td>5.</td>
@@ -309,7 +219,6 @@
                                                 </span>
                                             </li>
                                             <li class="map--li"><span class="highlight">
-                                                    <!-- 6. Taranaki</span> <br> Western Institute of Technology (WITT) -->
                                                     <table>
                                                         <tr>
                                                             <td>6.</td>
@@ -330,7 +239,6 @@
                                                 </span>
                                             </li>
                                             <li class="map--li"><span class="highlight">
-                                                    <!-- 7. Whanganui and Manawatū</span> <br> Universal College of Learning (UCOL) -->
                                                     <table>
                                                         <tr>
                                                             <td>7.</td>
@@ -351,7 +259,6 @@
                                                 </span>
                                             </li>
                                             <li class="map--li"><span class="highlight">
-                                                    <!-- 8. Wellington</span> <br> Whitireia and WelTec -->
                                                     <table>
                                                         <tr>
                                                             <td>8.</td>
@@ -375,7 +282,6 @@
 
                                                 <ul>
                                                     <li class="map--li"><span class="highlight">
-                                                            <!-- 9. Nelson and Marlborough</span> <br> Nelson Marlborough Institute of Technology (NMIT) -->
                                                             <table>
                                                                 <tr>
                                                                     <td>9.</td>
@@ -396,7 +302,6 @@
                                                         </span>
                                                     </li>
                                                     <li class="map--li"><span class="highlight">
-                                                            <!-- 10. West Coast</span> <br> Tai Poutini Polytechnic (TPP) -->
                                                             <table>
                                                                 <tr>
                                                                     <td>10.</td>
@@ -412,7 +317,6 @@
                                                         </span>
                                                     </li>
                                                     <li class="map--li"><span class="highlight">
-                                                            <!-- 11. Canterbury</span> <br> Ara Institute of Canterbury -->
                                                             <table>
                                                                 <tr>
                                                                     <td>11.</td>
@@ -428,7 +332,6 @@
                                                         </span>
                                                     </li>
                                                     <li class="map--li"><span class="highlight">
-                                                            <!-- 12. Otago</span> <br> Otago Polytechnic -->
                                                             <table>
                                                                 <tr>
                                                                     <td>12.</td>
@@ -444,7 +347,6 @@
                                                         </span>
                                                     </li>
                                                     <li class="map--li"><span class="highlight">
-                                                            <!-- 13. Southland</span> <br> Southern Institute of Technology (SIT) -->
                                                             <table>
                                                                 <tr>
                                                                     <td>13.</td>
@@ -473,9 +375,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- <div class="home--sec5--div6">
-                            <img src="../resources/img/home/map.png" alt="New Zealand Map" class="map">
-                        </div> -->
                             </div>
 
                         </div>
@@ -545,7 +444,6 @@
                         <div class="sec7--content">
                             <div class="field">
                                 <input type="checkbox" id="question1" name="q" class="questions">
-                                <!-- <div class="plus">1.</div> -->
                                 <label for="question1" class="question">
                                     <span class="q--span">
                                         <table>
@@ -573,7 +471,6 @@
 
                             <div class="field">
                                 <input type="checkbox" id="question2" name="q" class="questions">
-                                <!-- <div class="plus">2.</div> -->
                                 <label for="question2" class="question">
                                     <span class="q--span">
                                         <table>
@@ -602,7 +499,6 @@
 
                             <div class="field">
                                 <input type="checkbox" id="question3" name="q" class="questions">
-                                <!-- <div class="plus">3.</div> -->
                                 <label for="question3" class="question">
                                     <span class="q--span">
                                         <table>
@@ -630,7 +526,6 @@
 
                             <div class="field">
                                 <input type="checkbox" id="question4" name="q" class="questions">
-                                <!-- <div class="plus">3.</div> -->
                                 <label for="question4" class="question">
                                     <span class="q--span">
                                         <table>
@@ -659,7 +554,6 @@
 
                             <div class="field">
                                 <input type="checkbox" id="question5" name="q" class="questions">
-                                <!-- <div class="plus">3.</div> -->
                                 <label for="question5" class="question">
                                     <span class="q--span">
                                         <table>

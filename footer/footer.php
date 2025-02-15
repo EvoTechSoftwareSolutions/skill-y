@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skill-y</title>
-    <link rel="icon" href="../resources/img/" />
+    <link rel="icon" href="../resources/img/footer_logo.png" />
     <link rel="stylesheet" href="../footer/footer.css">
 </head>
 
@@ -54,7 +54,7 @@
                     <img src="../resources/img/footer/footer_logo.png" class="footer--logo" />
                 </div>
                 <div class="footer--sec1--div7">
-                    <div class="footer--sec1--div8">
+                    <div class="footer--sec1--div8" onclick="window.location='https://www.facebook.com/share/17WKqDuzDR/?mibextid=wwXIfr';">
                         <div class="footer--sec1--div9">
                             <span class="footer--hspan">Facebook</span>
                             <span class="footer--sspan">Skilly</span>
@@ -84,19 +84,19 @@
                 </div>
             </div>
             <div class="footer--sec1--div11">
-                <div class="footer--sec1--div12">
+                <div class="footer--sec1--div12" onclick="window.location='../home/home.php';">
                     <span class="footer--hspan1">HOME</span>
                 </div>
                 <hr class="footer--menu--hr">
-                <div class="footer--sec1--div12">
+                <div class="footer--sec1--div12" onclick="window.location='../services/services.php';">
                     <span class="footer--hspan1">SERVICES</span>
                 </div>
                 <hr class="footer--menu--hr">
-                <div class="footer--sec1--div12">
+                <div class="footer--sec1--div12" onclick="window.location='../contact/contact.php#contact';">
                     <span class="footer--hspan1">ABOUT US</span>
                 </div>
                 <hr class="footer--menu--hr">
-                <div class="footer--sec1--div12">
+                <div class="footer--sec1--div12" onclick="window.location='../contact/contact.php#about';">
                     <span class="footer--hspan1">CONTACT US</span>
                 </div>
             </div>
@@ -181,19 +181,19 @@
                 <img src="../resources/img/footer/footer_logo.png" class="footer--logo" />
             </div>
             <div class="footer--sec1--div11">
-                <div class="footer--sec1--div12">
+            <div class="footer--sec1--div12" onclick="window.location='../home/home.php';">
                     <span class="footer--hspan1">HOME</span>
                 </div>
                 <hr class="footer--menu--hr">
-                <div class="footer--sec1--div12">
+                <div class="footer--sec1--div12" onclick="window.location='../services/services.php';">
                     <span class="footer--hspan1">SERVICES</span>
                 </div>
                 <hr class="footer--menu--hr">
-                <div class="footer--sec1--div12">
+                <div class="footer--sec1--div12" onclick="window.location='../contact/contact.php#contact';">
                     <span class="footer--hspan1">ABOUT US</span>
                 </div>
                 <hr class="footer--menu--hr">
-                <div class="footer--sec1--div12">
+                <div class="footer--sec1--div12" onclick="window.location='../contact/contact.php#about';">
                     <span class="footer--hspan1">CONTACT US</span>
                 </div>
             </div>

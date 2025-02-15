@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skill-y</title>
-    <link rel="icon" href="../resources/img/" />
+    <link rel="icon" href="../resources/img/footer_logo.png" />
     <link rel="stylesheet" href="../contact/contact.css">
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="../footer/footer.css">
@@ -25,7 +25,7 @@
         <img src="../resources/img/contact/Group3.png" class="contact--bg2" />
     </div>
 
-    <section class="contact--sec1">
+    <section class="contact--sec1" id="about">
         <div class="contact--sec1--div1">
             <span class="contact--sec1--span1">Skill-y /<span class="contact--sec1--span2"> About Us</span></span>
         </div>
@@ -98,7 +98,7 @@
 
     <br />
 
-    <section class="contact--sec1">
+    <section class="contact--sec1" id="contact">
         <div class="contact--sec1--div1">
             <span class="contact--sec1--span1">Skill-y /<span class="contact--sec1--span2"> Contact Us</span></span>
         </div>
@@ -110,12 +110,6 @@
             <span class="contact--sec2--span2">Get In<span class="contact--sec2--span3"> Touch</span></span>
         </div>
     </section>
-
-
-
-
-
-
 
     <section class="contact--sec5">
         <div class="contact--sec5--div1">
@@ -309,7 +303,7 @@
 
     <script src="../header/header.js"></script>
     <script src="../slider/slider.js"></script>
-    <script src="home.js"></script>
+    <script src="../home/home.js"></script>
     <script src="../contact_slider/contact_slider.js"></script>
     <script src="../resources/swiper/swiper-bundle.min.js"></script>
     <script src="../home/home.js"></script>
