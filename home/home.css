@@ -502,6 +502,14 @@ scrollbar-color: var(--colorBackground);
     padding: 15px;
 }
 
+.home--sec4--text{
+    font-family: "InstrumentSans_bold";
+}
+
+.home--sec4--text2{
+    font-family: "InstrumentSans_regular";
+}
+
 
 @media screen and (max-width:887px) {
 
