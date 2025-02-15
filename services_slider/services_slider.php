@@ -17,7 +17,7 @@
     <!-- <i id="left" class="fa-solid fa-angle-left"></i> -->
     <ul class="carousel">
       <li class="card">
-        <div class="services--slider--img"><img src="../resources/img/home/parents visa.png" class="services--slider--icon" alt="img" draggable="false"></div>
+        <div class="services--slider--img"><img src="../resources/img/home/parents.png" class="services--slider--icon" alt="img" draggable="false"></div>
         <div class="home--sec3--div6">
           <span class="home--sec3--span4">Visiting Visas for Parents</span>
         </div>
@@ -151,7 +151,7 @@
       </li>
 
       <li class="card">
-        <div class="services--slider--img"><img src="../resources/img/home/admission (1).png" class="services--slider--icon" alt="img" draggable="false"></div>
+        <div class="services--slider--img"><img src="../resources/img/home/admission.png" class="services--slider--icon" alt="img" draggable="false"></div>
         <div class="home--sec3--div6">
           <span class="home--sec3--span4">Offer & Admissions in Universities/Colleges</span>
         </div>
