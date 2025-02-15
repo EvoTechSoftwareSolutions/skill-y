@@ -303,7 +303,7 @@
 
     <script src="../header/header.js"></script>
     <script src="../slider/slider.js"></script>
-    <script src="../home/home.js"></script>
+    <script src="../contact/contact.js"></script>
     <script src="../contact_slider/contact_slider.js"></script>
     <script src="../resources/swiper/swiper-bundle.min.js"></script>
     <script src="../home/home.js"></script>

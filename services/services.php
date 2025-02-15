@@ -526,7 +526,7 @@
 
     <script src="../header/header.js"></script>
     <script src="../slider/slider.js"></script>
-    <script src="home.js"></script>
+    <script src="../services/services.js"></script>
     <script src="../services_slider/services_slider.js"></script>
     <script src="../resources/swiper/swiper-bundle.min.js"></script>
     <script src="../home/home.js"></script>

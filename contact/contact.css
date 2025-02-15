@@ -69,6 +69,11 @@
   --colorFooter: #2d3f11;
 }
 
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--scroll-padding, 50px);
+}
+
 body {
   margin: 0;
   padding: 0;
