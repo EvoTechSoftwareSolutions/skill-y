@@ -115,14 +115,14 @@
                             <div class="swiper-slide">
                                 <div class="box-area">
                                     <div class="img-area">
-                                        <img src="../resources/img/home/img1.png" alt="">
+                                        <img src="../resources/img/home/test1.jpg" alt="">
                                     </div>
 
                                     <p class="feed--content">
-                                        Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                                        ever since
+                                    Massive thanks to Skilly Student Consultancy team!They made my dream of studying abroad so much easier,handling everything smoothly from choosing the perfect university to getting my visa sorted
                                     </p>
+                                    <h5>Deekshitha</h5><br>
+                                    <span>Level 9 - Master Study</span>
 
                                 </div>
                             </div>
