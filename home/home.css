@@ -187,6 +187,14 @@ body {
 }
 
 
+@media screen and (max-width:430px) {
+
+    .home--sec1--img1{
+        height: 20rem;
+    }
+
+}
+
 @media screen and (max-width:799px) {
 
     .home--sec1--divExtra{
