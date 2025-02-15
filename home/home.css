@@ -576,7 +576,9 @@ scrollbar-color: var(--colorBackground);
     align-items: center;
   }
 
-
+  .home--sec4--div4::-webkit-scrollbar {
+    display: none;
+  }
 
 
   .box-area {

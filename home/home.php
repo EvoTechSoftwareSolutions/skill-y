@@ -115,7 +115,7 @@
                             <div class="swiper-slide">
                                 <div class="box-area">
                                     <div class="img-area">
-                                        <img src="../resources/img/home/test1.jpg" alt="">
+                                        <img src="../resources/img/home/tes2.png" alt="">
                                     </div>
 
                                     <p class="feed--content">
@@ -129,7 +129,7 @@
                             <div class="swiper-slide">
                             <div class="box-area">
                                     <div class="img-area">
-                                        <img src="../resources/img/home/img1.png" alt="">
+                                        <img src="../resources/img/home/tes1.png" />
                                     </div>
 
                                     <p class="feed--content">
@@ -143,7 +143,7 @@
                             <div class="swiper-slide">
                             <div class="box-area">
                                     <div class="img-area">
-                                        <img src="../resources/img/home/img1.png" alt="">
+                                        <img src="../resources/img/home/tes3.png" />
                                     </div>
 
                                     <p class="feed--content">
