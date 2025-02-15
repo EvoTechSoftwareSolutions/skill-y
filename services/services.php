@@ -159,7 +159,7 @@
                 <div class="services--sec4--div5">
                     <div class="services--sec4--div6" id="service1">
                         <div class="services--sec4--div7">
-                            <img src="../resources/img/services/s1.png" class="services--sec4--img1" />
+                            <img src="../resources/img/services/collaboration.png" class="services--sec4--img1" />
                         </div>
                         <div class="services--sec4--div8">
                             <div class="services--sec4--div9">
@@ -174,7 +174,7 @@
                     </div>
                     <div class="services--sec4--div6" id="service2">
                         <div class="services--sec4--div7">
-                            <img src="../resources/img/services/s1.png" class="services--sec4--img1" />
+                            <img src="../resources/img/services/course selection.png" class="services--sec4--img1" />
                         </div>
                         <div class="services--sec4--div8">
                             <div class="services--sec4--div9">
@@ -189,7 +189,7 @@
                     </div>
                     <div class="services--sec4--div6" id="service3">
                         <div class="services--sec4--div7">
-                            <img src="../resources/img/services/s1.png" class="services--sec4--img1" />
+                            <img src="../resources/img/services/dependent.png" class="services--sec4--img1" />
                         </div>
                         <div class="services--sec4--div8">
                             <div class="services--sec4--div9">
@@ -204,7 +204,7 @@
                     </div>
                     <div class="services--sec4--div6" id="service4">
                         <div class="services--sec4--div7">
-                            <img src="../resources/img/services/s1.png" class="services--sec4--img1" />
+                            <img src="../resources/img/services/counselling.png" class="services--sec4--img1" />
                         </div>
                         <div class="services--sec4--div8">
                             <div class="services--sec4--div9">
@@ -219,7 +219,7 @@
                     </div>
                     <div class="services--sec4--div6" id="service5">
                         <div class="services--sec4--div7">
-                            <img src="../resources/img/services/s1.png" class="services--sec4--img1" />
+                            <img src="../resources/img/services/admission (1).png" class="services--sec4--img1" />
                         </div>
                         <div class="services--sec4--div8">
                             <div class="services--sec4--div9">

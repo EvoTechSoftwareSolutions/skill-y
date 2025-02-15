@@ -86,7 +86,7 @@ body {
 }
 
 .services--sec1--img1 {
-  width: 100%;
+  width: 100px;
   /* height: 5rem; */
   position: absolute;
   z-index: -10;
