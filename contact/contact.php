@@ -70,12 +70,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="contact--sec3--div9">
+                <!-- <div class="contact--sec3--div9">
                     <a href="../resources/pdf/Skilly_International_Study_Guide.pdf" download class="contact--download--btn">
                         <span class="contact--sec3--span4">DOWNLOAD THE DOCUMENT</span>
                         <img src="../resources/img/contact/down_arrow.png" class="contact--sec3--img3" />
                     </a>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -148,9 +148,11 @@
                         <div class="contact--sec5--div10">
                             <div class="contact--sec5--div11">
                                 <span class="contatct--sec5--txt2">
-                                    Your dream journey begins here! At KHK Tours, we believe that every traveler deserves a seamless and unforgettable experience, and we're here to make that happen. Whether you're ready to book your next adventure, seeking advice on destinations, or just have a few questions about our services, our dedicated team is here to assist you every step of the way.
+                                At Skilly.co.nz, we are dedicated to making your dream of studying in New Zealand a reality. As a trusted student immigration consulting company, we provide expert guidance to help you navigate every step of the journey—from choosing the right educational institution to securing your student visa.
                                     <br />
-                                    From choosing the perfect itinerary to answering all your queries, we take pride in providing personalized guidance that caters to your unique travel needs. No question is too small, and no detail is overlooked – we’re committed to ensuring your trip is as smooth and enjoyable as possible.Reach out to us through your preferred method – call, email, or message – and let’s start crafting an adventure tailored just for you. With KHK Tours, your journey is more than just a trip; it’s a collection of unforgettable memories waiting to unfold. We look forward to hearing from you and making your travel dreams a reality!
+                                    We understand that moving to a new country for education is a big decision, and that’s why our experienced consultants offer personalized support tailored to your academic and career goals. Whether you need advice on selecting courses, visa requirements, scholarships, or post-study work opportunities, we are here to assist you.
+                            
+                                No question is too small, and no detail is overlooked. We are committed to making your transition smooth and stress-free so you can focus on your studies and future success.Contact us today via call, email, or message, and let’s start crafting your academic journey. With Skilly.co.nz, your education abroad isn’t just a dream—it’s a step toward a brighter future!
                                 </span>
                             </div>
                         </div>
