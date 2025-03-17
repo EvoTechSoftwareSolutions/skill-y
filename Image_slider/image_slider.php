@@ -18,11 +18,11 @@
 </head>
 
 <body>
-   <section class="container--img">
+   <section class="view container--img">
       <div class="card__container swiper">
          <div class="card__content">
             <div class="swiper-wrapper">
-               <article class="card__article swiper-slide">
+               <article class="block card__article swiper-slide wow fadeInUp" data-wow-delay="0.1s">
                   <!-- <div class="card__image">
                      <img src="../resources/img/home/1.png" alt="image" class="card__img">
                      <div class="card__shadow"></div>
@@ -39,7 +39,7 @@
                   </div>
                </article>
 
-               <article class="card__article swiper-slide">
+               <article class="block card__article swiper-slide wow fadeInUp" data-wow-delay="0.3s">
                   <!-- <div class="card__image">
                      <img src="../resources/img/home/2.png" alt="image" class="card__img">
                      <div class="card__shadow"></div>
@@ -59,7 +59,7 @@
                   </div>
                </article>
 
-               <article class="card__article swiper-slide">
+               <article class="block card__article swiper-slide wow fadeInUp" data-wow-delay="0.5s">
                   <!-- <div class="card__image">
                      <img src="../resources/img/home/3.png" alt="image" class="card__img">
                      <div class="card__shadow"></div>
@@ -78,7 +78,7 @@
                   </div>
                </article>
 
-               <article class="card__article swiper-slide">
+               <article class="block card__article swiper-slide wow fadeInUp" data-wow-delay="0.7s">
                   <!-- <div class="card__image">
                      <img src="../resources/img/home/4.png" alt="image" class="card__img">
                      <div class="card__shadow"></div>
@@ -98,7 +98,7 @@
                   </div>
                </article>
 
-               <article class="card__article swiper-slide">
+               <article class="block card__article swiper-slide wow fadeInUp" data-wow-delay="0.9s">
                   <!-- <div class="card__image">
                      <img src="../resources/img/home/5.png" alt="image" class="card__img">
                      <div class="card__shadow"></div>

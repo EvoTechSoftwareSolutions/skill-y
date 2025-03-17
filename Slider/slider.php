@@ -17,7 +17,8 @@
             <!-- list Items -->
             <div class="list">
                 <div class="item active">
-                    <img src="../resources/img/home/slider1.1.jpg" class="">
+                    <img src="../resources/img/home/slider1.1.jpg" class="slider--item--img">
+                    <img src="../resources/img/home/slider1.1.1.jpg" class="slider--item--img1">
                     <div class="content--slider">
                         <div class="author">Skilly New Zealand</div>
                         <div class="title">Your Dream University Awaits!</div>
@@ -31,7 +32,8 @@
                     </div>
                 </div>
                 <div class="item">
-                    <img src="../resources/img/home/slider2.jpg">
+                    <img src="../resources/img/home/slider2.jpg" class="slider--item--img">
+                    <img src="../resources/img/home/slider2.1.jpg" class="slider--item--img1">
                     <div class="content--slider">
                         <div class="author">Skilly New Zealand</div>
                         <div class="title">Fast & Reliable Visa Processing</div>
@@ -45,7 +47,8 @@
                     </div>
                 </div>
                 <div class="item">
-                    <img src="../resources/img/home/slider3.jpg">
+                    <img src="../resources/img/home/slider3.jpg" class="slider--item--img">
+                    <img src="../resources/img/home/slider3.1.jpg" class="slider--item--img1">
                     <div class="content--slider">
                         <div class="author">Skilly New Zealand</div>
                         <div class="title">Making Global Education Affordable</div>

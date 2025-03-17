@@ -28,14 +28,14 @@
         <img src="../resources/img/services/Group2.png" class="services--sec4--bg2" />
     </div>
 
-    <section class="services--sec2">
-        <div class="services--sec2--div1">
-            <span class="services--sec2--span1">Skill-y /<span class="services--sec2--span2">Our Services </span></span>
+    <section class="view services--sec2">
+        <div class="block services--sec2--div1">
+            <span class="services--sec2--span1" onclick="window.location='../home/home.php';">Skill-y / </span><span class="services--sec2--span2">Our Services</span>
         </div>
     </section>
 
-    <section class="services--sec3">
-        <div class="services--sec3--div1">
+    <section class="view services--sec3">
+        <div class="block services--sec3--div1">
             <span class="services--sec3--span1">Our Services</span>
             <span class="services--sec3--span2">What<span class="services--sec3--span3"> We Offer</span></span>
         </div>
@@ -45,10 +45,10 @@
         <!-- <img src="../resources/img/services/Rectangle2.png" class="services--sec1--img1" /> -->
     </div>
 
-    <section class="services--sec4">
+    <section class="view services--sec4">
         <div class="services--sec4--div1">
             <div class="services--sec4--div3">
-                <div class="services--sec4--div4">
+                <div class="block services--sec4--div4">
                     <a href="#service1" class="services--sec4--subheader">
                         <table>
                             <tr>
@@ -157,8 +157,8 @@
                         </table>
                     </a>
                 </div>
-                <div class="services--sec4--div5">
-                    <div class="services--sec4--div6" id="service1">
+                <div class="block services--sec4--div5">
+                    <div class="block services--sec4--div6" id="service1">
                         <div class="services--sec4--div7">
                             <img src="../resources/img/services/collaboration.png" class="services--sec4--img1" />
                         </div>
@@ -173,7 +173,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="services--sec4--div6" id="service2">
+                    <div class="block services--sec4--div6" id="service2">
                         <div class="services--sec4--div7">
                             <img src="../resources/img/services/course selection.png" class="services--sec4--img1" />
                         </div>
@@ -188,7 +188,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="services--sec4--div6" id="service3">
+                    <div class="block services--sec4--div6" id="service3">
                         <div class="services--sec4--div7">
                             <img src="../resources/img/services/dependent.png" class="services--sec4--img1" />
                         </div>
@@ -203,7 +203,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="services--sec4--div6" id="service4">
+                    <div class="block services--sec4--div6" id="service4">
                         <div class="services--sec4--div7">
                             <img src="../resources/img/services/counselling.png" class="services--sec4--img1" />
                         </div>
@@ -218,7 +218,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="services--sec4--div6" id="service5">
+                    <div class="block services--sec4--div6" id="service5">
                         <div class="services--sec4--div7">
                             <img src="../resources/img/services/admission.png" class="services--sec4--img1" />
                         </div>
@@ -235,8 +235,8 @@
                     </div>
                 </div>
             </div>
-            <div class="services--sec4--div11">
-                <div class="services--sec4--div6" id="service6">
+            <div class="view services--sec4--div11">
+                <div class="block services--sec4--div6" id="service6">
                     <div class="services--sec4--div7">
                         <img src="../resources/img/services/pre.png" class="services--sec4--img1" />
                     </div>
@@ -251,7 +251,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="services--sec4--div6" id="service7">
+                <div class="block services--sec4--div6" id="service7">
                     <div class="services--sec4--div7">
                         <img src="../resources/img/services/scholar.png" class="services--sec4--img1" />
                     </div>
@@ -266,7 +266,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="services--sec4--div6" id="service8">
+                <div class="block services--sec4--div6" id="service8">
                     <div class="services--sec4--div7">
                         <img src="../resources/img/services/accomodation.png" class="services--sec4--img1" />
                     </div>
@@ -281,7 +281,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="services--sec4--div6" id="service9">
+                <div class="block services--sec4--div6" id="service9">
                     <div class="services--sec4--div7">
                         <img src="../resources/img/services/airport assistance.png" class="services--sec4--img1" />
                     </div>
@@ -296,7 +296,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="services--sec4--div6" id="service10">
+                <div class="block services--sec4--div6" id="service10">
                     <div class="services--sec4--div7">
                         <img src="../resources/img/services/university.png" class="services--sec4--img1" />
                     </div>
@@ -311,7 +311,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="services--sec4--div6" id="service11">
+                <div class="block services--sec4--div6" id="service11">
                     <div class="services--sec4--div7">
                         <img src="../resources/img/services/visa assistance.png" class="services--sec4--img1" />
                     </div>
@@ -326,7 +326,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="services--sec4--div6" id="service12">
+                <div class="block services--sec4--div6" id="service12">
                     <div class="services--sec4--div7">
                         <img src="../resources/img/services/parents.png" class="services--sec4--img1" />
                     </div>
@@ -347,13 +347,13 @@
 
 
 
-    <section class="services--sec5">
+    <section class="view services--sec5">
         <div class="services--sec5--div1">
             <div class="services--sec5--div2">
                 <div class="container">
                     <div class="box-container">
 
-                        <div class="box1">
+                        <div class="block box1">
                             <div class="card--txt">
                                 <span class="services--sec5--span1">NEXT STEPS</span>
                                 <span class="services--sec5--span2">Start Your<span class="services--sec5--span3"> New Zealand Study Adventure</span></span>
@@ -361,7 +361,7 @@
                             </div>
                         </div>
 
-                        <div class="box">
+                        <div class="block box">
                             <div class="flip-card">
                                 <div class="flip-card-inner">
                                     <div class="flip-card-front">
@@ -391,7 +391,7 @@
                             </div>
                         </div>
 
-                        <div class="box">
+                        <div class="block box">
                             <div class="flip-card">
                                 <div class="flip-card-inner">
                                     <div class="flip-card-front">
@@ -422,7 +422,7 @@
                             </div>
                         </div>
 
-                        <div class="box">
+                        <div class="block box">
                             <div class="flip-card">
                                 <div class="flip-card-inner">
                                     <div class="flip-card-front">
@@ -452,7 +452,7 @@
                             </div>
                         </div>
 
-                        <div class="box">
+                        <div class="block box">
                             <div class="flip-card">
                                 <div class="flip-card-inner">
                                     <div class="flip-card-front">
@@ -483,7 +483,7 @@
                             </div>
                         </div>
 
-                        <div class="box">
+                        <div class="block box">
                             <div class="flip-card">
                                 <div class="flip-card-inner">
                                     <div class="flip-card-front">

@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="../services_slider/services_slider.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    
+    <link href="../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../lib/animate/animate.css" rel="stylesheet">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
 
@@ -34,9 +35,9 @@
         <?php include "../slider/slider.php"; ?>
     </section>
 
-    <section class="home--sec1">
+    <section class="view home--sec1">
         <div class="home--sec1--div1">
-            <div class="home--sec1--divExtra">
+            <div class="block home--sec1--divExtra">
                 <div class="home--sec1--divExtra1">
                     <div class="home--sec1--div2">
                         <div class="home--sec1--div3">
@@ -78,18 +79,20 @@
                     </div>
                 </div>
             </div>
-            <div class="home--sec1--div7">
+            <div class="block home--sec1--div7">
                 <img src="../resources/img/home/Group1.png" class="home--sec1--bg">
             </div>
         </div>
     </section>
 
-    <section class="home--sec2">
-        <?php include "../Image_slider/image_slider.php"; ?>
+    <section class="view home--sec2">
+        <div class="block home--sec2--div1">
+            <?php include "../Image_slider/image_slider.php"; ?>
+        </div>
     </section>
 
-    <section class="home--sec3">
-        <div class="home--sec3--divExtra">
+    <section class="view home--sec3">
+        <div class="block home--sec3--divExtra">
             <div class="home--sec3--div1">
                 <div class="home--sec3--div2">
                     <span class="home--sec3--span1">our services</span>
@@ -104,11 +107,11 @@
 
     <?php include "../testominials/testo.php"; ?>
 
-    <section class="home--sec5">
+    <section class="view home--sec5">
         <div class="home--sec5--divExtra1">
             <div class="home--sec5--divExtra">
                 <div class="home--sec5--div1">
-                    <div class="home--sec5--div2">
+                    <div class="block home--sec5--div2">
                         <span class="home--sec5--span1">Campuses</span>
                         <span class="home--sec5--span2">main Campuses<span class="home--sec5--span3"> across New Zealand</span></span>
                     </div>
@@ -118,7 +121,7 @@
                             <div class="content">
 
                                 <div class="columns">
-                                    <div class="home--sec5--div4">
+                                    <div class="block home--sec5--div4">
                                         <h4 class="home--title">North Island</h4>
                                         <ul>
                                             <li class="map--li"><span class="highlight">
@@ -269,7 +272,7 @@
                                         </ul>
                                     </div>
                                     <div class="home--sec5--div7">
-                                        <div class="home--sec5--div5">
+                                        <div class="block home--sec5--div5">
                                             <div class="home--sec5--div9">
                                                 <h4 class="home--title">South Island</h4>
 
@@ -363,7 +366,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="home--sec5--div6">
+                                        <div class="block home--sec5--div6">
                                             <img src="../resources/img/home/map.png" alt="New Zealand Map" class="map">
                                         </div>
                                     </div>
@@ -385,8 +388,8 @@
 
 
 
-    <section class="home--sec6">
-        <div class="home--sec6--div1">
+    <section class="view home--sec6">
+        <div class="block home--sec6--div1">
             <div class="logos">
                 <div class="logos-slide">
                     <img src="../resources/img/home/L1.png" class="logo--img" />
@@ -427,15 +430,15 @@
         </div>
     </section>
 
-    <section class="home--sec7">
+    <section class="view home--sec7">
         <div class="home--sec7--div1">
             <div class="home--sec7--div2">
-                <div class="home--sec7--div3">
+                <div class="block home--sec7--div3">
                     <span class="home--sec7--span1">NEXT STEPS</span>
                     <span class="home--sec7--span2">Start your<span class="home--sec7--span3"> New Zealand study adventure</span></span>
                     <span class="home--sec7--span4">Follow our five-step guide for studying with SKILLY NEW ZEALAND:</span>
                 </div>
-                <div class="home--sec7--div4">
+                <div class="block home--sec7--div4">
                     <div class="home--sec7--div5">
                         <div class="sec7--content">
                             <div class="field">
@@ -598,6 +601,8 @@
     <script src="../services_slider/services_slider.js"></script>
     <script src="../resources/swiper/swiper-bundle.min.js"></script>
     <script src="../home/home.js"></script>
+    <script src="../lib/wow/wow.js"></script>
+    <script src="../lib/wow/wow.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!--=============== SWIPER JS ===============-->
     <script src="assets/js/swiper-bundle.min.js"></script>

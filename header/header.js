@@ -1,6 +1,7 @@
 const nav = document.querySelector('#nav');
 const menu = document.querySelector('#menu');
 const menuToggle = document.querySelector('.nav__toggle');
+const whatsappBtn = document.getElementById("scrollToTopBtn"); // Add an ID to WhatsApp button in HTML
 let isMenuOpen = false;
 
 
@@ -13,6 +14,14 @@ menuToggle.addEventListener('click', e => {
   menuToggle.setAttribute('aria-expanded', String(isMenuOpen));
   menu.hidden = !isMenuOpen;
   nav.classList.toggle('nav--open');
+
+  // Hide/Show buttons based on menu state
+  if (isMenuOpen) {
+    whatsappBtn.style.display = "none";
+} else {
+    whatsappBtn.style.display = "flex"; // Show again
+}
+
 });
 
 
@@ -41,6 +50,35 @@ nav.addEventListener('keydown', e => {
 
 
 
+
+
 navigationHeight = document.querySelector('.header-sec1').offsetHeight;
 
 document.documentElement.style.setProperty('--scroll-padding',navigationHeight+1+"px");
+
+
+
+
+
+
+
+
+// Get the button
+const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+// Show the button when the user scrolls down 100px from the top
+window.onscroll = function () {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        scrollToTopBtn.style.display = "block";
+    } else {
+        scrollToTopBtn.style.display = "none";
+    }
+};
+
+// Scroll to the top of the page when the button is clicked
+scrollToTopBtn.addEventListener('click', function () {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});

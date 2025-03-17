@@ -75,6 +75,25 @@ body {
   padding: 0;
 }
 
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.4;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.block {
+  animation: appear 5s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+
+
 .services--sec1 {
   width: 100%;
   display: flex;
@@ -131,13 +150,16 @@ body {
   color: var(--colorBackground);
 }
 
-.services--sec2--span2:hover {
+.services--sec2--span1:hover {
     cursor: pointer;
   }
 
 
-
-
+@media screen and (max-width:544px) {
+  .services--sec2 {
+    margin-top: 2rem;
+  }
+}
 
 
 

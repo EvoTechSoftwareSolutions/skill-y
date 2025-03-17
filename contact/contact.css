@@ -79,6 +79,23 @@ body {
   padding: 0;
 }
 
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.4;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.block {
+  animation: appear 5s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
 .contact--sec1 {
   width: 100%;
   display: flex;
@@ -105,9 +122,16 @@ body {
   color: var(--colorBackground);
 }
 
-.contact--sec1--span2:hover {
+.contact--sec1--span1:hover {
   cursor: pointer;
 }
+
+@media screen and (max-width:544px) {
+  .contact--sec1 {
+    margin-top: 2rem;
+  }
+}
+
 
 .contact--sec2 {
   width: 100%;

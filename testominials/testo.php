@@ -8,119 +8,134 @@
     <link rel="icon" href="../resources/img/footer_logo.png" />
     <link rel="stylesheet" href="../testominials/testo.css" />
     <link rel="stylesheet" href="../home/home.css">
-    <link rel="stylesheet" href="../header/header.css">
-    <link rel="stylesheet" href="../slider/slider.css">
-    <link rel="stylesheet" href="../footer/footer.css">
-    <link rel="stylesheet" href="../services_slider/services_slider.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+    <!-- <link rel="stylesheet" href="../header/header.css"> -->
+    <!-- <link rel="stylesheet" href="../slider/slider.css"> -->
+    <!-- <link rel="stylesheet" href="../footer/footer.css"> -->
+    <!-- <link rel="stylesheet" href="../services_slider/services_slider.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin=""> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> -->
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css"> -->
 
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- <link rel="stylesheet" href="assets/css/swiper-bundle.min.css"> -->
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/slider_image.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
 </head>
 
 <body>
 
-    <section class="home--sec4">
-        <div class="home--sec4--div1">
+    <section class="view home--sec4">
+        <div class="block home--sec4--div1">
             <div class="home--sec4--div2">
                 <span class="home--sec4--span1">Testimonials</span>
                 <span class="home--sec4--span2">What <span class="home--sec4--span3">Students Say</span></span>
             </div>
-            <div class="home--sec4--div3">
-                <div class="home--sec4--div4">
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="box-area">
-                                    <div class="img-area">
-                                        <img src="../resources/img/home/tes2.png" alt="">
-                                    </div>
-
-                                    <p class="feed--content">
-                                    <img src="../resources/img/home/quotation-mark.png" class="qotation--img" />
-                                    Massive thanks to Skilly Student Consultancy team!They made my dream of studying abroad so much easier,handling everything smoothly from choosing the perfect university to getting my visa sorted.
-                                    </p>
-                                    <h5 class="home--sec4--text">Deekshitha</h5><br>
-                                    <span class="home--sec4--text2">Level 9 - Master Study</span>
-
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                            <div class="box-area">
-                                    <div class="img-area">
-                                        <img src="../resources/img/home/tes1.png" />
-                                    </div>
-
-                                    <p class="feed--content">
-                                    <img src="../resources/img/home/quotation-mark.png" class="qotation--img" />
-                                        I wanted to express ny hartfelt thanks to skilly fir your invaluable assistance in securing my visa for New Zealand.Your expertise and guidence made the process so much smoother,and I truly appriciate the dedication and support your team provided.
-                                    </p>
-                                    <h5 class="home--sec4--text">Supun Nawarathna</h5>
-
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                            <div class="box-area">
-                                    <div class="img-area">
-                                        <img src="../resources/img/home/tes3.png" />
-                                    </div>
-
-                                    <p class="feed--content">
-                                        <img src="../resources/img/home/quotation-mark.png" class="qotation--img" />
-                                        Skilly student consultancy made the entire process of studying abroad stress-free.Their team was highly knowledgeable and guided me step by step,from selecting the right university to obtain my visa.The personalized attention and fast response time were truly impressive.
-                                    </p>
-                                    <h5 class="home--sec4--text">Busines Master of Applied Management</h5><br>
-                                    <span class="home--sec4--text2">NMIT-NELSON</span>
-                                </div>
-                            </div>
-                            <!-- <div class="swiper-slide">
-                            <div class="box-area">
-                                    <div class="img-area">
-                                        <img src="../resources/img/home/img1.png" alt="">
-                                    </div>
-
-                                    <p class="feed--content">
-                                        Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                                        ever since
-                                    </p>
-
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                            <div class="box-area">
-                                    <div class="img-area">
-                                        <img src="../resources/img/home/img1.png" alt="">
-                                    </div>
-
-                                    <p class="feed--content">
-                                        Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                                        ever since
-                                    </p>
-
-                                </div>
-                            </div> -->
+            <div class="testomonial--sec1--div12">
+                <div class="testomonial--sec1--div1">
+                    <div class="testomonial--sec1--div2">
+                        <!-- <img src="../resources/img/home/Testimonials.jpg" class="testomonial--img1" /> -->
+                        <div class="pulse">
+                            <a href="http://www.youtube.com/@Skillly" class="testomonial--img1_1" target="_blank">
+                            <img src="../resources/img/home/youtube.png" class="testomonial--img1_1" />
+                            </a>
                         </div>
-                        <!-- Add Pagination -->
-                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
-                <div class="home--sec4--div5">
-                    <img src="../resources/img/home/Testimonials.jpg" class="feed--img" />
+
+                <div class="testomonial--sec1--div3">
+                    <div class="testomonial--sec1--div4">
+                        <div class="wrapper1 testomonial--sec1--div5">
+                            <ul class="carousel1">
+                                <li class="card1">
+                                    <div class="testomonial--sec1--div6">
+                                        <div class="testomonial--sec1--div8">
+                                            <div class="testomonial--sec1--div9">
+                                                <div class="testomonial--sec1--div10">
+                                                    <img src="../resources/img/home/quotation-mark.png" class="qotation--img--tes" />
+                                                </div>
+                                                <p class="feed--content">
+                                                    Massive thanks to Skilly Student Consultancy team!They made my dream of studying abroad
+                                                    so
+                                                    much easier,handling everything smoothly from choosing the perfect university to getting
+                                                    my
+                                                    visa sorted.
+                                                </p>
+                                            </div>
+                                            <span class="home--sec4--text">Deekshitha</span>
+                                            <br />
+                                            <span class="home--sec4--text2">Level 9 - Master Study</span>
+                                        </div>
+                                        <div class="testomonial--sec1--div11">
+                                            <div class="testomonial--sec1--div7">
+                                                <img src="../resources/img/home/tes2.png" alt="" class="testomonial--img2">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="card1">
+                                    <div class="testomonial--sec1--div6">
+                                        <div class="testomonial--sec1--div8">
+                                            <div class="testomonial--sec1--div9">
+                                                <div class="testomonial--sec1--div10">
+                                                    <img src="../resources/img/home/quotation-mark.png" class="qotation--img--tes" />
+                                                </div>
+                                                <p class="feed--content">
+                                                    Massive thanks to Skilly Student Consultancy team!They made my dream of studying abroad
+                                                    so
+                                                    much easier,handling everything smoothly from choosing the perfect university to getting
+                                                    my
+                                                    visa sorted.
+                                                </p>
+                                            </div>
+                                            <span class="home--sec4--text">Deekshitha</span>
+                                            <br />
+                                            <span class="home--sec4--text2">Level 9 - Master Study</span>
+                                        </div>
+                                        <div class="testomonial--sec1--div11">
+                                            <div class="testomonial--sec1--div7">
+                                                <img src="../resources/img/home/tes1.png" alt="" class="testomonial--img2">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="card1">
+                                    <div class="testomonial--sec1--div6">
+                                        <div class="testomonial--sec1--div8">
+                                            <div class="testomonial--sec1--div9">
+                                                <div class="testomonial--sec1--div10">
+                                                    <img src="../resources/img/home/quotation-mark.png" class="qotation--img--tes" />
+                                                </div>
+                                                <p class="feed--content">
+                                                    Massive thanks to Skilly Student Consultancy team!They made my dream of studying abroad
+                                                    so
+                                                    much easier,handling everything smoothly from choosing the perfect university to getting
+                                                    my
+                                                    visa sorted.
+                                                </p>
+                                            </div>
+                                            <span class="home--sec4--text">Deekshitha</span>
+                                            <br />
+                                            <span class="home--sec4--text2">Level 9 - Master Study</span>
+                                        </div>
+                                        <div class="testomonial--sec1--div11">
+                                            <div class="testomonial--sec1--div7">
+                                                <img src="../resources/img/home/tes3.png" alt="" class="testomonial--img2">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    
+
 
     <script src="../header/header.js"></script>
     <script src="../slider/slider.js"></script>

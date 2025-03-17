@@ -230,14 +230,14 @@ body {
     display: flex;
     flex-direction: row;
     font-family: "urbanist_extraBold";
-    color: var(--colorTxt);
-    gap: 1.5rem;
+    color: var(--colorCard);
+    gap: 3rem;
     justify-content: center;
 }
 
 .header--sec1--div11:hover{
     cursor: pointer;
-    color: var(--colorSecondaryTxt);
+    color: var(--colorTxt);
 }
 
 /* .header--nav:hover{
@@ -266,7 +266,22 @@ body {
 
 }
 
+@media screen and (max-width:599px) {
 
+    .header--sec1--div10{
+        gap: 1.5rem;
+    }
+
+}
+
+@media screen and (min-width:600px) and (max-width:800px) {
+
+    .header--sec1--div10{
+        gap: 2rem;
+    }
+    
+
+}
 
 @media screen and (min-width:1400px) {
 
@@ -323,7 +338,7 @@ body {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: var(--colorBackground); /* Dark overlay */
+    background-color: #fff; /* Dark overlay */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -334,7 +349,7 @@ body {
     padding: 0;
     margin: 0;
     list-style-type: none;
-    z-index: 100;
+    z-index: 10000;
 }
 
 .nav__menu .nav__item {
@@ -352,7 +367,7 @@ body {
 }
 
 .nav__link {
-  color: var(--colorSecondaryTxt);
+  color: #000;
   display: block;
   text-align: center;
   text-transform: uppercase;
@@ -366,7 +381,7 @@ body {
   outline: 0;
   /* background-color: rgba(0, 0, 0, 0.2); */
   cursor: pointer;
-  color: var(--colorTxt);
+  color: var(--colorBackground);
 }
 
 .nav--open .nav__menu {
@@ -385,13 +400,16 @@ body {
     display: flex;
     justify-content: center;
     /* margin-top: -15px; */
-    background-color: var(--colorBackground);
-    padding: 0.5rem 0rem;
+    /* background-color: var(--colorBackground); */
+    /* padding: 0.5rem 0rem; */
+    width: 55%;
 }
 
 .header--logo--sm{
     width: 10rem;
-    margin-top: -10px;
+    /* margin-top: -10px; */
+    display: flex;
+    justify-content: center;
 }
 
 .header--sec2--div4 {
@@ -400,6 +418,14 @@ body {
     justify-content: right;
     margin-left: auto;
     margin-top: 15px;
+    width: 30%;
+    /* background-color: red; */
+}
+
+.header--sec2--div7 {
+    width: 15%;
+    /* background-color: blue; */
+    display: flex;
 }
 
 .header--btn--sm {
@@ -434,13 +460,13 @@ body {
 .nav__toggle {
     display: inline-block;
     position: fixed; /* Fix it to the viewport */
-    z-index: 100; /* Ensure it stays above other elements */
+    z-index: 10000; /* Ensure it stays above other elements */
     padding: 10px;
     border: none;
     background: transparent;
     outline: none;
-    left: 15px; /* Adjust position to the left */
-    top: 3px; /* Adjust position to the top */
+    left: 0px; /* Adjust position to the left */
+    top: 24px; /* Adjust position to the top */
     cursor: pointer;
     border-radius: 50%;
     transition: background-color 0.15s linear;
@@ -537,7 +563,7 @@ body {
 }
 .nav:target .menuicon,
 .nav--open .menuicon {
-  color: white;
+  color: #000;
   transform: rotate(180deg);
 }
 .nav:target .menuicon__circle,
@@ -591,6 +617,43 @@ body {
 
 
 
+
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    /* background-color: #fa630c2a; */
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    display: none;
+    /* Hidden by default */
+    z-index: 100;
+    /* Ensure it's on top */
+    /* border: 0.2rem solid #FA620C; */
+    width: 4rem;
+    height: 4rem;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.scroll-to-top:hover {
+    opacity: calc(150%);
+}
+
+.up--icon--img {
+    height: 3.5rem;
+}
+
+
+.nav--open #scrollToTopBtn {
+    display: none !important;
+}
 
 
 

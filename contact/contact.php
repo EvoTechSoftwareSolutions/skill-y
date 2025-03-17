@@ -27,20 +27,20 @@
 
     <section class="contact--sec1" id="about">
         <div class="contact--sec1--div1">
-            <span class="contact--sec1--span1">Skill-y /<span class="contact--sec1--span2"> About Us</span></span>
+            <span class="contact--sec1--span1" onclick="window.location='../home/home.php';">Skill-y /</span><span class="contact--sec1--span2"> About Us</span>
         </div>
     </section>
 
-    <section class="contact--sec2">
-        <div class="contact--sec2--div1">
+    <section class="view contact--sec2">
+        <div class="block contact--sec2--div1">
             <span class="contact--sec2--span1">About Us</span>
             <span class="contact--sec2--span2">Why Choose<span class="contact--sec2--span3"> Skill-y Visa Consultancy?</span></span>
         </div>
     </section>
 
 
-    <section class="contact--sec3">
-        <div class="contact--sec3--div1">
+    <section class="view contact--sec3">
+        <div class="block contact--sec3--div1">
             <div class="contact--sec3--div2">
                 <img src="../resources/img/contact/con_img1.png" class="contact--sec3--img" />
             </div>
@@ -80,8 +80,8 @@
         </div>
     </section>
 
-    <section class="contact--sec4">
-        <div class="contact--sec4--div1">
+    <section class="view contact--sec4">
+        <div class="block contact--sec4--div1">
             <div class="contact--sec4--div2">
                 <span class="contact--sec4--span1">IN PARTNERSHIP WITH</span>
             </div>
@@ -98,22 +98,22 @@
 
     <br />
 
-    <section class="contact--sec1" id="contact">
-        <div class="contact--sec1--div1">
-            <span class="contact--sec1--span1">Skill-y /<span class="contact--sec1--span2"> Contact Us</span></span>
+    <section class="view contact--sec1" id="contact">
+        <div class="block contact--sec1--div1">
+            <span class="contact--sec1--span1" onclick="window.location='../home/home.php';">Skill-y /</span><span class="contact--sec1--span2"> Contact Us</span>
         </div>
     </section>
 
-    <section class="contact--sec2">
-        <div class="contact--sec2--div1">
+    <section class="view contact--sec2">
+        <div class="block contact--sec2--div1">
             <span class="contact--sec2--span1">Contact Us</span>
             <span class="contact--sec2--span2">Get In<span class="contact--sec2--span3"> Touch</span></span>
         </div>
     </section>
 
-    <section class="contact--sec5">
+    <section class="view contact--sec5">
         <div class="contact--sec5--div1">
-            <div class="contact--sec5--div2">
+            <div class="block contact--sec5--div2">
                 <div class="contact--sec5--div3">
                     <div class="contact--sec5--div4">
                         <div class="contact--sec5--div5">
@@ -148,11 +148,11 @@
                         <div class="contact--sec5--div10">
                             <div class="contact--sec5--div11">
                                 <span class="contatct--sec5--txt2">
-                                At Skilly.co.nz, we are dedicated to making your dream of studying in New Zealand a reality. As a trusted student immigration consulting company, we provide expert guidance to help you navigate every step of the journey—from choosing the right educational institution to securing your student visa.
+                                    At Skilly.co.nz, we are dedicated to making your dream of studying in New Zealand a reality. As a trusted student immigration consulting company, we provide expert guidance to help you navigate every step of the journey—from choosing the right educational institution to securing your student visa.
                                     <br />
                                     We understand that moving to a new country for education is a big decision, and that’s why our experienced consultants offer personalized support tailored to your academic and career goals. Whether you need advice on selecting courses, visa requirements, scholarships, or post-study work opportunities, we are here to assist you.
-                            
-                                No question is too small, and no detail is overlooked. We are committed to making your transition smooth and stress-free so you can focus on your studies and future success.Contact us today via call, email, or message, and let’s start crafting your academic journey. With Skilly.co.nz, your education abroad isn’t just a dream—it’s a step toward a brighter future!
+
+                                    No question is too small, and no detail is overlooked. We are committed to making your transition smooth and stress-free so you can focus on your studies and future success.Contact us today via call, email, or message, and let’s start crafting your academic journey. With Skilly.co.nz, your education abroad isn’t just a dream—it’s a step toward a brighter future!
                                 </span>
                             </div>
                         </div>
@@ -160,8 +160,8 @@
                     <!-- <div class="contatct--verticle--hr"></div> -->
                 </div>
             </div>
-            <div class="contact--sec5--div12">
-                <div class="contact--sec5--div13">
+            <div class="block contact--sec5--div12">
+                <div class="block contact--sec5--div13">
                     <div class="contact--sec5--div17">
                         <div class="contact--sec5--div14" style="background-color: #4D6D1D;">
                             <div class="contact--sec5--div15">
@@ -223,80 +223,75 @@
 
 
 
-                    <div class="contact--sec5--div21">
-                        <div class="contact--sec5--div19">
-                            <div class="contact--sec5--div14" style="background-color: #4D6D1D;">
-                                <div class="contact--sec5--div15">
-                                    <table>
-                                        <tr>
-                                            <td><img src="../resources/img/contact/icon1.png" class="table--img1" /></td>
-                                            <td class="table--span1">Contact Number</td>
-                                        </tr>
-                                    </table>
-                                </div>
-                                <div class="contact--sec5--div16">
-                                    <span class="sec5--iconspan">+64 27 329 6864</span>
-                                </div>
+                <div class="contact--sec5--div21">
+                    <div class="contact--sec5--div19">
+                        <div class="block contact--sec5--div14" style="background-color: #4D6D1D;">
+                            <div class="contact--sec5--div15">
+                                <table>
+                                    <tr>
+                                        <td><img src="../resources/img/contact/icon1.png" class="table--img1" /></td>
+                                        <td class="table--span1">Contact Number</td>
+                                    </tr>
+                                </table>
                             </div>
-                            <div class="contact--sec5--div14" style="background-color: #669127;">
-                                <div class="contact--sec5--div15">
-                                    <table>
-                                        <tr>
-                                            <td class="table--img1"><img src="../resources/img/contact/icon2.png" class="table--img1" /></td>
-                                            <td class="table--span1">Email Address</td>
-                                        </tr>
-                                    </table>
-                                </div>
-                                <div class="contact--sec5--div16">
-                                    <span class="sec5--iconspan">info@skilly.co.nz</span>
-                                </div>
+                            <div class="contact--sec5--div16">
+                                <span class="sec5--iconspan">+64 27 329 6864</span>
                             </div>
                         </div>
-                        <div class="contact--sec5--div20">
-                            <div class="contact--sec5--div14" style="background-color: #80B531;">
-                                <div class="contact--sec5--div15">
-                                    <table>
-                                        <tr>
-                                            <td class="table--img1"><img src="../resources/img/contact/icon3.png" class="table--img1" /></td>
-                                            <td class="table--span2">Location</td>
-                                        </tr>
-                                    </table>
-                                </div>
-                                <div class="contact--sec5--div16">
-                                    <span class="sec5--iconspan11">Rolleston, Christchurch, 7615,
-                                        New Zealand</span>
-                                </div>
+                        <div class="block contact--sec5--div14" style="background-color: #669127;">
+                            <div class="contact--sec5--div15">
+                                <table>
+                                    <tr>
+                                        <td class="table--img1"><img src="../resources/img/contact/icon2.png" class="table--img1" /></td>
+                                        <td class="table--span1">Email Address</td>
+                                    </tr>
+                                </table>
                             </div>
-                            <div class="contact--sec5--div14" style="background-color: #ECF4E0;">
-                                <div class="contact--sec5--div15">
-                                    <table>
-                                        <tr>
-                                            <td class="table--img1"><img src="../resources/img/contact/icon4.png" class="table--img1" /></td>
-                                            <td class="table--span2">WhatsApp</td>
-                                        </tr>
-                                    </table>
-                                </div>
-                                <div class="contact--sec5--div16">
-                                    <span class="sec5--iconspan1">+64 27 329 6864</span>
-                                </div>
+                            <div class="contact--sec5--div16">
+                                <span class="sec5--iconspan">info@skilly.co.nz</span>
                             </div>
                         </div>
                     </div>
+                    <div class="contact--sec5--div20">
+                        <div class="block contact--sec5--div14" style="background-color: #80B531;">
+                            <div class="contact--sec5--div15">
+                                <table>
+                                    <tr>
+                                        <td class="table--img1"><img src="../resources/img/contact/icon3.png" class="table--img1" /></td>
+                                        <td class="table--span2">Location</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="contact--sec5--div16">
+                                <span class="sec5--iconspan11">Rolleston, Christchurch, 7615,
+                                    New Zealand</span>
+                            </div>
+                        </div>
+                        <div class="block contact--sec5--div14" style="background-color: #ECF4E0;">
+                            <div class="contact--sec5--div15">
+                                <table>
+                                    <tr>
+                                        <td class="table--img1"><img src="../resources/img/contact/icon4.png" class="table--img1" /></td>
+                                        <td class="table--span2">WhatsApp</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="contact--sec5--div16">
+                                <span class="sec5--iconspan1">+64 27 329 6864</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
 
-    <div class="contact--sec5--div24">
-                <div class="contact--sec5--div25">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3968.3166521328867!2d80.5563884!3d5.951033300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae139005828311b%3A0xdd0e4cb077063998!2sKHK%20Tours!5e0!3m2!1sen!2slk!4v1736124128896!5m2!1sen!2slk" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="contact--map--img"></iframe>
-                </div>
-            </div>
-
-
-
-
-
+    <div class="view contact--sec5--div24">
+        <div class="block contact--sec5--div25">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.183114188536!2d172.3599735!3d-43.6027288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d3203658b029491%3A0xfdbd3214a7bb4302!2s9%20Siltstone%20Street%2C%20Rolleston%207614%2C%20New%20Zealand!5e0!3m2!1sen!2slk!4v1742227152361!5m2!1sen!2slk" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="contact--map--img"></iframe>
+        </div>
+    </div>
 
 
     <!-- Footer -->
