@@ -37,7 +37,7 @@
 
     <section class="view home--sec1">
         <div class="home--sec1--div1">
-            <div class="block home--sec1--divExtra">
+            <div class="home--sec1--divExtra">
                 <div class="home--sec1--divExtra1">
                     <div class="home--sec1--div2">
                         <div class="home--sec1--div3">
