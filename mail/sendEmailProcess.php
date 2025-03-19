@@ -62,12 +62,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->IsSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'et.website.message@gmail.com';
-        $mail->Password = 'glalywegifqhgjhf';
+        $mail->Username = 'skilly.co.nz@gmial.com';
+        $mail->Password = 'Skilly2025**';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
-        $mail->setFrom('et.website.message@gmail.com', 'Skill-y');
-        $mail->addReplyTo('et.website.message@gmail.com', 'Skill-y');
+        $mail->setFrom('skilly.co.nz@gmial.com', 'Skill-y');
+        $mail->addReplyTo('skilly.co.nz@gmial.com', 'Skill-y');
     
         // First email to 'info@skilly.co.nz'
         $mail->addAddress('info@skilly.co.nz');
