@@ -70,7 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->addReplyTo('et.website.message@gmail.com', 'Skill-y');
     
         // First email to 'info@skilly.co.nz'
-        $mail->addAddress('info@skillynz.co.nz');
+        $mail->addAddress('info@skilly.co.nz');
         $mail->isHTML(true);
         $mail->Subject = 'Client message';
         $bodyContent = '<!DOCTYPE html>
