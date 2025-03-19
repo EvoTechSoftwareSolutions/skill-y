@@ -7,6 +7,7 @@
     <title>Skill-y</title>
     <link rel="icon" href="../resources/img/footer_logo.png" />
     <link rel="stylesheet" href="../contact/contact.css">
+    <link rel="stylesheet" href="../home/home.css">
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="../footer/footer.css">
 </head>
