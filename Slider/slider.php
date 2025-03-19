@@ -27,7 +27,7 @@
                         Take the first step toward an international education with expert guidance from Skilly. We help you choose the right course, university, and country to match your aspirations.
                         </div>
                         <div class="buttons">
-                            <button class="buttons--in" onclick="window.location='../About/about.php#contact';">CONTACT&nbsp;NOW</button>
+                            <button class="buttons--in" onclick="window.location='../contact/contact.php#contact';">CONTACT&nbsp;NOW</button>
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
                         Our team ensures a smooth visa application process with accurate documentation and expert guidance, increasing your chances of approval.
                         </div>
                         <div class="buttons">
-                            <button class="buttons--in" onclick="window.location='../About/about.php#contact';">CONTACT&nbsp;NOW</button>
+                            <button class="buttons--in" onclick="window.location='../contact/contact.php#contact';">CONTACT&nbsp;NOW</button>
                         </div>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
                         We help you explore scholarship opportunities and financial aid options, making your study abroad dreams a reality without financial stress.
                         </div>
                         <div class="buttons">
-                            <button class="buttons--in" onclick="window.location='../About/about.php#contact';">CONTACT&nbsp;NOW</button>
+                            <button class="buttons--in" onclick="window.location='../contact/contact.php#contact';">CONTACT&nbsp;NOW</button>
                         </div>
                     </div>
                 </div>

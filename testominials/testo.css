@@ -116,6 +116,7 @@ body {
     background-size: cover;
     background-image: url(../resources/img/home/Testimonials.jpg);
     aspect-ratio: 23/9;
+    border-radius: 10px;
 }
 
 .testomonial--sec1--div2{
@@ -153,6 +154,7 @@ body {
     background-color: var(--colorCard);
     display: flex;
     justify-content: center;
+    border-radius: 8px;
 }
 
 .testomonial--sec1--div5{
@@ -235,6 +237,7 @@ body {
 .feed--content{
     font-family: "inter_regular";
     color: var(--colorTxt);
+    
 }
 
 .testomonial--sec1--div8{
@@ -242,6 +245,7 @@ body {
     padding: 2rem 2rem;
     background-color: #ffff;
     text-align: right;
+    border-radius: 5px;
 }
 
 .testomonial--sec1--div9{
@@ -254,6 +258,7 @@ body {
     flex-direction: row;
     /* align-items: center; */
     margin-bottom: 2rem;
+    
 }
 
 .home--sec4--text{
