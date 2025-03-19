@@ -119,25 +119,25 @@
                         <div class="contact--sec5--div5">
                             <div class="contact--sec5--div6">
                                 <div class="contact--sec5--div7">
-                                    <input type="text" class="contact--txtfield" id="fname" placeholder="First Name">
+                                    <input type="text" class="contact--txtfield" id="fname" placeholder="First Name *">
                                 </div>
                                 <div class="contact--sec5--div7">
-                                    <input type="text" class="contact--txtfield" id="lname" placeholder="Last Name">
+                                    <input type="text" class="contact--txtfield" id="lname" placeholder="Last Name *">
                                 </div>
                             </div>
                             <div class="contact--sec5--div6">
                                 <div class="contact--sec5--div7">
-                                    <input type="text" class="contact--txtfield" id="phone" maxlength="16" placeholder="Phone Number">
+                                    <input type="text" class="contact--txtfield" id="phone" maxlength="16" placeholder="Phone Number *">
                                 </div>
                                 <div class="contact--sec5--div7">
-                                    <input type="text" class="contact--txtfield" id="email" placeholder="Email">
+                                    <input type="text" class="contact--txtfield" id="email" placeholder="Email *">
                                 </div>
                             </div>
                             <div class="contact--sec5--div8">
                                 <input type="text" class="contact--txtfield" id="subject" placeholder="Subject">
                             </div>
                             <div class="contact--sec5--div8">
-                                <textarea class="contact--txtarea" id="message" placeholder="Message"></textarea>
+                                <textarea class="contact--txtarea" id="message" placeholder="Message *"></textarea>
                             </div>
                             <div class="contact--sec5--divBtn">
                                 <button class="contatct--button" id="sub_btn" onclick="send();">Send Message</button>

@@ -69,6 +69,10 @@
   --colorFooter: #2d3f11;
 }
 
+*{
+  font-family: "inter_regular";
+}
+
 html{
   scroll-behavior: smooth;
   scroll-padding-top: var(--scroll-padding, 50px);
@@ -839,3 +843,30 @@ body {
     top: 50%;
     z-index: -10;
   }
+
+
+
+
+
+
+
+
+
+
+  .loader {
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid var(--colorBackground);
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    animation: spin 1s linear infinite;
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
