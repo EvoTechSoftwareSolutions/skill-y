@@ -283,7 +283,8 @@
   letter-spacing: 4px;
   color: var(--colorSecondaryTxt);
   /* font-size: 0.9rem; */
-  font-size: 0.1rem;
+  font-size: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .title {
@@ -293,6 +294,7 @@
   line-height: 1.3em;
   color: var(--colorSecondaryTxt);
   font-size: 0.8rem;
+  /* margin-bottom: 1rem; */
 }
 
 .topic {
@@ -305,20 +307,19 @@
 }
 
 .des {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   font-family: "InstrumentSans_semiBold";
   color: var(--colorSecondaryTxt);
   /* font-size: 0.8rem; */
   font-size: 0.7rem;
+  /* margin-bottom: 1rem; */
 }
 
 .buttons {
-
   display: grid;
   grid-template-columns: repeat(2, 130px);
   grid-template-rows: 40px;
   gap: 5px;
-  margin-top: 20px;
 }
 
 .buttons .buttons--in {
@@ -326,6 +327,8 @@
   /* font-family:"inter_bold"; */
   font-weight: 700;
   border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  height: max-content;
 }
 
 .buttons .buttons--in:nth-child(2) {
@@ -340,7 +343,7 @@
   background-color: var(--colorBackground);
   color: var(--colorSecondaryTxt);
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 0.8rem 1rem;
   width: max-content;
 }
 
@@ -466,13 +469,13 @@
 }
 
 
-@media screen and (min-width: 650px) and (max-width: 760px) {
+/* @media screen and (min-width: 650px) and (max-width: 760px) {
 
   .slider .list .item .content--slider {
     top: 0%;
   }
 
-}
+} */
 
 
 @media screen and (max-width: 768px) {
@@ -517,11 +520,13 @@
   .author {
     font-size: 0.7rem;
     /* background-color: red; */
+    margin-bottom: 0.5rem;
   }
 
   .title {
     font-size: 1rem;
     line-height: 1em;
+    margin-bottom: 0.5rem;
   }
 
   .topic {
@@ -531,11 +536,16 @@
 
   .des {
     font-size: 0.7rem;
+    margin-bottom: 0.5rem;
   }
 
   .buttons {
     margin-top: 10px;
   }
+  .buttons .buttons--in {
+    margin-top: 0.5rem;
+  }
+
 }
 
 
@@ -654,11 +664,13 @@
 
   .author {
     font-size: 0.9rem;
+    margin-bottom: 0.5rem;
   }
 
   .title {
     font-size: 1.5rem;
     line-height: 1em;
+    margin-bottom: 0.5rem;
   }
 
   .topic {
@@ -668,11 +680,16 @@
 
   .des {
     font-size: 0.8rem;
+    margin-bottom: 0.5rem;
   }
 
   .thumbnail .item {
     width: 8rem;
     height: 3rem;
+  }
+
+  .buttons .buttons--in {
+    margin-top: 0.5rem;
   }
 
 }
@@ -682,11 +699,13 @@
 
   .author {
     font-size: 1rem;
+    margin-bottom: 1rem;
   }
 
   .title {
     font-size: 1.8rem;
     line-height: 1em;
+    margin-bottom: 1rem;
   }
 
   .topic {
@@ -695,7 +714,13 @@
   }
 
   .des {
+    margin-top: 1rem;
     font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+
+  .buttons .buttons--in {
+    margin-top: 1rem;
   }
 
 }
@@ -739,4 +764,47 @@
     top: 40%;
   }
 
+}
+
+
+
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.content--slider p:nth-child(1), /* Author */
+.content--slider h2, /* Title */
+.content--slider .topic, /* Topic */
+.content--slider .des, /* Description */
+.buttons { /* Buttons */
+  opacity: 0; /* Initially hidden */
+  transform: translateY(30px);
+}
+
+.slider .list .item.active .author {
+  animation: fadeInUp 0.7s 0.3s ease-in-out forwards;
+}
+
+.slider .list .item.active .title {
+  animation: fadeInUp 0.7s 0.6s ease-in-out forwards; /* 0.3s delay */
+}
+
+.slider .list .item.active .topic {
+  animation: fadeInUp 0.7s 0.9s ease-in-out forwards; /* 0.6s delay */
+}
+
+.slider .list .item.active .des {
+  animation: fadeInUp 0.7s 1.2s ease-in-out forwards; /* 0.9s delay */
+}
+
+.slider .list .item.active .buttons {
+  animation: fadeInUp 0.7s 1.5s ease-in-out forwards; /* 1.2s delay */
 }

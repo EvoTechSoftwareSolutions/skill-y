@@ -599,6 +599,7 @@
     <script src="../slider/slider.js"></script>
     <script src="home.js"></script>
     <script src="../services_slider/services_slider.js"></script>
+    <script src="../testominials/testo.js"></script>
     <script src="../resources/swiper/swiper-bundle.min.js"></script>
     <script src="../home/home.js"></script>
     <script src="../lib/wow/wow.js"></script>

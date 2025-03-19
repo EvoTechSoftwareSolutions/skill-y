@@ -478,6 +478,7 @@ body {
     /* border-radius: 8px; */
     scroll-behavior: smooth;
     scrollbar-width: none;
+    cursor: grab;
   }
   .carousel1::-webkit-scrollbar {
     display: none;
@@ -488,6 +489,7 @@ body {
   .carousel1.dragging {
     scroll-snap-type: none;
     scroll-behavior: auto;
+    cursor: grabbing;
   }
   .carousel1.dragging .card1 {
     cursor: grab;
@@ -507,6 +509,8 @@ body {
     /* padding-bottom: 15px; */
     flex-direction: column;
     /* border-radius: 8px; */
+    justify-content: center;
+    align-items: center;
   }
 
 

@@ -137,24 +137,24 @@
 
 
 
-    <script src="../header/header.js"></script>
-    <script src="../slider/slider.js"></script>
-    <script src="../testominials/testo.js"></script>
-    <script src="home.js"></script>
-    <script src="../services_slider/services_slider.js"></script>
-    <script src="../resources/swiper/swiper-bundle.min.js"></script>
-    <script src="../home/home.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- <script src="../header/header.js"></script> -->
+    <!-- <script src="../slider/slider.js"></script> -->
+    <script src="../testominials/testo.js" dref></script>
+    <!-- <script src="home.js"></script> -->
+    <!-- <script src="../services_slider/services_slider.js"></script> -->
+    <!-- <script src="../resources/swiper/swiper-bundle.min.js"></script> -->
+    <!-- <script src="../home/home.js"></script> -->
+    <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
     <!--=============== SWIPER JS ===============-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <!-- <script src="assets/js/swiper-bundle.min.js"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.js"></script> -->
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script> -->
 
     <!--=============== MAIN JS ===============-->
-    <script src="assets/js/main.js"></script>
+    <!-- <script src="assets/js/main.js"></script> -->
 
 </body>
 

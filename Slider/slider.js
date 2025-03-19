@@ -72,6 +72,30 @@ var swiper = new Swiper(".slide-content", {
 
 
 
+const slides = document.querySelectorAll(".slider .list .item");
+let index = 0;
+
+function showSlide(i) {
+  slides.forEach((slide, idx) => {
+    slide.classList.remove("active");
+    if (idx === i) {
+      slide.classList.add("active");
+    }
+  });
+}
+
+function nextSlide() {
+  index = (index + 1) % slides.length;
+  showSlide(index);
+}
+
+// Change slide every 5 seconds (adjust timing as needed)
+setInterval(nextSlide, 5000);
+
+// Initialize first slide
+showSlide(index);
+
+
 
 var swiper = new Swiper(".slide-content", {
     slidesPerView: 4,
