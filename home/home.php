@@ -105,7 +105,7 @@
         </div>
     </section>
 
-    <?php include "../testominials/testo.php"; ?>
+    <?php include "../testominials/testo.php";?>
 
     <section class="view home--sec5">
         <div class="home--sec5--divExtra1">
