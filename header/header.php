@@ -39,18 +39,18 @@
             </div>
             <div class="header--sec1--div9">
                 <div class="header--sec1--div10">
-                    <div class="header--sec1--div11">
-                        <span class="header--nav" onclick="window.location='../home/home.php';">HOME</span>
-                    </div>
-                    <div class="header--sec1--div11">
-                        <span class="header--nav" onclick="window.location='../services/services.php';">OUR SERVICES</span>
-                    </div>
-                    <div class="header--sec1--div11">
-                        <span class="header--nav" onclick="window.location='../contact/contact.php#about';">ABOUT US</span>
-                    </div>
-                    <div class="header--sec1--div11">
-                        <span class="header--nav" onclick="window.location='../contact/contact.php#contact';">CONTACT US</span>
-                    </div>
+                    <!-- <div class="header--sec1--div11" onclick="window.location='../home/home.php';"> -->
+                        <a class="header--nav" href="../home/home.php">HOME</a>
+                    <!-- </div> -->
+                    <!-- <div class="header--sec1--div11" onclick="window.location='../services/services.php';"> -->
+                        <a class="header--nav"  href="../services/services.php">OUR SERVICES</a>
+                    <!-- </div> -->
+                    <!-- <div class="header--sec1--div11" onclick="window.location='../about/about.php';"> -->
+                        <a class="header--nav"  href="../about/about.php">ABOUT US</a>
+                    <!-- </div> -->
+                    <!-- <div class="header--sec1--div11" onclick="window.location='../contact/contact.php';"> -->
+                        <a class="header--nav"  href="../contact/contact.php">CONTACT US</a>
+                    <!-- </div> -->
                 </div>
             </div>
         </div>
@@ -72,8 +72,8 @@
                         <br/>
                         <li class="nav__item"><a href="../home/home.php" class="nav__link">HOME</a></li>
                         <li class="nav__item"><a href="../services/services.php" class="nav__link">OUR SERVICES</a></li>
-                        <li class="nav__item"><a href="../contact/contact.php#about" class="nav__link">ABOUT US</a></li>
-                        <li class="nav__item"><a href="../contact/contact.php#contact" class="nav__link">CONTACT US</a></li>
+                        <li class="nav__item"><a href="../about/about.php" class="nav__link">ABOUT US</a></li>
+                        <li class="nav__item"><a href="../contact/contact.php" class="nav__link">CONTACT US</a></li>
                         <div class="header--sec2--div5">
                             <div class="header--sec2--div6" onclick="window.location='https://www.facebook.com/share/17WKqDuzDR/?mibextid=wwXIfr';">
                                 <img src="../resources/img/header/facebook.png" alt="social--icon" class="social--icon--sm">
@@ -139,7 +139,7 @@
     </div>
 
 
-    <script src="../header/header.js"></script>
+    <script defer src="../header/header.js"></script>
 
 </body>
 

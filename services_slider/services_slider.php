@@ -79,7 +79,7 @@
         </div>
         <div class="home--sec3--div7">
           <span class="home--sec3--span5">
-            You are not alone in Finland on your first arrival.We are committed to welcoming you at the airport
+            You are not alone in New Zealand on your first arrival.We are committed to welcoming you at the airport
           </span>
         </div>
         <div class="home--sec3--div8" onclick="window.location='../services/services.php';">

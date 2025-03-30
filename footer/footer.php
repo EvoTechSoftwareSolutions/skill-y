@@ -54,31 +54,33 @@
                         <img src="../resources/img/footer/footer_logo.png" class="footer--logo" />
                     </div>
                     <div class="footer--sec1--div7">
-                        <div class="footer--sec1--div8" onclick="window.location='https://www.facebook.com/share/17WKqDuzDR/?mibextid=wwXIfr';">
-                            <div class="footer--sec1--div9">
-                                <span class="footer--hspan">Facebook</span>
-                                <span class="footer--sspan">Skilly</span>
+                        <div class="footer--sec1--div7--extra">
+                            <div class="footer--sec1--div8" onclick="window.location='https://www.facebook.com/share/17WKqDuzDR/?mibextid=wwXIfr';">
+                                <div class="footer--sec1--div9">
+                                    <span class="footer--hspan">Facebook</span>
+                                    <span class="footer--sspan">Skilly</span>
+                                </div>
+                                <div class="footer--sec1--div10">
+                                    <img src="../resources/img/footer/facebook.png" class="footer--icon" />
+                                </div>
                             </div>
-                            <div class="footer--sec1--div10">
-                                <img src="../resources/img/footer/facebook.png" class="footer--icon" />
+                            <div class="footer--sec1--div8" onclick="window.location='http://www.youtube.com/@Skillly';">
+                                <div class="footer--sec1--div9">
+                                    <span class="footer--hspan">YouTube</span>
+                                    <span class="footer--sspan">Skilly</span>
+                                </div>
+                                <div class="footer--sec1--div10">
+                                    <img src="../resources/img/footer/youtube.png" class="footer--icon" />
+                                </div>
                             </div>
-                        </div>
-                        <div class="footer--sec1--div8" onclick="window.location='http://www.youtube.com/@Skillly';">
-                            <div class="footer--sec1--div9">
-                                <span class="footer--hspan">YouTube</span>
-                                <span class="footer--sspan">Skilly</span>
-                            </div>
-                            <div class="footer--sec1--div10">
-                                <img src="../resources/img/footer/youtube.png" class="footer--icon" />
-                            </div>
-                        </div>
-                        <div class="footer--sec1--div8" onclick="window.location='https://api.whatsapp.com/send?phone=64273296864';">
-                            <div class="footer--sec1--div9">
-                                <span class="footer--hspan">WhatsApp</span>
-                                <span class="footer--sspan">+64 27 329 6864</span>
-                            </div>
-                            <div class="footer--sec1--div10">
-                                <img src="../resources/img/footer/whatsapp.png" class="footer--icon" />
+                            <div class="footer--sec1--div8" onclick="window.location='https://api.whatsapp.com/send?phone=64273296864';">
+                                <div class="footer--sec1--div9">
+                                    <span class="footer--hspan">WhatsApp</span>
+                                    <span class="footer--sspan">+64 27 329 6864</span>
+                                </div>
+                                <div class="footer--sec1--div10">
+                                    <img src="../resources/img/footer/whatsapp.png" class="footer--icon" />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -92,11 +94,11 @@
                         <span class="footer--hspan1">SERVICES</span>
                     </div>
                     <hr class="footer--menu--hr">
-                    <div class="footer--sec1--div12" onclick="window.location='../contact/contact.php#contact';">
+                    <div class="footer--sec1--div12" onclick="window.location='../about/about.php';">
                         <span class="footer--hspan1">ABOUT US</span>
                     </div>
                     <hr class="footer--menu--hr">
-                    <div class="footer--sec1--div12" onclick="window.location='../contact/contact.php#about';">
+                    <div class="footer--sec1--div12" onclick="window.location='../contact/contact.php';">
                         <span class="footer--hspan1">CONTACT US</span>
                     </div>
                 </div>
@@ -107,7 +109,7 @@
                             <span class="footer--hspan2">Copyright © 2025 All Right Reserved <b class="company--link">Skill-y</b></span>
                         </div>
                         <div class="footer--sec1--div16" onclick="window.location='https://evotechsoftwaresolutions.com';">
-                            <span class="footer--hspan3">Design & Developed by <b class="company--link">Evo Tec Software Solutions</b></span>
+                            <span class="footer--hspan3">Design & Developed by <b class="company--link">Evon Technologies Software Solutions (PVT) Ltd.</b></span>
                         </div>
                     </div>
                 </div>
@@ -189,11 +191,11 @@
                     <span class="footer--hspan1">SERVICES</span>
                 </div>
                 <hr class="footer--menu--hr">
-                <div class="footer--sec1--div12" onclick="window.location='../contact/contact.php#contact';">
+                <div class="footer--sec1--div12" onclick="window.location='../about/about.php';">
                     <span class="footer--hspan1">ABOUT US</span>
                 </div>
                 <hr class="footer--menu--hr">
-                <div class="footer--sec1--div12" onclick="window.location='../contact/contact.php#about';">
+                <div class="footer--sec1--div12" onclick="window.location='../contact/contact.php';">
                     <span class="footer--hspan1">CONTACT US</span>
                 </div>
             </div>
@@ -205,7 +207,7 @@
                     <span class="footer--hspan2">Copyright © 2025 All Right Reserved <b class="company--link">Skill-y</b></span>
                 </div>
                 <div class="footer--sec1--div16" onclick="window.location='https://evotechsoftwaresolutions.com';">
-                    <span class="footer--hspan3">Design & Developed by <b class="company--link">Evo Tec Software Solutions</b></span>
+                    <span class="footer--hspan3">Design & Developed by <b class="company--link">Evon Technologies Software Solutions (PVT) Ltd.</b></span>
                 </div>
             </div>
         </div>

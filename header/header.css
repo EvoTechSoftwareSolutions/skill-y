@@ -231,8 +231,11 @@ body {
     flex-direction: row;
     font-family: "urbanist_extraBold";
     color: var(--colorCard);
-    gap: 3rem;
+    gap: 5rem;
     justify-content: center;
+    align-self: center;
+    align-items: center;
+    height: 3rem;
 }
 
 .header--sec1--div11:hover{
@@ -240,10 +243,20 @@ body {
     color: var(--colorTxt);
 }
 
-/* .header--nav:hover{
-    cursor: pointer;
+.header--nav{
     color: var(--colorSecondaryTxt);
-} */
+    text-decoration: none;
+}
+
+.header--nav:hover{
+    cursor: pointer;
+    color: var(--colorTxt);
+}
+
+/* Active link color */
+.header--nav.active {
+    color: #FF5733;  /* Change to your desired active color */
+}
 
 .header--sec1--div11{
     padding: 1rem;
@@ -269,7 +282,7 @@ body {
 @media screen and (max-width:599px) {
 
     .header--sec1--div10{
-        gap: 1.5rem;
+        gap: 2.5rem;
     }
 
 }
@@ -277,7 +290,7 @@ body {
 @media screen and (min-width:600px) and (max-width:800px) {
 
     .header--sec1--div10{
-        gap: 2rem;
+        gap: 3rem;
     }
     
 

@@ -261,7 +261,7 @@
                         </div>
                         <div class="services--sec4--div10">
                             <span class="services--sec4--span2">
-                                Winning a fully or a partially funded scholarship in your dream university /college will be an immense financial benefit. Expert advice on scholarship wins can be received here. Your Finland dream could be supported with excellent expertise.
+                                Winning a fully or a partially funded scholarship in your dream university /college will be an immense financial benefit. Expert advice on scholarship wins can be received here. Your New Zealand dream could be supported with excellent expertise.
                             </span>
                         </div>
                     </div>
@@ -291,7 +291,7 @@
                         </div>
                         <div class="services--sec4--div10">
                             <span class="services--sec4--span2">
-                                You are not alone in Finland on your first arrival. We are committed to welcoming you at the airport and assisting you in traveling to the accommodation happily while you enjoy the first sights of the magnificent destination.
+                                You are not alone in New Zealand on your first arrival. We are committed to welcoming you at the airport and assisting you in traveling to the accommodation happily while you enjoy the first sights of the magnificent destination.
                             </span>
                         </div>
                     </div>
@@ -336,7 +336,7 @@
                         </div>
                         <div class="services--sec4--div10">
                             <span class="services--sec4--span2">
-                                We are happy to provide you guidance in applying for and granting visitor visas for parents when you want to share the foreign experience with them, while you study in Finland.
+                                We are happy to provide you guidance in applying for and granting visitor visas for parents when you want to share the foreign experience with them, while you study in New Zealand.
                             </span>
                         </div>
                     </div>

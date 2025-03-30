@@ -177,6 +177,7 @@ body {
     font-family: "urbanist_regular";
     text-transform: capitalize;
     padding-top: 0.3rem;
+    text-align: justify;
 }
 
 .home--sec1--div6{
@@ -227,6 +228,10 @@ body {
 
     .home--sec1--div2{
         width: 90%;
+    }
+
+    .home--sec1--span6{
+        text-align: justify;
     }
 
 }

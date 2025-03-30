@@ -83,16 +83,12 @@
                                                     <img src="../resources/img/home/quotation-mark.png" class="qotation--img--tes" />
                                                 </div>
                                                 <p class="feed--content">
-                                                    Massive thanks to Skilly Student Consultancy team!They made my dream of studying abroad
-                                                    so
-                                                    much easier,handling everything smoothly from choosing the perfect university to getting
-                                                    my
-                                                    visa sorted.
+                                                I wanted to express my hartfelt thanks to skilly fir your invaluable assistance in securing my visa for New Zealand. Your expertise and. guidence made the process so much smoother.and I truly appriciate the dedication and support your team provided. 
                                                 </p>
                                             </div>
-                                            <span class="home--sec4--text">Deekshitha</span>
+                                            <span class="home--sec4--text">Supun Nawarathna</span>
                                             <br />
-                                            <span class="home--sec4--text2">Level 9 - Master Study</span>
+                                            <!-- <span class="home--sec4--text2">Level 9 - Master Study</span> -->
                                         </div>
                                         <div class="testomonial--sec1--div11">
                                             <div class="testomonial--sec1--div7">
@@ -109,16 +105,12 @@
                                                     <img src="../resources/img/home/quotation-mark.png" class="qotation--img--tes" />
                                                 </div>
                                                 <p class="feed--content">
-                                                    Massive thanks to Skilly Student Consultancy team!They made my dream of studying abroad
-                                                    so
-                                                    much easier,handling everything smoothly from choosing the perfect university to getting
-                                                    my
-                                                    visa sorted.
+                                                Skilly student consultancy made the entire process of studying abroad stress-free. Their team was highly knowledgeable and guided me step by I step,from selecting the righf university to obtain my visa. The personalized attention and fast response time were truly impressive. 
                                                 </p>
                                             </div>
-                                            <span class="home--sec4--text">Deekshitha</span>
+                                            <span class="home--sec4--text">NMIT-NELSON</span>
                                             <br />
-                                            <span class="home--sec4--text2">Level 9 - Master Study</span>
+                                            <span class="home--sec4--text2">Busines Master of Applied Management</span>
                                         </div>
                                         <div class="testomonial--sec1--div11">
                                             <div class="testomonial--sec1--div7">
