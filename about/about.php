@@ -48,8 +48,7 @@
             <div class="contact--sec3--div3">
                 <div class="contact--sec3--div4">
                     <span class="contact--sec3--span1">
-                        Skilly New Zealand is a unified network of 16 state-owned Institutes of Technology and Polytechnics (ITPs) and nine Industry Training Organisations (ITOs), operating as a single national institution. We provide high-quality, industry-aligned education and training, equipping learners with practical skills and globally recognized qualifications across diverse fields like engineering, healthcare, business, trades, and IT. With a strong focus on innovation and collaboration, we bridge the gap between education and industry, ensuring our graduates are workforce-ready and prepared for future career success.
-                    </span>
+                    Skilly New Zealand is a registered business in New Zealand, dedicated to providing high-quality educational guidance and career support for students. Our mission is to connect aspiring learners with the best universities and polytechnics in New Zealand, ensuring they receive the highest standard of education and career opportunities. At Skilly New Zealand, we are committed to helping students navigate their educational journey with confidence, providing them with the best pathways to academic and career success.                    </span>
                 </div>
                 <!-- <div class="contact--sec3--div5">
                     <div class="contact--sec3--div6">
