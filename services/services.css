@@ -1079,11 +1079,18 @@ body {
   display: flex;
   flex-direction: row;
   width: 100%;
-  margin-top: 1rem;
+  margin-top: 2rem;
   justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
 
+}
+
+.card--txt2{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  text-align: center;
 }
 
 
@@ -1141,6 +1148,7 @@ body {
     width: 100%;
     height: 100%;
     flex-direction:column;
+    row-gap:0.5rem ;
   }
   
   .services--sec6--div1 {
@@ -1159,6 +1167,11 @@ body {
     display: none;
   }
 
+  .services--sec6--div7 {
+    display:none; 
+     
+   }
+
 }
 @media screen and (min-width:300px) and (max-width:499px){
 
@@ -1168,6 +1181,7 @@ body {
 
   .services--sec6--div6{
     display: flex;
+    
   }
 
   .services--sec6--div3 {
@@ -1179,7 +1193,16 @@ body {
   
 
   .services--sec6--div2 {
-    width: 100%;  
-    flex-direction:column;
+   display: none; 
+    
   }
+
+  .services--sec6--div7 {
+    display: flex; 
+     
+   }
+
+
+
+
 }
