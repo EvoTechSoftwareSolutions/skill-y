@@ -249,7 +249,12 @@ body {
   font-family: "urbanist_bold";
   color: var(--colorSecondaryTxt);
   text-decoration: none;
-  /* margin: 0 2rem; */
+  transition: transform 0.3s ease;
+}
+
+.services--sec4--subheader:hover {
+  color: var(--colorBorder);
+  transform: translateX(0.5rem);
 }
 
 .services--sec4--div5 {

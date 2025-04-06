@@ -52,7 +52,7 @@
                     <a href="#service1" class="services--sec4--subheader">
                         <table>
                             <tr>
-                                <td>>&nbsp;&nbsp;&nbsp;</td>
+                                <td>&#10149;&nbsp;&nbsp;&nbsp;</td>
                                 <td>Collaboration Services to Institutions</td>
                             </tr>
                         </table>
@@ -61,7 +61,7 @@
                     <a href="#service2" class="services--sec4--subheader">
                         <table>
                             <tr>
-                                <td>>&nbsp;&nbsp;&nbsp;</td>
+                                <td>&#10149;&nbsp;&nbsp;&nbsp;</td>
                                 <td>Course Selection</td>
                             </tr>
                         </table>
@@ -70,7 +70,7 @@
                     <a href="#service3" class="services--sec4--subheader">
                         <table>
                             <tr>
-                                <td>>&nbsp;&nbsp;&nbsp;</td>
+                                <td>&#10149;&nbsp;&nbsp;&nbsp;</td>
                                 <td>Dependent Visas</td>
                             </tr>
                         </table>
@@ -79,7 +79,7 @@
                     <a href="#service4" class="services--sec4--subheader">
                         <table>
                             <tr>
-                                <td>>&nbsp;&nbsp;&nbsp;</td>
+                                <td>&#10149;&nbsp;&nbsp;&nbsp;</td>
                                 <td>Educational Counselling & Career Guidance</td>
                             </tr>
                         </table>
@@ -88,7 +88,7 @@
                     <a href="#service5" class="services--sec4--subheader">
                         <table>
                             <tr>
-                                <td>>&nbsp;&nbsp;&nbsp;</td>
+                                <td>&#10149;&nbsp;&nbsp;&nbsp;</td>
                                 <td>Offers & Admissions in Universities / Colleges</td>
                             </tr>
                         </table>
@@ -97,7 +97,7 @@
                     <a href="#service16" class="services--sec4--subheader">
                         <table>
                             <tr>
-                                <td>>&nbsp;&nbsp;&nbsp;</td>
+                                <td>&#10149;&nbsp;&nbsp;&nbsp;</td>
                                 <td>Pre Departure and Post Arrival Services</td>
                             </tr>
                         </table>
@@ -106,7 +106,7 @@
                     <a href="#service7" class="services--sec4--subheader">
                         <table>
                             <tr>
-                                <td>>&nbsp;&nbsp;&nbsp;</td>
+                                <td>&#10149;&nbsp;&nbsp;&nbsp;</td>
                                 <td>Scholarship Assistance</td>
                             </tr>
                         </table>
@@ -115,7 +115,7 @@
                     <a href="#service8" class="services--sec4--subheader">
                         <table>
                             <tr>
-                                <td>>&nbsp;&nbsp;&nbsp;</td>
+                                <td>&#10149;&nbsp;&nbsp;&nbsp;</td>
                                 <td>Student Accommodation</td>
                             </tr>
                         </table>
@@ -124,7 +124,7 @@
                     <a href="#service9" class="services--sec4--subheader">
                         <table>
                             <tr>
-                                <td>>&nbsp;&nbsp;&nbsp;</td>
+                                <td>&#10149;&nbsp;&nbsp;&nbsp;</td>
                                 <td>Student Airport Pickup & Assistance</td>
                             </tr>
                         </table>
@@ -133,7 +133,7 @@
                     <a href="#service10" class="services--sec4--subheader">
                         <table>
                             <tr>
-                                <td>>&nbsp;&nbsp;&nbsp;</td>
+                                <td>&#10149;&nbsp;&nbsp;&nbsp;</td>
                                 <td>University Selection</td>
                             </tr>
                         </table>
@@ -142,7 +142,7 @@
                     <a href="#service11" class="services--sec4--subheader">
                         <table>
                             <tr>
-                                <td>>&nbsp;&nbsp;&nbsp;</td>
+                                <td>&#10149;&nbsp;&nbsp;&nbsp;</td>
                                 <td>Visa Assistance</td>
                             </tr>
                         </table>
@@ -151,7 +151,7 @@
                     <a href="#service12" class="services--sec4--subheader">
                         <table>
                             <tr>
-                                <td>>&nbsp;&nbsp;&nbsp;</td>
+                                <td>&#10149;&nbsp;&nbsp;&nbsp;</td>
                                 <td>Visitor Visas for Parents</td>
                             </tr>
                         </table>
